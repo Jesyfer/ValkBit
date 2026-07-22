@@ -1,0 +1,26 @@
+{
+  "_comment": "Completar con valores reales extraídos de la investigación previa (ver docs/investigacion-previa.md). Todos los valores están en null como placeholder — no usar en el motor de riesgo hasta llenarlos con datos citados.",
+  "muscleLossRate": {
+    "bedRestYoungAdult": null,
+    "bedRestOlderAdult": null,
+    "microgravity": null,
+    "unit": "percent_per_day",
+    "source": null
+  },
+  "boneLossRate": {
+    "bedRest": null,
+    "microgravity": null,
+    "unit": "percent_per_month",
+    "source": null
+  },
+  "minimumActivityThreshold": {
+    "value": null,
+    "unit": "active_minutes_per_day",
+    "source": null
+  },
+  "recoveryRate": {
+    "value": null,
+    "unit": "percent_per_week_of_resumed_activity",
+    "source": null
+  }
+}
