@@ -1,26 +1,30 @@
 {
-  "_comment": "Completar con valores reales extraídos de la investigación previa (ver docs/investigacion-previa.md). Todos los valores están en null como placeholder — no usar en el motor de riesgo hasta llenarlos con datos citados.",
-  "muscleLossRate": {
-    "bedRestYoungAdult": null,
-    "bedRestOlderAdult": null,
-    "microgravity": null,
-    "unit": "percent_per_day",
-    "source": null
-  },
+  "_comment": "Valores reales extraídos de los NASA HRP Evidence Reports en docs/. Ver docs/fuentes.md para citas completas. Simplificados para el MVP del hackathon a partir de datos no lineales reales — documentado como tal en el pitch.",
   "boneLossRate": {
-    "bedRest": null,
-    "microgravity": null,
+    "totalHip_noCountermeasure": -0.94,
+    "totalHip_withARED": -0.64,
+    "femoralNeck_noCountermeasure": -1.06,
+    "femoralNeck_withARED": -0.32,
+    "lumbarSpine_noCountermeasure": -0.68,
+    "lumbarSpine_withARED": -0.47,
     "unit": "percent_per_month",
-    "source": null
+    "source": "NASA HRP Evidence Report: Risk of Bone Fracture due to Spaceflight-induced Changes to Bone (HRP-F07-ERFT.R2, 2024), Table 2 (Sibonga 2019; Lang 2004)"
   },
-  "minimumActivityThreshold": {
-    "value": null,
-    "unit": "active_minutes_per_day",
-    "source": null
+  "muscleAerobicLossRate": {
+    "vo2peak_17days_spaceflight_noCountermeasure": -10.4,
+    "vo2peak_17days_bedRest_noCountermeasure": -6.6,
+    "vo2peak_longDurationMission_range": [10, 20],
+    "muscleProteinSynthesis_vastusLateralis_noCountermeasure": -49,
+    "muscleProteinSynthesis_soleus_noCountermeasure": -22,
+    "unit": "percent_change",
+    "note": "vo2peak_17days_* son % de cambio a los 17 días (no una tasa mensual/diaria constante — la pérdida real es más rápida al inicio y luego se desacelera). vo2peak_longDurationMission_range es tras misiones de larga duración (~6 meses).",
+    "source": "NASA HRP Evidence Report: Risk of Impaired Performance due to Reduced Muscle Mass, Strength & Endurance / Risk of Reduced Physical Performance Capabilities due to Reduced Aerobic Capacity (2024)"
   },
-  "recoveryRate": {
-    "value": null,
-    "unit": "percent_per_week_of_resumed_activity",
-    "source": null
+  "countermeasureReference": {
+    "issProtocol_hoursPerDay": 2.5,
+    "issProtocol_effectiveMinutesPerDay": 75,
+    "issProtocol_daysPerWeek": 6,
+    "note": "Protocolo real de ejercicio en la ISS (aeróbico + resistivo) — es la referencia de 'contramedida completa' de un astronauta, no una meta esperada para un usuario sedentario común. Úsenlo como ancla conceptual en el pitch, no como umbral literal copiado en la UI.",
+    "source": "Mismo Evidence Report de músculo/aeróbico, sección de hardware y prescripción de ejercicio en ISS"
   }
 }

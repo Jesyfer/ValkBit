@@ -1,0 +1,564 @@
+N90-13957
+
+COUNTERMEASURES TO MICROGRAV1TY
+
+Marvin W. Luttges
+
+Aerospace
+
+Engineering
+
+Sciences and
+
+Bioserve Space Technologies
+
+University of Colorado
+
+Boulder, CO 80309
+
+Many physiological
+
+systems sustain easily documented changes as a
+
+consequence of exposure to the space environment.
+
+Most often recorded in
+
+studies of astronauts, these changes are believed to be largely the effects of
+
+microgravity.
+
+Areas of physiological interest are summarized in Table 1. The
+
+problems may have rapid onset as common to the neurovestibular
+
+effects that
+
+cause space adaptation syndrome.
+
+Entry and exit to the microgravity
+
+environment
+
+are often highlighted by vertigo and gastric disturbances.
+
+Or,
+
+the problems may be protracted as in the case of bone deterioration that
+
+develops somewhat more slowly and that recovers slowly upon return to
+
+normal gravity.
+
+Unfortunately,
+
+the direct causes of these and the other
+
+alterations are poorly understood.
+
+Thus, direct countermeasures
+
+may be
+
+especially difficult to implement.
+
+Accordingly, I have attempted to provide a
+
+conceptual set of considerations
+
+for obviating the effects of micrgravity.
+
+The
+
+exercise may be whimsical but the thought it is meant to provoke may change
+
+the way we approach some microgravity
+
+problems.
+
+Based upon observations of biological systems exposed to the space
+
+environment,
+
+it seems helpful to provide a structure within which to
+
+categorize classes of effects. Simply, some effects may be quite passive
+
+consequences mechanical the altered are reactive
+
+of microgravity related to fluid redistributions
+
+or losses of
+
+loading.
+
+Others may signal an active cellular or tissue response to
+
+environment in which they are immersed.
+
+Finally, some effects
+
+in that cells and tissues respond actively but inappropriately
+
+to
+
+the environment created
+
+provided later. However,
+
+intraccllul_r,
+
+membrane,
+
+sites of action.
+
+by microgravity.
+
+Examples of such effects are
+
+it is crucial to recognize that such effects may have
+
+immediateextracellular,
+
+tissue, rg.Lg._ or organism
+
+The passive consequences
+
+of microgravity translate into a variety of
+
+hydrostatic, mechanical and electrical effects.
+
+For example, fluid
+
+compartments
+
+change, loads on cells and tissues change and even a variety of
+
+piezoelectric changes may occur. Other alterations occur, as well. At the
+
+organism level, the consequences
+
+of fluid columns existing in the absence of
+
+loading and pressure changes promote passive, active and reactive effects, for
+
+example, in the cardiovascular
+
+and lymphatic systems.
+
+At the tissue level,
+
+these effects are reflected in cardiac, vascular and, perhaps, immune system
+
+changes.
+
+Mechanical and piezoelectric effects may be linked in regard to
+
+bone changes. But, it is critical to recognize that some of the known effects of
+
+microgravity
+
+on bone could result from passive microgravity
+
+influences on
+
+bone circulation or from the extracellular
+
+dynamics of bone formation and
+
+deterioration.
+
+Reactive changes are most evident in fluid shifts to the upper
+
+body that result in hormone messages that signal increased kidney function.
+
+Or, unweighted gravity sensors of the inner ear may produce spurious signals
+
+that produce disorientation
+
+in the central nervous system as well as altered
+
+neuromuscular-cerebellar
+
+communication
+
+to the peripheral
+
+nervous system.
+
+In the former, the system simply behaves in a normal way, ignorant of the
+
+213 PRECEDING F'AGE BL.AN;'_ NOi' FILMED
+
+microgravity.
+
+In the latter case, the system may be adapting to a point of
+
+accepting "noise" as a signal. In any event, candidates for microgravity
+
+influences are both numerous and complicated.
+
+As stated above, poor
+
+understanding
+
+of causal mechanism leads to limited and , perhaps,
+
+countermeasures;
+
+or worse, contra-indicated
+
+countermeasures.
+
+ineffective
+
+The list in Table 1 summarizes physiological "problem areas" in regard to a
+
+few microgravity effects.
+
+Within each area effects are not well understood at
+
+any physiological
+
+level, and it is difficult to determine whether the effects
+
+arise from passive, active or reactive consequences
+
+of microgravity
+
+exposure.
+
+A sample of candidate causal factors is listed in Table 2. Taken together, the problems and their causes constitute an almost complete biomedical sciences
+
+research agenda, with or without the complications
+
+of the space environment
+
+exposure that may involved even more than microgravity
+
+and radiation
+
+exposures.
+
+However, Table 2 highlights several microgravity
+
+influences that
+
+have escaped serious research commitments.
+
+Direct mechanical effects on
+
+cells, tissues, organs and organisms have not received systematic attention
+
+except at high levels of exposure meant to simulate various traumatic insult
+
+circumstances.
+
+Direct tissue elasticity influences of mechanical loading have
+
+only recently received enhanced levels of research attention and, then, the
+
+attention is limited to cardiovascular
+
+studies.
+
+Yet, it is readily apparent that
+
+biological systems do function in the presence of nominal gravity and that
+
+such functioning
+
+may include a variety of dependencies
+
+on the presence of
+
+gravity-induced
+
+influences on the physiological
+
+environment.
+
+The problem
+
+may be that the gravity influences are so ubiquitous that they have escaped
+
+serious consideration.
+
+The space environment may make use rethink our
+
+present complacency
+
+regarding the importance of gravity in living
+
+organisms.
+
+The survival and function of biological systems in space may be a
+
+simple reflection of robustness and inadvertently
+
+produced protection
+
+protocols.
+
+It is against this backdrop that we have begun to study ways to alleviate
+
+microgravity effects on biological systems And, it is from the above outlined
+
+"view" of the microgravity effects that we make some guarded
+
+recommendations.
+
+In several instances we have proposed remedies that
+
+appear facetious.
+
+This has been done to encourage a rather open-minded view
+
+of both the nature of the problems and possible countermeasures.
+
+It may be
+
+necessary to originate new methods or treatments.
+
+Modifications
+
+of existing
+
+treatments for use in space may be inadequate.
+
+And overall, we may need to
+
+institute some broad, novel concepts of space physiology.
+
+Candidate Solutions
+
+The items in Table 3 suggest several strategies for handling the
+
+microgravity
+
+problems.
+
+Such strategies,
+
+of course, are not particularly
+
+novel.
+
+The strategies range from replacement of nominal levels of gravity to broad
+
+pharmacological
+
+treatments.
+
+Again, we are reminded that we are speculating
+
+on therapies without much knowledge of the nature of a the problems.
+
+In
+
+some sense, replacements
+
+are the most innocuous treatments to attempt.
+
+We
+
+start there,
+
+Perhaps the most replacement of what's have been suggested 1950's. Realistically,
+
+common missing including we have
+
+solution to microgravity
+
+problems is the simple
+
+-- gravity.
+
+A variety of rotating space habitats
+
+the now classic rotating torus concept circa
+
+very little data that focuses directly on the
+
+214
+
+consequencesof using centripetal forces as a substitute for gravity. Studies done with a variety of centrifugal methodologies have interpretation difficulties due to mixed centripetal-gravitational vectors, centripetal gradients and Coriolis effects. Thus, the simple replacementof a gravity vector may be much more difficult than expected. At this time, it would be difficult to envision relevant physiological studies unless they were actually conducted in the space environment.
+Associated with the above biological interpretation difficulties are the implementation difficulties of creating a man-rated rotating space habitat. Structural problems would, at this time, be difficult to anticipate and center of mass asymmetriescould contribute to much precessionand wobble. These problems are additive to the problems of spin-up or spin-down and the problems of egress or safety.
+It seemsto follow from the above commentsthat evaluations in the 1.8 meter centrifuge planned for Space Station Freedom will provide the biological rationale either for undertaking or dismissing the possibilities for a rotating habitat. Even this capability will leave questions unanswered. So, a strong rationale for a rotating habitat may be quite far away.
+The present approach to reduction of microgravity effects, of course, centers on exercise. The value of this approachand the limitations are already reasonably well documentedin what might be considered preliminary demonstrations. The difficulty here is that exercises done in space have neither been done consistently nor done in a highly controlled fashion. Subject numbers have been small and subjects have varied considerably in a number of important ways; age, health, conditioning level, sex etc. It is yet to be determined whether or not we have identified and used the most effective exercise protocols. Nevertheless,the critical drawback of exercise is that (1) it does not seem to be a panaceafor treatmentof all microgravity effects and (2) it takes a significant toll on the length of time astronautsmight otherwise have available for productive experiments, observations and maintenance. If exercise is to be the mainstay treatment for microgravity effects it must be made more effective and less time consuming. Ideally, it should be made recreational, as well. Such constraints, together, lead to a difficult challenge for medical practitioners and exercise physiologists.
+For a number of tissues, it appearsthat some degree of healing and/or protection from deterioration might be afforded using either electrical or magnetic fields. At Bioserve we have pursued these possibilities for a rodent tail suspensionmodel using changesin bone as the focal point of our analyses. Pulsed magnetic fields have prevented the bone deterioration usually seen in tail-suspendedmice. Many variables, of course, are important. Field strength, pulse characteristics, field orientation, animal age and duration of daily treatment have been considered experimentally. Some of these results were reported at the annual ASGSB, 1988 meetings. Currently, effects of magnetic field treatments are being done for nervous system and muscular system tissuesas well as bone. All of the experimentsare promising but we are trying to (1) learn the limits of these treatments,(2) look for any evidenceof side effecs and (3) sculpture the protocols for tests in the microgravity environment.
+215
+
+Our observations with these electromagneticeffects raised the possibility that rather ubiquitous force gradients (in the above case, magnetic fields) might substitute for some of the gravity forces experiencedby organisms. The resulting "mixed gradients" could have desirable consequencesat the organism, tissue and even cellular levels. We have begun to formalize this kind of hypothesis. It may not be unreasonbleto assumethat other ubiquitous variables could be found, as well. Again, however, the challengesand problems are significant in understandingand using such approachesto counteracting microgravity effects.
+
+The next approach to devising countermeasuresis the use of passivelyinduced gravity effects. This approachmakes several assumptionsabout the causal factors, in microgravity deterioration or dysfunctions. Simply stated, the assumptions relate to some unquantified and uncharacterizedneed of organisms for gravity-promoted bulk fluid motions and mechanical force
+
+gradients. The effects might relate to modest mixing within cellular milieus, differential forces produced across a cell and/or cell membrane, organ distortions with allied mechanical and fluid forces generated asymmetrically within the organ, or to organism asymmetries,again, leading to a variety of different forcing functions. The linking of such forces is evident, for
+example, in the galloping horse that uses the various locomotive forces to aid
+
+in respiration.
+
+Evidence for the importance of such effects is just now arising
+
+from experimental
+
+literature.
+
+Nevertheless,
+
+some speculation on associated
+
+countermeasures
+
+to microgravity-induced
+
+losses of such factors seems
+
+warranted.
+
+Assuming that fluidic mixing at a variety of tissue compartment levels is to
+
+be accomplished
+
+and that mechanical forces are to be generated across such
+
+tissue compartments,
+
+the replacement strategies appear quite clear.
+
+Direct
+
+acceleration
+
+and deceleration
+
+forces can be applied to the organism in
+
+microgravity.
+
+Or, direct mechanical forces can be applied. This treatment, I
+
+suppose, is tantamount to suggesting that astronauts be made to "bounce off
+
+the walls" in an almost literal sense. The resulting brief episodes and
+
+differing vectors for acceleration
+
+-- deceleration
+
+forces may provide fluid
+
+mixing and mechanical shear forces otherwise lost to the microgravity
+
+environment.
+
+Following some hypothetical
+
+biological need for gravity, it
+
+appears that a fair amount of direct mechanical stimulation should be
+
+provided.
+
+This could range from slow, broad coverage stimulation nearing
+
+whole body massage to rapid, narrowly directed stimulation such as focused
+
+ultrasound.
+
+With appropriate selection of acoustical wavelengths
+
+and
+
+intensities, it might be possible to effect virtually all tissue, organ and cellular
+
+compartments
+
+regardless of size and distance from the body surface.
+
+The
+
+beneficial effects might be reduced flow stagnation, reduced need for
+
+metabolic pumping across the cells and tissues in lieu of mechanical gradients,
+
+and enhanced tissue reactivity to stimuli like stretch stimuli used to maintain
+
+skeletal muscle tonus or stretch stimuli needed to elicit rather autonmous
+
+smooth muscle responses.
+
+Whether such approaches are likely to aid in the
+
+search for countermeasures
+
+remains to be seen. However, it seems equally
+
+important to evaluate the need of biological systems for such fluidic and
+
+mechanical stimuli.
+
+It may be important to separate the gratuitous production
+
+of these effects by exercise such that exercise can be supplanted, in duration,
+
+by more passive mechanical and fluidic stimulation.
+
+more time for the simultaneous astronauts.
+
+production
+
+of useful
+
+This approach work in space
+
+allows by the
+
+216
+
+For a number of biological effects produced in microgravity, it is tempting to employ directed pharmacological treatments. Thus, the microgravity dysfunctions are treated like any of a large number of other medical maladies. Many and more powerfu.l drugs are being developed. Some, like calcium loss inhibitors for bone, are at the thresholdof FDA approval. Yet, at some point or another, it seemsreasonableto question the use of drugs since already a major segmentof American society is taking drugs to reduce the side effects of other drugs or is at risk in taking drugs with one another that don't mix either chemically or pharmacologically. The thing to be rememberedhere is that all drugs are "poisons." Unless a ubiquitous drug is found that is capableof treating most microgravity effects in different tissues at about the. same time, drugs made for the variety of known physiological dysfunctions of microgravity would undoubtedly yield an unacceptably large number of side effects. Where possible to elicit general systemic effects, the drug would have to promote stasis or general anabolic biases --- this, of course, is a situation being pursued by world class athletes and the side-effects of these treatments are only too well known. As above, the implementationof pharmaceutical countermeasuresto microgravity makes more assumptions about our information and therapeutics wizardry than we could reasonably live up to for several decades.
+The other treatments mentioned as countermeasuressimply reflect some current beliefs about nutrition and organism health. Even in the nominal gravity conditions of Earth it is difficult to reconcile the role of nutrition in health and diseasestates. The impact may be subtle and the required studies for corroboration must be, by nature, longitudinal. Only now are we beginning to grasp the significance of and the methodologies for longitudinal studiesthat may extend for 3 or 4 decades.
+From each of the somewhat wistful comments regarding protection from microgravity effects in space, two things are abundantly clear. (1) We really don't know what the microgravity effects on biological organisms are! And, (2) we are not especially accomplishedin instituting effective countermeasuresfor any of a wide variety of known medical dysfunctions. Yet, we are likely to have to control microgravity effects or minimize the influences of such effects on astronautsif SpaceStation Freedom is to become an effective reality. We must use this rather overwhelming challenge to learn what we can regarding biological system dependenceon gravity, biological dysfunctions without gravity and biological independencefrom gravity. Only then, can long spacemissions becomea reality and can man's future as a spacefarer be assured.
+217
+
+COUNTERMEASURES TO MICROGRAVITY
+PROBLEM AREAS MUSCULOSKELETAL CARDIOVASCULAR MICROBIOLOGICAL RADIATION FLUID/ELECTROLYTES IMMUNOLOGICAL PULMONARY PHARMACOLOGICAL BEHAVIORAL TOXICOLOGICAL NEUROVESTIBULAR
+Table 1
+218
+
+COUNTERMEASURES TO MICROGRAVITY
+
+CAUSAL FACTORS
+
+WEIGHTLESSNESS NO CONVECTION
+
+Loss of shear stresses on cells
+
+and tissues
+
+Loss of some fluid motion
+
+Fluid redistributions
+
+Altered tissue interactions
+
+elasticity-fluid
+
+Reduced cell to cell
+
+communication
+
+ALTERED INTERNAL MILIEU
+
+Erroneous sensor function Erroneous mechanical vectors Altered hormonal states
+
+Table 2
+
+219
+
+COUNTERMEASURES TO MICROGRAVITY
+CANDIDATE SOLUTIONS ARTIFICIAL GRAVITY EXERCISE-INDUCED MECHANICAL EFFECTS ELECTROMAGNETIC EFFECTS PASSIVELY-INDUCED GRAVITY EFFECTS DISABLED SENSORS NUTRITION ARTIFICIAL CHANGES IN CHEMICAL MILIEU
+Table 3
+220
+
+

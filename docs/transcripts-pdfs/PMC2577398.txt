@@ -1,0 +1,135 @@
+HIPPOKRATIA 2008, 12 (Suppl 1): 37-40 HIPPOKRATIA 2008, 12 (Suppl 1)
+
+37 REVIEW ARTICLE
+
+Simulating human space physiology with bed rest
+Jost PD
+· Previously responsible for managing ESA`s bed rest study programme, ESA/ESTEC, Noordwijk, NL · Now a freelance medical doctor
+Abstract In a recent review on bed rest studies of the past 20 years, it was concluded that head-down bed rest has proved its
+usefulness as a reliable simulation model for most physiological effects of spaceflight. Much of this research has been conducted to find countermeasures against the negative effects, which are associated with gravitational unloading. There have been partial successes in the prevention of, for example muscle wasting, cardio-vascular deconditioning, adverse metabolic changes, and bone demineralization. Reviews refer to bone-related measurements of the U.S. and Russian space programmes, as well as data from bed rest analogues, and conclude that in spite of the wealth of knowledge obtained thus far, many questions remain regarding bone loss, bone recovery, and the factors affecting these skeletal processes.
+Bed rest research has also direct relevance for medical science on Earth. Valuable data on physiology and early reversible pathological changes that are associated with a sedentary lifestyle on Earth can be obtained. A good example is the conclusion from a metabolic protocol implemented during the 2001/2002 90-day ESA/CNES/NASDA male bed rest study. The results of that experiment on fatty acid oxidation suggest that Mediterranean diets should be recommended in recumbent patients. Some other unexpected results obtained during the ESA/NASA/CNES/CSA 60-day female bed rest study WISE-2005 may well prompt the development of a treatment for certain cardiac diseases. A nutritional supplement that was designed to alleviate skeletal muscle atrophy turned out to preserve cardiac muscle mass.
+In order to optimise bed rest research, a systematic and standardised approach will be beneficial. During the last years, serious efforts have been made towards such standardisation on an international level. It is expected that results from future studies, combined with in-flight validation, will provide the answers to many biomedical problems that currently limit safe long-duration human space exploration beyond lower earth orbit. Hippokratia 2008; 12 (Suppl 1): 37-40
+Key words: Bed rest study, standardisation
+Corresponding author: Jost PD, e-mail: gp@peterjost.com, space@peterjost.com, Peter.Jost@esa.int
+
+In the early 90s, the European Space Agency (ESA) started performing isolation and confinement studies. As a consequence it became clear that especially bed rest studies with strict control of the gravitational unloading would be needed for comparison. In recent years ESA has led such bed rest studies resulting in a top level and valued programme. Developed through the user-driven ap-
+
+proach of ESA's Life and Physical Sciences programme (ELIPS-1, 2000-2005), these bed rest studies were diverse in duration, interventions, operation and site. The following table provides a summary:
+A critical revisit of bed rest studies The 90-day long term bed rest study with 25 male
+
+Table 1: ESA bed rest studies (Source: ESA announcement of opportunity AO-06-BR, published online in April 2006)
+
+Name LTBR 01-02 STBR 01-02 BBR
+WISE
+
+Performed in year 2001/2 2001/2 2003/4
+2005
+
+Performed in Toulouse, F Cologne, D
+
+Pre- bed rest period
+15 d
+9d
+
+Bed rest duration
+90 d
+14 d
+
+Post-bed rest period
+15 d
+3d
+
+Intervention
+1) Flywheel exercise 2) Bisphosphonate Caloric variations in nutrition, Amino acid infusion
+
+Berlin, D
+
+3d
+
+56 d
+
+6 d Vibration exercise
+
+1) Combined resistive exer-
+
+Toulouse, F
+
+20 d
+
+60 d
+
+20 d
+
+cise, aerobic exercise, Lower Body Negative Pressure
+
+2) Nutritional supplement
+
+HDT angle
+-6° -6° 0°
+-6°
+
+38
+
+JOST PD
+
+volunteers (LTBR 01-02) is a good example of efficient international organisation of a multidisciplinary study. To date it has produced at least 20 peer-reviewed scientific publications. One of the study's key findings is that thigh muscle volume and training-specific performance for both knee extensors and plantar flexors were preserved by the exercise regime1. A highly efficient gravity-independent resistive exercise device was used for the muscular training every third day. The training with the flywheel exercise device (FWED) was highly efficient, considered its infrequent application and short exercise sessions. Unfortunately it failed to completely prevent the plantar flexor muscle loss, which amounted to 50% of that experienced by the control group. On a single fibre level, the training regime showed an incomplete preservation of slow-twitch (myosin heavy chain type I) muscle fibre size and function in vastus lateralis muscle2. Fibres showing a slow to fast shift in myosin heavy chain (MHC) composition were also observed. In both vastus lateralis and soleus muscles, an increase of hybrid fibres, expressing multiple MHC isoforms3, was found. High proportions of hybrid fibres are seen in the skeletal muscles of elderly individuals of age 70-80 years4,5.
+A second countermeasure group in LTBR 01-02 received a pharmacological intervention commonly used in medical practice to treat osteoporosis. An intravenous infusion of 60mg Pamidronate disodium was given to the subjects 14 days before the beginning of bed rest. Bone mineral content (BMC) was measured at various levels of the tibia using peripheral quantitative computed tomography (pQCT). Rittweger et al. (2005)6 demonstrated that both the Pamidronate and the FWED mitigated the BMC loss, although this was only significant at the diaphysis. A huge variability in BMC changes was noted, implying other factors affecting changes in whole-bone strength following acute mechanical disuse. When interpreting dual energy x-ray absorptiometry measurements of bone mineral density (BMD) of the proximal femur, Watanabe et al. (2004)7 concluded that Pamidronate preserved BMD in that region.
+Resistive vibration exercise applied in the Berlin Bed Rest Study (BBR) in 2003/04 was highly efficient in preserving microscopic muscle structure and function8. Looking at whole muscle level, loss of strengths, size, and activation was either mitigated or maintained for single parameters9.
+Results of the 2001/02 fourteen day bed rest study in Cologne from Biolo et al. (2002, 2004)10,11 contributed to the scientific basis for the design of a nutritional countermeasure, which was applied in the Women International Space Simulation for Exploration study (WISE-2005). A diet with a higher protein content (1.6 instead of 1.0 g per kg body weight per day) and enriched with free leucine, valine, and isoleucine was given to the nutrition countermeasure group in this study. The aim of mitigating muscle mass and function loss was not achieved, tough, as published in two recent papers by Trappe S. and Trappe T. (2007)12,13. The authors report much more successful
+
+results from the exercise countermeasure group, where an exercise regime combined the FWED with aerobic running exercise on a vertical treadmill in lower body negative pressure as described by Watenpaugh et al. (2000)14. This exercise protocol prevented thigh muscle volume loss, and thigh and calf muscle strength loss. Seventyfive percent of calf muscle volume loss was prevented, as compared to only 50% in LTBR 01-02. Comparing Trappe's conclusions (2007)12 with the results of Alkner and Tesch (2004)1 it can be inferred that the female subjects in the exercise group of WISE-2005 did better than the male subjects in the exercise group of LTBR 01-02. The female control and nutrition groups seemed to have a worse outcome after 60 days bed rest for thigh muscle mass loss than the men after 90 days (21-24% loss vs. 18%). Calf muscle mass loss was in the same range after 60 days bed rest in women compared to men after 90 days bed rest (29-28% vs. 29%). From the results of the authors, obtained in two separate controlled clinical studies on small groups of female and male healthy subjects, it seems that women may be more susceptible to skeletal muscle deconditioning caused by gravitational unloading. This adds further to the need to develop, test, and validate countermeasures for space and Earth in women and men. The present inequality in the number of female and male subjects investigated for space- and simulated space physiology is undesirable and should be compensated in the future. According to a literature review by the group of Trappe et al. (2007)13 it seems that only 7% of the approximately 500 individuals that have been specifically studied for skeletal muscle responses to unloading, were women. Harm et al. (2001)15 looked specifically at gender issues related to spaceflight physiology. The authors concluded at the time that the available data allowed only for conclusive differences in the orthostatic stand test after short-term shuttle missions (5-16 days), where women were more susceptible to presyncope. A recent publication of a group looking at cardiovascular physiology in WISE-2005 states that the female volunteers in the control group reacted differently to men after bed rest on the variable of leg vascular resistance. Convertino et al. (1997)16 observed that baseline leg vascular resistance was elevated in men after 14 days of head-down bed rest. After 56 days head-down bed rest in WISE-2005, Edgell et al. (2007)17 found a trend to decreased leg vascular resistance in the female subjects of the control group.
+There is no doubt that bed rest research in the last 40 years has provided a treasure of data, which can be applied for the benefit of space travellers and citizens on Earth. Investigating healthy subjects in an environment of absent gravitational forces along the body axis allows for example research on early changes of prolonged inactivity without other vascular risk factors. With results of WISE-2005, Demiot et al. (2007)18 showed that in women undergoing prolonged bed rest impairment of endothelium-dependent function at microcirculatory level occurs, along with an increase in circulating endothelial cells.
+
+HIPPOKRATIA 2008, 12 (Suppl 1)
+
+39
+
+ESA framework for future bed rest studies In ESA-led countermeasure research, results from
+previous bed rest studies have been logically incorporated in the design of follow-on studies. In order to further optimise the yield of upcoming studies, ESA has taken the lead in defining a standardised framework for future bed rest studies. Details can be found elsewhere (e.g. ESA 2006 announcement of opportunity "Life sciences research in space simulation using the model of bed rest"). In brief, the framework consists of -6° head-down tilt bed rest with 3 fixed durations: Short-term bed rest (STBR)
+· Aims at countermeasure screening addressing primarily the cardiovascular system, using functional and surrogate measures
+· Surrogate markers as outcome measures for bone and muscle systems
+· Crossover design with one control- and several treatment groups (up to 3), with a wash out period in between. Eight to twelve subjects
+· A minimum of five days ambulatory period · Bed rest duration of five days · Post-bed rest period can be variable and depends on the individual study.
+Medium-term bed rest (MTBR) · Countermeasure screening & confirmation of coun-
+termeasure concept; refining of protocols · Functional and structural outcome parameters for
+cardiovascular and muscle systems, surrogate markers for bone
+· Possibility of crossover design with one control- and a few treatment groups (max. 2), with a wash out period in between. Eight to twelve subjects
+· Ambulatory period pre bed rest 7-14 days · Bed rest duration 21 days · Post bed rest ambulatory and recovery period 7-14 days
+Long-term bed rest (LTBR) · LTBR is used for a final validation of a set of coun-
+termeasures prior to implementation in spaceflight · In these settings variables that provide more func-
+tionally relevant outcome measures for efficiency can be evaluated i.e. structural and functional changes in bone and muscle.
+· LTBR should be preceded by a 14 days ambulatory period, whereby five days are needed to adapt to diet and environment. During the ambulatory period, the usual individual physical activity should be maintained.
+· The duration of LTBR shall be 60 days, followed by a rehabilitation period of 14 days
+Conclusions Appraising the current literature one of the biggest
+challenges appears to be the bone system. Given the enormous inter-individual responses to unloading and countermeasures, it becomes clear that many more stud-
+
+ies in a systematic fashion must be conducted before final solutions can be determined. The time-course of changes in bone, which are detectable with imaging technology has so far dictated the need for long duration studies. Fortunately, imaging is getting more and more refined. Recently, Rittweger et al. (2006)19 published pQCT data of bone loss during a 24 day unilateral leg suspension study. Heer et al. (2005)20 demonstrated how in strictly controlled metabolic conditions the osteoclast activity can be reliably measured in short-term bed rest. It seems probable that with a series of short- and mid-term studies, using standardised metabolic and imaging measurements, countermeasure protocols and devices can be developed, refined and optimised for near-complete protection of all physiological parameters affected by gravitational unloading. One very promising approach is ESA's new short-arm centrifuge, used alone or in combination with other countermeasures. Optimised countermeasure protocols will require final validation in long-term studies.
+References
+1. Alkner BA, Tesch PA. Knee Extensor and Plantar Flexor Muscle Size and Function Following 90 days of Bed Rest With and Without Resistance Exercise. Eur J Appl Physiol 2004; 93: 294305
+2. Trappe S, Trappe T, Gallagher P, Harber M, Alkner B, Tesch P. Human single muscle fibre function with 84 day bed-rest and resistance exercise. J Physiol 2004; 557: 501-513
+3. Gallagher P, Trappe S, Harber M, et al. Effects of 84-days of bedrest and resistance training on single muscle fibre myosin heavy chain distribution in human vastus lateralis and soleus muscles. Acta Physiol Scand 2005; 185: 61-69
+4. D'Antona G, Pellegrino MA, Adami R, et al. The effect of ageing and immobilization on structure and function of human skeletal muscle fibres. J Physiol 2003; 552: 499-511
+5. Williamson DL, Godard MP, Porter DA, Costill DL, Trappe SW. Progressive resistance training reduces myosin heavy chain coexpression in single muscle fibers from older men. J Appl Physiol 2000; 88: 627-633
+6. Rittweger J, Frost HM, Schiessl H, et al. Muscle atrophy and bone loss after 90 days' bed rest and the effects of flywheel resistive exercise and pamidronate: Results from the LTBR study. Bone 2005; 36: 1019-1029
+7. Watanabe Y, Ohshima H, Mizuno K, et al. Intravenous pamidronate prevents femoral bone loss and renal stone formation during 90-day bed rest. J Bone Miner Res 2004; 19: 1771-1778
+8. Blottner D, Salanova M, Pttmann B, et al. Human skeletal muscle structure and function preserved by vibration muscle exercise following 55 days of bed rest. Eur J Appl Physiol 2006; 97: 261-271
+9. Mulder ER, Stegeman DF, Gerrits KH, et al. Strength, size and activation of knee extensors followed during 8 weeks of horizontal bed rest and the influence of a countermeasure. Eur J Appl Physiol 2006; 97: 706-715
+10. Biolo G, Ciocchi B, Lebenstedt M, Heer M, Guarnieri G. Sensitivity of whole body protein synthesis to amino acid administration during short-term bed rest. J Gravit Physiol 2002; 9: P197-P198
+11. Biolo G, Ciocchi B, Lebenstedt M, et al. Short-term bed rest impairs amino acid-induced protein anabolism in humans. J Physiol 2004; 558: 381-388.
+12. Trappe S, Creer A, Slivka D, Minchev K, Trappe T. Single muscle fiber function with concurrent exercise or nutrition countermeasures during 60 days of bed rest in women. J Appl Physiol 2007; DOI:10.1152/japplphysiol.00560.2007
+
+40
+
+JOST PD
+
+13. Trappe TA, Burd NA, Louis ES, Lee GA, Trappe SW. Influence of concurrent exercise or nutrition countermeasures on thigh and calf muscle size and function during 60 days of bed rest in women. Acta Physiol 2007; DOI:10.1111/j.17481716.2007.01728.x
+14. Watenpaugh DE, Ballard RE, Schneider SM, et al. Supine lower body negative pressure exercise during bed rest maintains upright exercise capacity. J Appl Physiol 2000; 89: 218-227
+15. Harm DL, Jennings RT, Meck JV, et al. Genome and Hormones: gender differences in physiology. Invited review: gender issues related to spaceflight: a NASA perspective. J Appl Physiol 2001; 91: 2374-2383
+16. Convertino VA, Polet JL, Engelke KA, Hoffler GW, Lane LD, Blomqvist CG. Evidence for increased -adrenoreceptor responsiveness induced by 14 days of simulated microgravity in
+
+humans. Am J Physiol Regul Integr Comp Physiol 1997; 273: R93-R99 17. Edgell H, Zuj KA, Greaves DK, et al. WISE-2005: Adrenergic responses of women following 56-days, 6° head-down bed rest with or without exercise countermeasures. Am J Physiol Regul Integr Comp Physiol 2007; doi: 10.1152/ajpregu.00187.2007 18. Demiot C, Dignat-George F, Fortrat JO, et al. WISE-2005: chronic bed rest impairs microcirculatory endothelium in women. Am J Physiol Heart Circ Physiol 2007; 293: 159-164 19. Rittweger J, Winwood K, Seynnes O, et al. Bone loss from the human distal tibia epiphysis during 24 days of unilateral lower limb suspension. J Physiol 2006; 577: 331-337 20. Heer M, Baecker N, Mika C, Boese A, Gerzer R. Immobilization induces a very rapid increase in osteoclast activity. Acta Astronaut 2005; 57: 31-36
+
+Acknowledgement The author thanks the Greek Aerospace Medical As-
+sociation and Space Research for the invitation to attend the inspiring 5th international Meeting of Aerospace Medicine on Skiathos, Greece
+
+

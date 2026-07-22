@@ -1,0 +1,168 @@
+Muscle Volume Increases Following 16 Weeks of Resistive Exercise Training with the
+Advanced Resistive Exercise Device (ARED) and Free Weights
+R.E. Nash1, J.A. Loehr2, S.M.C. Lee2, K.L. English3, H. Evans2, S.A. Smith2, R.D. Hagan4
+1University of Houston, Houston, Texas, 2Wyle Integrated Science and Engineering, Houston, Texas, 3JES Tech, Houston, Texas, 4Johnson Space Center, National Aeronautics Space Administration
+
+Abstract
+Space flight-induced muscle atrophy, particularly in the postural and locomotory muscles, may impair task performance during long-duration space missions and planetary exploration. High intensity free weight (FW) resistive exercise training has been shown to prevent atrophy during bed rest, a space flight analog. NASA developed the Advanced Resistive Exercise Device (ARED) to simulate the characteristics of FW exercise (i.e. constant mass, inertial force) and to be used as a countermeasure during International Space Station (ISS) missions. PURPOSE: To compare the efficacy of ARED and FW training to induce hypertrophy in specific muscle groups in ambulatory subjects prior to deploying ARED on the ISS. METHODS: Twenty untrained subjects were assigned to either the ARED (8 males, 3 females) or FW (6 males, 3 females) group and participated in a periodized training protocol consisting of squat (SQ), heel raise (HR), and deadlift (DL) exercises 3 d·wk-1 for 16 wks. SQ, HR, and DL muscle strength (1RM) was measured before, after 8 wks, and after 16 wks of training to prescribe exercise and measure strength changes. Muscle volume of the vasti group (V), hamstring group (H), hip adductor group (ADD), medial gastrocnemius (MG), lateral gastrocnemius (LG), and deep posterior muscles including soleus (DP) was measured using MRI pre- and post-training. Consecutive cross-sectional images (8 mm slices with a 2 mm gap) were analyzed and summed. Anatomical references insured that the same muscle sections were analyzed pre- and post-training. Two-way repeated measures ANOVAs (p<0.05) were used to test for differences in muscle strength and volume between training devices. RESULTS: SQ, HR, and DL 1RM increased in both FW (SQ: 49±6%, HR: 12±2%, DL: 23±4%) and ARED (SQ: 31±4%, HR: 18±2%, DL: 23±3%) groups. Both groups increased muscle volume in the V (FW: 13±2%, ARED: 10±2%), H (FW: 3±1%, ARED: 3±1 %), ADD (FW: 15±2%, ARED: 10±1%), LG (FW: 7±2%, ARED: 4±1%), MG (FW: 7±2%, ARED: 5±2%), and DP (FW: 2±1%; ARED: 2±1%) after training. There were no between group differences in muscle strength or volume. CONCLUSIONS: The increase in muscle volume and strength following ARED training is not different than FW training. With the training effects similar to FW and a 600 lb load capacity, ARED likely will protect against muscle atrophy in microgravity.
+Introduction
+· Muscle atrophy and reduced muscle strength have been observed following long duration space flight (LeBlanc, 2000; Trappe, 2009).
+· Decreased muscle performance is considered a human health and performance risk by the Human Research Project at the Johnson Space Center, National Aeronautics and Space Administration (NASA). Decreased muscle function may impact crew performance and mission success during long duration missions and planetary exploration.
+· The interim Resistive Exercise Device (iRED) has been utilized since the first International Space Station (ISS) mission as a countermeasure for strength losses and muscle atrophy, but did not prove to be completely protective (Lee, 2004).
+· ARED was developed by NASA to address iRED's limitations (variable loading, 136 kg of maximal resistance, limited range of motion, and lower eccentric forces) that may have decreased its efficacy.
+· ARED, recently deployed on ISS during Expedition 18, provides up to 272 kg of resistance using 2 vacuum cylinders (constant load), 2flywheels to simulate the inertial component of free weight (FW) exercise, and provides an eccentric load of greater than 90% for loads greater than 45 kg.
+Purpose
+The purpose of this study was to compare the efficacy of ARED and FW training to induce hypertrophy in specific muscle groups in ambulatory subjects.
+
+Thigh Muscle
+
+Change in Rectus Femoris Muscle Volume 0
+
+Volume
+
+-2
+
+Change in the Vasti Group Muscle Volume Percent
+
+Change
+
+*
+
+16
+
+(%)
+
+-4
+
+12
+Percent Change 8
+(%) 4
+
+-6 FW
+
+ARED
+
+0
+
+FW
+
+ARED
+
+Change in the Hamstring Group Muscle
+Volume 4
+*
+
+Percent Change
+
+2
+
+(%)
+
+0 FW
+
+ARED
+
+Change in the Adductor Group Muscle Volume
+18
+*
+12
+Percent Change
+(%) 6
+
+0
+
+FW
+
+ARED
+
+Advanced Resistive Exercise Device
+
+Change in the Anterolateral Compartment Muscle Volume
+0
+Percent Change -2
+(%)
+
+Calf Muscle Volume
+
+-4
+
+FW
+
+ARED
+
+Change in the Deep Posterior Muscle Volume
+4
+*
+
+Percent Change 2
+(%)
+
+Overall Study Design
+· Twenty volunteers (14 men, 6 women) consented to participate in this study and were assigned to either a FW or ARED training group. The study protocol was reviewed and approved by the Johnson Space Center's Committee for the Protection of Human Subjects.
+· Subjects performed squat, heel raise, and deadlift exercises 3 d·wk-1 for 16 weeks using a periodized resistive exercise training program.
+· Each group performed 1-repetition maximum strength measurements (1RM) on both the ARED and FW. Training loads were prescribed from the 1RM acquired on the training specific hardware for each exercise before training and after 8 weeks of training.
+· FW & ARED 1RM were measured pre-, mid-, and post-training for all three exercises.
+· Magnetic Resonance images (MRI) were acquired pre- and post-training. · Data were analyzed using a training group x time repeated-measures ANOVA
+(p<0.05) and a muscle group x time ANOVA (p<0.05). Tukey's post hoc test was used to determine pair-wise differences when a significant F Score was found.
+
+0 FW
+
+ARED
+
+Change in Medial Gastrocnemius Muscle Volume
+12
+*
+
+Change in Lateral Gastrocnemius Muscle Volume
+10
+*
+
+8
+Percent Change
+(%) 4
+
+Percent Change
+
+5
+
+(%)
+
+0 FW
+
+ARED
+
+0 FW
+
+ARED
+
+Figure Legend The image at left is the CSA of a thigh. The four muscle groups in this image are the RF (red), the V (blue), the H (yellow), and the Add (green). The image above is the CSA of a calf. The four muscle groups are the ALC (blue), the LG (yellow), the MG (purple), and the DP (green).
+
+* = Main effect of time (p < 0.05) ·There were no differences between the training groups in any of the muscle groups.
+
+MRI Methods
+· Subjects laid supine for 15 minutes to equilibrate fluid distribution. · 32 consecutive cross-sectional images (8 mm slices with a 2 mm gap) were
+acquired equidistant from the base of the patella. · Repetition Time/Echo Time for thigh was 800/400 and for the calf was 800/350. · Field of view (FOV) for thigh was 400/512 and for the calf was 300/512. · Images were analyzed using the GNU Image Manipulation Program (GIMP 2.6.6,
+Berkley, California). · Cross-sectional area (CSA) was calculated within each slice of the Rectus Femoris
+(RF), the Vasti group (V), the Hamstring group (H), and the Adductor group (Add) in the thigh and the Anterolateral Compartment (ALC), Lateral Gastrocnemius (LG), Medial Gastrocnemius (MG), and the Deep Posterior group (DP) in the calf. · CSA = (# of pixels) · FOV2 · Muscle Volume = (sum of CSA of each slice) · (sum of slice thickness and interslice gap)
+Conclusions
+· ARED training elicited increases in muscle volume and strength that were not different than those elicited by FW training.
+· Some subjects during bed rest utilized loads as high as 254 kg during their exercise training to prevent muscle atrophy and bone demineralization (Shackelford, 2004). By providing the capability to perform resistive exercise at similar levels of intensity, with eccentric loading, we suspect that muscle and bone will be better protected than previously observed (Lee, 2004; Trappe, 2009).
+· The increases in the V, Add, LG, and MG over the rest of the muscle groups indicates a possible need to revisit either the primary exercises themselves (squat, heel raise, and deadlift) and the kinematics or potentially add other exercises focusing on the other muscle groups.
+
+Acknowledgments
+This study was supported by NASA Johnson Space Center's Exercise Countermeasures Project. The authors gratefully acknowledge the assistance of the Exercise Physiology Laboratory members for their hard work and dedication to this project. A special thank you to the test subjects who dedicated many hours to this project and worked hard.
+This poster is dedicated to the memory of our laboratory manager, mentor, and friend, Dr. Don Hagan.
+
+Results
+· Subject groups were not different in age (ARED: 36 ± 7; FW: 32 ± 4 yrs), height (ARED: 171 ± 11; FW: 171 ± 7 cm), or body mass (ARED: 79 ± 14; FW: 75 ± 11 kg) · There were no between-group differences in strength gains in squat, heel raise, or deadlift. (Loehr, 2008) · Muscle volume significantly increased in the V, H, Add, LG, MG, and DP but did not in RF and ALC after training. Also, there were no between-group differences
+(p<0.05). · Muscle volume increases were greater in the V and Add than the RF and H in the thigh (P<0.05). In the calf LG and MG muscle volume increases were greater than the
+ALC and DP (p<0.05).
+
+References
+LeBlanc A, Schneider V, Shackelford L, et al. Bone mineral and lean tissue loss after long duration space flight. J Musculo Neur Interact, 1: 157­160, 2000.
+Lee SMC, Shackelford LC, et al. Lean tissue mass and muscle strength: Does resistive exercise during space flight prevent deconditioning. Med Sci Sports Exerc, 36(5): S272, 2004.
+Loehr JA, Lee SMC, English KL, Leach M, Bentley J, Nash R, Hagan RD. 16 weeks of training with the International Space Station Advanced Resistive exercise device (aRED) is not different than training with free weights. National Conference of the National Strength and Conditioning Association, Las Vegas, NV, July 9-12, 2008.
+Trappe S, Costill D, Gallagher P, Creer A, Peters JR, Evans H, Riley DA, Fitts RH. Exercise in space: human skeletal muscle after 6 months aboard the International Space Station. J Appl Physiol, 106: 1159-1168, 2009.
+Shackelford LC, LeBlanc AD, Driscoll TB, Evans HJ, Rianon NJ, Smith SM, Spector E, Feeback DL, Lai D. Resistance exercise as a countermeasure to disuse-induced bone loss. J Appl Physiol, 97: 119-129, 2004.
+
+

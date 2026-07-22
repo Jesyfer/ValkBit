@@ -1,0 +1,946 @@
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+Evidence Report: Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+Human Research Program Human Health Countermeasures Element
+Approved for Public Release: July 18, 2024 National Aeronautics and Space Administration Lyndon B. Johnson Space Center (JSC) Houston, Texas
+HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+
+CURRENT CONTRIBUTING AUTHORS: Jean D. Sibonga, PhD Elisabeth R. Spector, BS Greg Yardley, MSRS, RT(R), CBDT Joshua S. Alwood, PhD
+
+NASA Johnson Space Center, Houston, TX KBR, Houston, TX KBR, Houston, TX NASA Ames Research Center, Moffett Field, CA
+
+PREVIOUS CONTRIBUTING AUTHORS: Jean D. Sibonga Jerry Myers Harlan J. Evans Scott A. Smith Elisabeth R. Spector Greg Yardley Lisa King
+
+NASA Johnson Space Center, Houston, TX NASA Glenn Research Center, Cleveland, OH KBR, Houston, TX KBR, Houston, TX KBR, Houston, TX KBR, Houston, TX KBR, Houston, TX
+
+ii HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+Contents
+I. PRD Risk Title: Risk of Bone Fracture due to Spaceflight-Induced Changes to Bone........................... 6 II. Status .................................................................................................................................................... 6 III. Executive Summary............................................................................................................................... 6 IV. Introduction .......................................................................................................................................... 7
+A. DXA to Assess for Skeletal Fragility/Osteoporosis as Biomarker for Increased Fracture Risk .......... 8 B. DXA to Monitor Changes in Skeletal Health in Long-duration Spaceflight ....................................... 8 C. Relating Astronaut Fractur Risk to Terrestrial Cohorts..................................................................... 9 D. Limitations of DXA........................................................................................................................... 11 V. Evidence .............................................................................................................................................. 14 A. Survey of Astronaut Fractures ........................................................................................................ 14
+1. Astronaut Fracture Incidence Rates............................................................................................ 14 2. Vertebral Compression Fractures ............................................................................................... 15 B. Human Spaceflight MEDB Data....................................................................................................... 16 1. Clinical Testing for Early Onset Osteoporosis ............................................................................. 16 2. MEDB Testing to Detect Changes in aBMD during Spaceflight .................................................. 18 3. DXA Testing for Non-aBMD Measurements ............................................................................... 20 C. Human Spaceflight Research Data.................................................................................................. 21 1. Quantitative Computed Tomography (QCT)............................................................................... 21 2. Biochemical Markers of Bone Turnover ..................................................................................... 21 3. Endocrine Regulators of Mineral Metabolism ............................................................................ 22 4. Risk Factors for Reductions in Bone Strength............................................................................. 22 D. Novel Cut-points for Hip Bone Strength ......................................................................................... 24 E. Computer-based Models and Simulation ....................................................................................... 25 1. T-score Projections for Astronauts ............................................................................................. 25 2. Probabilistic Risk Assessments for Fracture................................................................................ 25 3. Probabilistic Risk Assessments for Fracture during Spaceflight ................................................. 26 4. Estimating Likelihood and Consequence of Fractures per DRMs ............................................... 28 F. Expert Opinion ................................................................................................................................ 30 G. Evidence from Other Organisms..................................................................................................... 31 VI. Risk in Context of Exploration Mission Operations ............................................................................ 35 A. Analysis of Surveyed Astronaut Fractures ...................................................................................... 35
+iii HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+B. Spaceflight Data from Flight Investigations of Countermeasures .................................................. 36 1. Bisphosphonate Flight Study ...................................................................................................... 36 2. Bisphosphonate Extension Study................................................................................................ 37 3. Hip QCT ....................................................................................................................................... 39
+VII. Directed Acyclic Graph Review and Integration ................................................................................. 40 A. DAG Nodes Affecting Applied Loads to Bone ................................................................................. 40 B. DAG Nodes Affecting Skeletal Fragility ........................................................................................... 41 C. DAG Nodes for Monitoring Modalities ........................................................................................... 41
+VIII. Knowledge Base .................................................................................................................................. 41 A. Gaps in Knowledge.......................................................................................................................... 41 B. State of Knowledge & Future Work ................................................................................................ 42
+IX. Conclusion........................................................................................................................................... 43 X. Appendix A: References ...................................................................................................................... 44 XI. Appendix B: Team ............................................................................................................................... 57 XII. Appendix C: List of Acronyms & Abbreviations .................................................................................. 58 XIII. Appendix D: Summaries of Expert Opinions ....................................................................................... 59 XIV. Appendix E: Physiology of Primary Osteoporosis (Types I and II)......................................................... 0
+Figures
+Figure 1. Schematic Depicting Candidates Indices of Bone Quality ........................................................... 12 Figure 2. Pilot Analysis of Male Astronaut Hip Fractures. .......................................................................... 15 Figure 3. Linear relationship between the preflight and postflight T-score status .................................. 167 Figure 4. Linear relationship between the preflight and postflight Z-score status .................................. 178 Figure 5. Change in Estimates of Astronaut Hip Bone Strength Relative to Aging Terrestrial Cohorts.... 255 Figure 6. Fracture probabilities for representative mission scenarios ..................................................... 288 Figure 7. Effect of Bisphosphonate alendronate + ARED Exercise on aBMD............................................ 377 Figure 8. Changes in DXA Areal BMD after spaceflight in the Bisphosphonate Extension Study............. 388 Figure 9. Temporal changes in urinary N-telopeptide (NTX) as a biomarker for bone resorption........... 388 Figure 10. Temporal changes in serum Bone-specific Alkaline Phosphatase (BSAP) ............................... 399 Figure 11. Postflight surveillance of bone loss and recovery by two densitometry methods.................. 399 Figure 12. Directed Acyclic Graph for Fracture......................................................................................... 400
+iv HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+Tables
+Table 1. WHO Guidelines for diagnosis of osteoporosis by aBMD ............................................................... 9 Table 2. Change in aBMD in Astronauts during Spaceflight. .................................................................... 199 Table 3. Comparison of aBMD changes in male LD astronauts vs. predicted changes ............................ 200
+v HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+I. PRD Risk Title: Risk of Bone Fracture due to Spaceflight-Induced Changes to Bone
+Description: Given the skeletal changes that occur during space missions, there is a possibility that the bones of crewmembers during and after spaceflight are not as strong as they were before the mission and a fracture may occur for activities otherwise unlikely to induce fracture prior to space missions.
+II. Status
+· Active: Work/research is currently being done towards this risk
+III. Executive Summary
+The Human Research Program (HRP) is taking a biomechanical approach to assessing subsequent fracture risk in active astronauts as a consequence of spaceflight exposure. Triennial testing of active and retired astronauts continues as Space Medicine monitors for a premature diagnosis of primary osteoporosis, which is associated with age-related bone loss and skeletal fragility.
+This updated 2023 Fracture Evidence Report has expanded the description of skeletal changes to capture the full effects of spaceflight on bone:
+· Recent analysis of fractures from health records of the full astronaut cohort, suggests an increased incidence rate of hip and spine fractures in astronauts following longer spaceflight duration flights compared to incident rates found in shorter duration flights.
+· Routine preflight-to-postflight surveillance by DXA (dual-energy x-ray absorptiometry) does not provide the full detection of loss and recovery in the long-duration (LD) astronaut nor the full recovery of hip trabecular bone.
+· The inclusion of hip quantitative computed tomography (QCT) in flight studies delineates effects of spaceflight, of countermeasures, and of post-flight recovery on cortical and trabecular bone parameters--some of which are verified predictors of hip fracture in the aged.
+· QCT detects and compares the distinct countermeasure effects of the pharmaceutical alendronate and of resistive exercise (on the Advanced Resistive Exercise Device, ARED) in specific cortical and trabecular bone sub-regions during spaceflight.
+· A published comparison of QCT-determined loss rates of hip trabecular bone in LD astronauts compared to terrestrial cohorts suggest that accelerated loss rates in trabecular volumetric BMD (vBMD) during spaceflight might be analogous to skeletal
+6 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+effects of accelerated loss rates in females due to menopause, potentially leading to disruptions in trabecular microarchitecture. · A dataset of finite element (FE) estimates of hip bone strength in aging terrestrial cohorts (spanning astronaut age-range) provides comparative context for changes in the FE of hip bone strength in LD astronauts, including comparison (force unit of newton) to percentiles (50th, 75th, and 100th) of sex-matched aged humans with hip fractures. · Risk of fracture, due to the mechanical overloading of bones, is being updated with IMPACT, the next-generation tool suite for probabilistic risk assessment (PRA) for exploration missions being created by the Exploration and Medical Capability Element (ExMC) at NASA. IMPACT is currently in development and will not be included in this 2024 update.
+The risk for fracture necessitates understanding the relationship between applied loads to bone and the biomechanical competence of bone. The Risk for Early Onset Osteoporosis focuses on the weakened condition of bone (including development of new technologies, measurements of novel skeletal attributes, translation of multiple measures to an index of bone fragility, and interpretations of data used to reflect a weakened bone), while the Risk for Fracture assesses factors that influence the probability an astronaut would encounter applied loads exceeding the biomechanical competence of bones, resulting in fracture. This Evidence Report combines the research gaps and tasks associated with both risks.
+IV. Introduction
+Since the beginning of crewed spaceflight, data from experiments suggest that bone atrophy occurs in space as a result of the skeleton's reduced weight-bearing function and the reduced exposure to mechanical forces (particularly forces from attached musculature). As such, there is an established concern that prolonged exposure to weightlessness during long-duration (LD)1 spaceflight may cause changes in bones, particularly reductions in bone mass and structure, increasing the propensity for fracture during activities performed during the mission. Given the fact that one does not feel or sense the weakened state of bones, there is an increased likelihood that an astronaut experiences a skeletal-loading event during exploration activities on a planetary surface or upon return to Earth's gravitational environment. Likewise, if some spaceflight-induced skeletal changes are allowed to persist after return to Earth, astronauts could be predisposed to fracture or to premature skeletal fragility/osteoporosis during long-term health (LTH), i.e., when these detriments combine with the effects of aging.
+The overarching goal for HRP research is to be able to estimate the risk of fractures in astronauts 1) by detecting and characterizing spaceflight-induced changes to bones (including bone density and bone quality), 2) by translating changes in those parameters to changes in bone strength, 3) by determining the magnitude and direction of loads to bones with expected task
+1 Long-duration (LD) spaceflights are defined as greater than 30 days, but with the ISS era, LD spaceflight missions are typically 120­180 days.
+7 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+performance, and 4) by predicting when a fracture is likely to occur with physical tasks performed during spaceflight missions. Moreover, fracture probability after a spaceflight mission could have potential impacts to Return to Flight status as well as LTH.
+A. DXA to Assess for Skeletal Fragility/Osteoporosis as Biomarker for Increased Fracture Risk In 1994, the World Health Organization (WHO) developed clinical guidelines--using areal
+bone mineral density (aBMD) measurements taken by DXA (dual-energy x-ray absorptiometry)-- to diagnose menopause-related osteoporosis (i.e., Type I Primary Osteoporosis). The WHO guidelines (Table 1) are heavily grounded in the epidemiology of fracture frequency and distribution and are based upon the aBMD measurements of the hip and spine. The guidelines state that menopausal females with aBMD T-scores less than or equal to -2.5 (i.e., 2.5 standard deviations (SDs) below the group mean bone mineral density (BMD) in young healthy white females2) have a greater association with fragility fractures and would likely benefit from a prophylactic treatment.
+While the DXA test is used clinically in terrestrial medicine to diagnose primary osteoporosis in peri- and post-menopausal females and in males 50 years and older, NASA posited that this evidence-based clinical test could help determine whether space flight induces a similar level of fragility and whether astronauts require protection against these changes during space flight. Subsequently, DXA testing is now used triennially on female and male astronauts (active, ca. 1997 and retired, ca. 2006) to monitor for early onset osteoporosis.
+B. DXA to Monitor Changes in Skeletal Health in Long-duration Spaceflight As NASA embarked into the era of LD missions (typically 120­180 days), first with
+participation in the Shuttle-Mir program and later with the construction and habitation of the International Space Station (ISS), the hazards of prolonged spaceflight exposure were unknown. Between 1990 and 1995, the DXA modality was used as a research tool in identifying preflight to postflight changes in aBMD among 18 cosmonauts flying on the Mir spacecraft (Leblanc, 2000). This seminal study averaged the total percentage loss of preflight BMD each month (i.e., 1­1.5% BMD loss/month), as the Mir cosmonauts participated in spaceflights of varying durations (4­14 months).
+Measuring aBMD by DXA became the primary tool for assessing skeletal health in astronauts. Based on Leblanc's study of the Mir cosmonauts (Leblanc, 2000), DXA testing had become a medically required test performed on all astronauts, not just study volunteers, before and after LD spaceflight missions.3 In addition to providing a diagnostic cut-point for skeletal fragility (i.e., primary osteoporosis), DXA becomes a research tool reporting the percentage of change from preflight aBMD. This index has been long used to describe the effect of spaceflight (over varying durations and across multiple skeletal sites) to evaluate the mitigating efficacy of
+2 T-scores generated in the JSC lab compare astronaut aBMD measurements of hips and lumbar spine to mean aBMD in a sex-matched, young, healthy reference group, maintaining consistency throughout the Corps. 3 Per Med Volume B NASA internal document.
+8 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+
+in-flight countermeasures and to monitor restoration to preflight status. However, there are no data from clinical trials correlating a specific percentage change with skeletal fragility, i.e., the loss in aBMD most associated with low trauma fractures.
+
+Table 1, as previously stated, outlines the clinical guidelines using DXA-measured aBMD T-scores of the hip and spine4 as indicators for osteoporosis diagnosis and possible intervention (treatment or preventative). The WHO guidelines (i.e., ranges of skeletal fragility with aBMD Tscore cut-points identify: Normal, Osteopenia, Osteoporosis and Severe Osteoporosis) were adapted by NASA to set "operating bands" of astronaut skeletal health (Table 1). These T-score based operating bands are used to: 1) screen applicants for possible astronaut candidacy, 2) monitor skeletal health on a triennial basis in the active astronauts, 3) monitor skeletal health on a triennial basis in the retired astronauts and 4) affirm restoration of LD astronaut to preflight skeletal health. Likewise, Table 1 also outlines the use of DXA-measured aBMD T-scores to set the aBMD minimum cut-points to: 1) certify astronauts for LD missions and set a non-permissible outcome after a spaceflight mission and 2) establish the minimum level of efficacy for bone loss countermeasures.
+
+WHO Classification
+
+T-score
+(SD from mean areal BMD of young Caucasian females)
+
+NASA Bone Health Standard Classification
+
+Adapted T-score *
+(SD from mean areal BMD of young, ethnic-based, sex-matched persons)
+
+Normal
+
+-1.0 to + 1.0
+
+Preflight Certification for LD Mission (4.2.9.1)
+
+T-score = -1.0 or greater
+
+Osteopenia
+
+Between -1.0 and -2.5
+
+Countermeasure Efficacy (4.2.9.2)
+
+Maintain bone mass to T-score = -2.0 or greater
+
+Osteoporosis
+
+-2.5 or less
+
+Postflight End-of-Mission (4.2.9.3)
+
+T-score = -2.0 or greater
+
+Severe Osteoporosis
+
+-2.5 or less and fragility fracture
+
+Postflight Rehabilitation
+
+Return to baseline: T-score = -1.0 or greater
+
+Table 1. WHO Guidelines for diagnosis of osteoporosis by aBMD. BMD is used to stratify individuals according to relative risk for
+
+fracture but is a poor predictor of who will fracture. *Although not identified in the NASA Std. 3001, the presumption is that
+
+operating bands are based upon measurements of both hips and lumbar spine
+
+C. Relating Astronaut Fractur Risk to Terrestrial Cohorts There are two broad categories of fractures: 1) atraumatic or low trauma fractures (due
+to the severe fragility of bones, termed osteoporosis) and 2) fractures caused by applied mechanical loads to bone5 exceeding bone strength.6 Biomedical data collected to-date suggest that exposure to spaceflight may increase the risk of both in LD astronauts.
+
+4 T-scores for the wrist (another site for diagnosing primary osteoporosis) are not discussed as standard for crew health at the time of this 2024 Evidence Report. 5 In this report, the use of the word "traumatic or trauma" is minimized due to a common association with excessive applied loads, e.g., motor vehicle accidents or plane crashes. A fracture-inducing load can result from slips/trips/falls. Atraumatic or low trauma fractures in the osteoporosis field are typically defined as fractures
+resulting from low energy falls such as a fall from standing height or while performing activities of daily living.
+6 Bone Strength will be the descriptive noun for the maximum capacity of bone to resist applied mechanical loads to bone before failing or fracturing. As used in this report, Bone Strength is to be considered synonymous with the
+9 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+As mentioned, HRP uses a biomechanical approach to assess fracture risk in astronauts. This approach assesses a Factor of Risk (FOR) for fracture--where FOR is the ratio of Applied Loads (N force) to Bone Strength (N force). Fracture is likely to occur when the ratio is > 1. A biomechanical approach may be more relevant during the astronaut's active career (OPS) when he/she is more engaged in physical tasks. In contrast, facture risk during LTH is based upon the premise that, in confluence with age-induced decrements, untreated skeletal changes and/or deficits from prolonged spaceflights may lead to premature skeletal fragility. Notably, skeletal changes produced during spaceflight exposure do not appear to occur by the same cellular mechanism as skeletal fragility by aging (Type I or II Primary Osteoporosis, See Appendix C). Consequently, the over-reliance upon clinical tests for Primary Osteoporosis may result in an erroneous estimation of fracture risk in LD astronauts.
+Likewise, the Level of Evidence for astronaut data is heavily based upon analogies drawn between data from astronauts and data from terrestrial, aging cohorts. Due to the abundance of data from aging cohorts with characterized skeletal fragility, as well as fracture and distribution, clinical research in terrestrial medicine provides a robust and reliable context (e.g., as non-flying and age-matched controls) to which astronaut data can be interpreted and compared (i.e., a large set of terrestrial control data provides an advantage given the low subject numbers of astronauts and the infrequent acquisition of flight data).
+The following are some comparisons supporting the perception of "unhealthy" bones: · In astronauts, the average loss rate of pre-flight areal bone mineral density (aBMD,
+g/cm2) at 1­1.5% per month for hip and spine is more rapid than bone loss per year in comparable skeletal sites in the aged cohorts and may predispose astronauts to fragility independent of aBMD T-scores (Orwoll et. al., 2013; Epstein et. al., 2003). · The accelerated rate of bone loss in the lumbar spine of astronauts is considered ~10x faster than the vertebral aBMD loss observed in females in the onset of menopause. Rapid rates of menopause-induced bone loss result in disruptions to microarchitectural connectivity which are associated with vertebral compression fractures (Kleerekoper et. al., 1985; Mosekilde et. al., 2000; Seeman, 2002; Orwoll et. al., 2013). · Bone loss occurs at weight-bearing skeletal sites on Earth (Leblanc et. al, 2000b; Sibonga et. al., 2008), suggesting that adaptive change to bone's reduced weight-bearing function is by local--not systemic--mediation of bone cells and tissue (Burr 2001), as seen with athletes and with targeted loading by exercise regimens (Winters-Stone and Snow, 2006). · Considerable variability in bone density changes exist between different skeletal sites and between different crewmembers (Sibonga et. al., 2015), indicating that clinical decisionmaking may be better served by individualized assessments of fracture risk in astronauts rather than for the entire cohort (Orwoll et. al., 2013) especially when the sole use of DXA-aBMD is considered an insufficient as a surrogate for fracture risk (NIH Consensus 2001). However,
+following terms used in the literature: biomechanical competence, bone load capacity, skeletal integrity, force-tofailure.
+10 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+· the temporal changes in aBMD during the common 6-month long-duration mission have not been characterized, nor are data available to characterize changes for spaceflight durations greater than 6 months;
+· it is not known if or when the loss of skeletal tissue and mineral (as reflected by DXAmeasured aBMD) will eventually plateau;
+· it is not known if skeletal tissue changes can be mitigated by the partial gravity environments of the Moon and Mars; and
+· there is no fracture risk or clinical guideline based upon a % change in aBMD. Notably,
+· Assays of biochemical markers of bone turnover consistently describe the stimulation of bone resorption during spaceflight with an unresponsive/suppressed response in bone formation following (Smith et. al., 2005, 2012, 2015)--a characterization suggesting that net declines in aBMD could be attributed to the uncoupling of bone remodeling (resorption and formation occurring on the same bone surface).
+· The clinical guidelines using aBMD T-score cut-points to diagnose a state of skeletal fragility (osteoporosis) is based upon epidemiology of fractures in persons with agerelated bone loss and not upon changes in bone strength (Kanis et. al., 1994).
+· The 2-dimensional measurements by DXA technology likely limits aBMD as a measure of bone strength (NIH Consensus 2001; Cody et. al., 2008).
+D. Limitations of DXA In recent years, the specificity and sensitivity of DXA-measured aBMD to diagnose primary
+osteoporosis have failed to reflect accurate changes in fracture probability, particularly in response to interventions (Schuit et. al., 2004). These disconnects between diagnostic T-scores and incidence of fragility fractures have been attributed to the insufficiency of the DXA-measured aBMD to provide a full assessment of changes in bone strength. Early studies revealed that changes in fracture incidence did not correspond with increases/decreases in aBMD in response to tested interventions (Riggs et. al., 1990; Cummings et. al., 1998), calling into question the utility of DXA aBMD as the sole metric to evaluate the effectiveness of therapies on bone mass loss.
+Consequently, Bone Quality became the category of skeletal attributes, supplementing DXA aBMD to provide a more complete reflection of a bone's state of fragility (i.e., Secondary Osteoporosis, not related to age-related bone loss). As depicted in Figure 1, there are multiple candidate measures of Bone Quality that could be investigated to expand the characterization of spaceflight effects on bone. For the Fracture Risk, the combined measures of bone density and bone quality would provide 1) a more complete assessment of spaceflight-effects on bone, 2) a fuller evaluation of in-flight countermeasures to mitigate the effects of spaceflight, and 3) an expanded surveillance of spaceflight-induced changes after return, particularly if changes are suggestive of irreversible effects or premature fragility to be managed during long-term health.
+11 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+Figure 1. Schematic Depicting Candidates Indices of Bone Quality
+The likelihood of an astronaut mechanically overloading skeletal bones by physical activities or injurious mishaps may be more relevant for assessing fracture risk during mission operations than the diagnosis of primary osteoporosis. However, as implied by the risk statement,7 the translation between detecting spaceflight-induced changes to bone and fracture risk can be more complicated.
+The management of fracture risk during mission operations must integrate factors beyond the spaceflight-induced changes to bone. Given the evidence for muscle atrophy and postural instability in LD astronauts, the terrestrial data from a prospective study associating the identical risk factors for falls (muscle strength, postural instability) with hip fracture in the elderly (Nguyen et. al., 2004) suggests that those risk factors should also be considered during the fracture risk management in astronauts. Additionally, the following aspects (listed below) may be considered in the estimation of fracture likelihood for specific design reference missions (DRMs):
+· Physical tasks and activities to be performed during mission (e.g., EVAs or Intravehicular Activities (IVAs),
+· The location of physical activities (on a planetary surface with fractional gravity or in microgravity while in orbit or during transit),
+· Facets of mission operations (e.g., frequency and number of EVAs, weight of spacesuit, spacecraft volume, durations of spaceflight, use of verified bone loss countermeasures), and
+· Cross-physiological deconditioning (e.g., vision impairments, muscle atrophy, gait ataxia, poor neuromuscular coordination, reduced aerobic capacity).
+7 Fracture Risk Statement: Given the skeletal changes that occur during space missions, there is a possibility that the bones of crewmembers during and spaceflight are not as strong as they were before the mission and a fracture may occur for activities otherwise unlikely to induce fracture prior to space missions.
+12 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+These factors may not only influence the occurrence of physical events that would overload the skeleton during specific DRMs but may also be influential after return to Earth during physical activities of daily living, recreational sports, and the proverbial slips, trips, and falls. Notably, integration of human factors engineering with the physiological deconditioning and skeletal changes in astronauts has a precedent in the management of fracture risk in the elderly population (e.g., increased lighting, placement of handrails, rearrangement of furniture, removal of area rugs).
+In contrast, the collective aim of the HRP research gaps and tasks for Bone Fracture is to detect and characterize the effects of space flight across multiple attributes of bone tissue and to determine how those changes affect the biomechanical integrity of bone (i.e., bone fragility). In particular, the HRP Bone Discipline tasks investigate and validate research technologies to enhance the ability to estimate a FOR > 1. The acquired research data by HRP have confirmed that
+· DXA technology is not detecting the full skeletal effects of spaceflight, as demonstrated on the hip bone, a skeletal site predisposed to age-related bone loss and skeletal fragility (Lang et. al., 2004, 2006).
+· Some QCT- and HR-pQCT-specific parameters (e.g., hip trabecular bone mass, trabecular microarchitecture) are reduced during spaceflight, with a delayed or absence of recovery, which may be suggests irreversible loss of trabecular connectivity (Carpenter et. al., 2010; Vico et. al., 2017; Gabel et. al., 2020).
+· In-flight countermeasures (e.g., resistive exercise vs. pharmaceuticals) can have different effects on cortical than on trabecular bone discernable by QCT but not by DXA (Leblanc et. al., 2013; Sibonga et. al., 2019).
+· Bone loss during spaceflight is accelerated (Sibonga et. al., 2020) and, relative to observations made from anthropological and cadaver studies of skeletal aging (Mosekilde et. al., 2000), astronauts may be at risk for irreversible deficits in trabecular microarchitecture.
+As observed in the Risk Statement, risk for bone fracture may increase even after spaceflight, in part, because there is no test or metric to tell the astronaut that their bones may not be strong enough to participate in some mechanically loaded activities, preventing any mitigation during those activities. Hence, computational tools have been explored to assess fracture risk in the context of the astronaut's high level of physical activity. The HRP has investigated the analysis of finite element (FE) models, generated from QCT data of astronaut hips (Keyak et. al., 2009), to quantify changes in bone strength (considered synonymous with biomechanical competence/skeletal integrity/load capacity/force-to-failure) in response to spaceflight. The recent estimations of bone strength by FE modeling in terrestrial aging populations may also provide the context for comparing the long-term skeletal health of astronauts following LD spaceflight with the terrestrial changes in aging populations (Keyak et. al., 2020).
+Overall, it is unlikely that a single measure of Bone Quality or a single cut-point of FE strength would provide a clinical index (i.e., predict fracture risk) to drive decision making for
+13 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+prophylactic treatment of astronauts. Furthermore, not only is the total astronaut subject few in number, the average age of a long-duration astronaut is so young that it could take a prohibitive (excessive) number of years to substantiate the risk for premature fractures in astronauts with fracture outcomes. However, quantified attributes of Bone Quality would expand NASA's understanding of spaceflight effects on bone and their subsequent impact on bone's overall biomechanical integrity. And, as projected mission-specific tasks are more defined, the assessment of fracture risk will integrate 1) estimations of mechanical forces applied to bone(s) with expected physical activities being performed in mission-specific gravitational environments and 2) contributions of physiological deconditioning that could increase the risk for mishaps that could result in the overloading of bones. Collectively, this knowledge would inform estimates of fracture likelihood and consequence (LxC) for given DRMs and/or for individual physical activities or tasks.
+V. Evidence
+A. Survey of Astronaut Fractures 1. Astronaut Fracture Incidence Rates The gold standard index to evaluate fracture risk or the efficacy of mitigating
+interventions is fracture outcome. However, as mentioned, the use of fracture prevalence and incidence rates in astronauts may not yield informative data in a meaningful time frame for mission operations, as there are less than 90 LD astronauts in the younger age range (36­58 age range, as of 1/2021)8.
+Since the publishing of the 2017 Fracture Evidence Report, the epidemiologists, associated with the Lifetime Surveillance of Astronaut Health at JSC, conducted a survey of fracture outcomes in all astronauts; the surveyed years spanned the period between time-ofselection as an astronaut candidate to the time when an astronaut no longer returns for annual exams or is deceased. An analysis was conducted on these fracture data to compare the incidence rate of hip fractures in astronauts relative to the incidence rates in aging terrestrial populations (as reported in the fracture epidemiology literature) (Farr et. al., 2017; Brauer et. al., 2015). The analysis was only conducted in male astronauts, as data privacy for the female astronauts could not be preserved with the low subject number. The pilot analysis also focused on the hip because the hip is a common site for fragility fractures due to age-related bone loss and for accelerated declines in aBMD in LD astronauts during spaceflight, despite few publicly known cases of fracture (n = 3). Figure 2 depicts outcomes of the fracture analysis where fractures are reported as incidence rate per 100,000 person years and plotted as a function of age. The total prevalence of hip fractures in male LD astronauts (irrespective of fracture etiology) was plotted as a single point (with standard error) relative to a trend for fracture incidence in an aging population of non-flying males.9 The data analysis, suggesting an increased fracture risk for hip and spine
+8 To illustrate, it could take as much as 15 years before a 55-year-old male ISS astronaut experiences a hip fracture due to skeletal fragility; a hip fracture in a 70-year-old male would be considered premature (see Figure 2). 9 Presented 2019 Meet-the-Professor Lecture, Annual Meeting American Soc Bone & Mineral Research, Orlando, FL.
+14 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+fractures (but not all fracture) associated to LD spaceflight exposure (but not non-LD spaceflights), is being investigated further with a fracture survey extended to 2021. The influence of co-morbidities and countermeasures will be integrated into the expanded analysis (however, it is not included here).
+Figure 2. Pilot Analysis of Male Astronaut Hip Fractures. The incidence rate of hip fractures in males in terrestrial, aging cohorts is plotted to reveal an increasing incident rate with age. The incidence rate of total hip fractures in astronauts (not persons, but fracture events) is plotted as a single incidence rate (solid circle). Astronaut age is presented as a range (width of shaded area) to protect data privacy. RR=Relative Rate
+2. Vertebral Compression Fractures Osteoporosis can also be diagnosed with the detection of an atraumatic vertebral fracture without an aBMD-based diagnosis of osteoporosis (i.e., a vertebral aBMD T-score of < -2.5). Vertebral compression fractures therefore have been systematically assessed in both active and retired astronauts (Vertebral Fracture Assessment (VFA) Hologic software) since 2007 as part of the DXA testing software. For the ISS astronauts with positive VFAs (Moderate or Severe), there are 5 Moderate and 1 Severe, all in the region of T11­L1 (thoracic vertebrae T11 to lumbar spine vertebrae L1). Five of the astronauts were active at the time of fracture identification, and one was retired. The average age at which the VFA fracture was identified was 47.7 years (range 36­ 64), with a sex ratio of 5Male:1Female. Of these six cases, three were identified prior to the astronaut's first ISS mission (range of 4­6 years prior), including one at the time of selection and of VFA fracture identification was 35­50 years. For the three with VFAs identified after their first ISS mission, the VFA fractures were identified 1­13 years following return, within the age range of 50­64 years at the time of identification. Follow-ups are in progress whereby the cases will be further characterized with data from other tests and analyses (e.g., Trabecular Bone Score (TBS), DXA aBMD, opportunistic CT (computed tomography)) in order to enhance interpretation and etiology with spaceflight by medical personnel. Some other types of fractures (e.g., occult stress fractures) have not been specifically assessed in astronauts after return.
+15 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+B. Human Spaceflight MEDB Data 1. Clinical Testing for Early Onset Osteoporosis The WHO guidelines for an osteoporosis diagnosis represent an evidence based-approach
+that focuses on using aBMD T-scores to evaluate fracture risk in post-menopausal females (Kanis et. al., 1994). Because the character of fractures typical of younger-aged persons is associated more with physical activities and the biomechanical overloading of bones (Garraway et. al., 1979; Ng et. al., 2012), the WHO guideline may not be useful for identifying increased fracture risk in active astronauts (Sibonga et. al., 2015).
+However, the WHO aBMD T-score cut-points are the basis for the NASA Bone Health Standards for active astronauts (NASA Std. 3001). The T-score status for clinically relevant sites before and after LD spaceflight are presented in Figure 3. As shown, there have been astronauts who have returned from ISS missions (typically 6-month durations) with T-scores < -2.0, below the limit for a non-permissible outcome (NASA Std. 3001 Crew Health). While a low T-score is not suggestive of increased risk for fragility fractures in younger humans in of itself, the astronaut flying in space is exposed to a novel and rare assault to the skeleton, for which the impact to bone health, skeletal fragility, and fracture risk due to physical activities is not--and may never be--fully defined. Hence, as the skeletal effects of spaceflight are further identified, modifications to NASA standards may be considered.
+Figure 3. Linear relationship between the preflight and postflight T-score status of the hip and lumbar spine for all LD crewmembers (to 2021). T-scores were calculated for the hip with the lowest postflight T-score which could be at greater risk of fracture. Crewmembers were categorized based on ARED availability (ca. 2009). Notably, the non-permissible outcomes for a postflight aBMD corresponds to a measured hip and spine with a T-score that is  -2.0. A preflight certification status states that
+16 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+an astronaut can be no less than a -1.0 for the hip or lumbar spine. (NASA Space Flight Human System Standard, Volume 1: Crew Health NASA-STD-3001).
+Age is a major contributing factor to osteoporosis and the risk for osteoporotic fractures. Terrestrial data indicate that the diagnostic aBMD T-score cut-point for osteoporosis (T-score of < -2.5) is not predictive of hip fragility fractures in humans younger than 50 years (Kanis et. al., 2000). Consequently, DXA scans are not typically performed in pre-menopausal females or in males less than 50 years old, prohibiting an age-matched comparison group for astronauts.
+The aBMD T-score relays the astronaut's level of fragility through the number of SDs, determining whether the astronaut's aBMD is below the mean aBMD of a younger, sex-matched cohort (healthy 30-year-old humans). Z-scores (Figure 4) are generated as part of the clinical assessment of osteoporosis at the hip and spine, comparing the bone density of the astronaut (also through number of SDs) to the mean aBMD of similarly aged, sex-matched humans (i.e., the astronaut "peer group").
+Figure 4. Linear relationship between the preflight and postflight Z-score status of the hip and lumbar spine for all LD crewmembers (to 2021). The Z-score represents the number of SDs the astronaut's bone density is from the average human of the astronaut's peer group. Z-scores were calculated for the hip with the lowest postflight Z-score which could be at greater risk
+17 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+of fracture. Crewmembers were categorize based on the availability of the ARED (ca. 2009).
+2. MEDB Testing to Detect Changes in aBMD during Spaceflight The clinical diagnosis of primary osteoporosis is based upon an aBMD T-score from DXA measurements of the hip and spine. Declines in aBMD is an established risk factor for bone fragility. While the percentage of change in aBMD is used to characterize spaceflight-induced bone loss and the efficacy of mitigating countermeasures used in-flight, there are no data validating a percentage change in aBMD as a predictor of fragility fractures. Resistive exercise is a required component of the on-orbit ISS exercise regimen to maintain physical fitness and to reduce risks to human health and performance. Table 2 presents a subset of published data from LD astronauts before and after access to the ARED (Sibonga et. al., 2019; Lang et. al., 2004). Data assessing the efficacy of ARED as an intervention to preserve skeletal health (Sibonga et. al., 2019) are subsequently presented under the Evidence section of this document.
+18 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+
+n=9
+
+n = 10
+
+Skeletal Site
+
+Pre-ARED %/mo.
+
+ARED only %/mo
+
+Hip Trochanter
+
+Mean+ SD
+
+-0.95+0.66
+
+-0.76+0.50
+
+Min
+
+-0.16
+
+0.04
+
+Max
+
+-2.17
+
+-1.45
+
+Lumbar Spine
+
+Mean+ SD
+
+-0.68+0.44
+
+-0.47+0.38
+
+Min
+
+-0.19
+
+-0.13
+
+Max
+
+-1.35
+
+-1.45
+
+Hip Femoral Neck
+
+Mean+ SD
+
+-1.06+0.38
+
+-0.32+0.75
+
+Min
+
+-0.62
+
+0.95
+
+Max
+
+-1.93
+
+-1.40
+
+Total Hip
+
+Mean+ SD
+
+-0.94+0.40
+
+-0.64+0.43
+
+Min
+
+-0.35
+
+0.02
+
+Max
+
+-1.64
+
+-1.33
+
+Table 2. Change in areal BMD in Astronauts during Spaceflight. Previously reported loss rates (group mean values) in aBMD for sub-groups of ISS astronauts before (US astronauts only, Lang 2004) and after exclusive ARED use for resistive exercise on ISS
+
+(Sibonga 2019). P < 0.05 Pre-ARED vs. ARED for Total Hip and Femoral Neck.To date, the DXA measurements
+
+conducted pre- and post-flight in LD crewmembers have characterized deficits in aBMD for
+
+weight-bearing skeletal sites with declines averaged per month that are greater than the losses
+
+detected per year in comparable sites in elderly persons (Orwoll et. al., 2013). The mean of
+
+decline in aBMD per month in astronauts, calculated after LD spaceflight, exceeds the expected
+
+rate predicted by an algorithm generated from serial aBMD measurements of terrestrially-
+
+based persons--150 men and 150 women with similar ages (20­50 years)--illustrated in Table
+
+3 (Amin et. al., 2010, 2011). In an analogy to terrestrial data, astronauts' rapid loss in bone mass
+
+could be a risk factor for fragility, potentially leading to increased fractures (Epstein et. al.,
+
+2003).
+
+BMD Site Mean Immediate Post-Flight BMD Mean Three Year Post-Flight BMD
+19 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+
+(% change/month)
+
+(% change/month)
+
+Predicted Observed p-value Predicted Observed p-value
+
+Total Hip 1.063
+
+0.994 <0.001 1.066
+
+1.047 <0.001
+
+(0.05)
+
+(-0.76)
+
+(0.02)
+
+(-0.03)
+
+Lumbar
+
+1.081
+
+1.016 <0.001 1.085
+
+1.069
+
+0.11
+
+Spine
+
+(0.11)
+
+(-0.58)
+
+(0.03)
+
+(-0.00)
+
+Ultra-Distal 0.558
+
+0.550
+
+0.12
+
+0.541
+
+0.551
+
+0.005
+
+Radius
+
+(-0.05)
+
+(-0.20)
+
+(-0.08)
+
+(-0.04)
+
+Mid-Shaft 0.755
+
+0.741
+
+0.04
+
+0.749
+
+0.741
+
+0.28
+
+Radius
+
+(0.19)
+
+(-0.00)
+
+(0.02)
+
+(0.00)
+
+Total Body 1.288
+
+1.262
+
+0.009
+
+1.284
+
+1.261
+
+0.19
+
+(-0.04)
+
+(-0.26)
+
+(-0.01)
+
+(-0.05)
+
+Table 3. Comparison of aBMD changes in male LD astronauts vs. predicted changes
+
+3. DXA Testing for Non-aBMD Measurements DXA scans are a medically required test performed in all astronauts before and after LD spaceflights, despite the fact that clinical data emerging from the aging populations describing shortcomings in DXA sensitivity and specificity (NIH Consensus 2001, Schuit et. al., 2004) have substantiated the insufficiency of DXA-measured aBMD to quantify other attributes of bone that are key to bone's biomechanical integrity. In hopes of increasing accuracy of data, HRP has researched other technologies to assess changes in skeletal health in the astronaut cohort not typically considered at risk for osteoporosis due to age, fitness, and exposure to skeletal unloading10 during spaceflight. Hence, there is utility in exploring methods to transform the 2D DXA modality to perceive changes in 3D bone structure.
+Modified DXA software attempting to convert the 2D measurements by DXA to 3D parameters of bone structure has not been proven in terrestrial medicine to be as predictive of bone fracture or fragility above and beyond the aBMD measurement itself (Boudreaux and Sibonga 2015). Consequently, the application of such software to assess reductions in bone strength due to spaceflight has not been pursued. However, the application of a modified DXA software to monitor loss and recovery of bone mass, specific to cancellous and cortical bone compartments following spaceflight, has been tested (Spector et. al., 2021). Although these DXAbased measures may not be surrogates for the accurate measures by QCT, the verified method may serve as a means of identifying active astronauts who could benefit from further, more informative testing by QCT to evaluate changes in bone strength that create an increased fracture risk (Spector et. al., 2021).
+The understanding of spaceflight effects on the biomechanical competence of bones may not be complete, but the evidence base includes skeletal characterizations extending beyond DXA aBMD. Not all of these supplemental measurements have been validated as predictors of fractures in trials conducted in cohorts with similar attributes of the astronaut (age, sex, physical
+10 "Skeletal unloading" is a term used to reflect the reduction of forces on bones; in this Evidence Report, it is considered synonymous with skeletal disuse/immobilization/mechanical unloading/non-weight-bearing.
+20 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+activity levels, exposures to spaceflight hazards). These measures of Bone Quality, however, add to the description of spaceflight effects that may help to define the risk.
+C. Human Spaceflight Research Data 1. Quantitative Computed Tomography (QCT) The utilization of QCT scans is correlated with increased exposure to ionizing radiation.
+Research investigations using QCT scans, therefore, target skeletal sites predisposed to agerelated bone loss which would likely be compounded by the earlier exposure to spaceflightinduced bone loss (i.e., "clinically relevant"). QCT scans are conducted on the hip and spine to provide measurements of the whole bone (e.g., geometry, cross-sectional areas) and vBMD measurements for separate and combined bone compartments (cortical bone, cancellous or "trabecular" bone, and integral bone).
+There is the possibility that prolonged exposure to spaceflight may induce a nonpathological weakening of skeletal bones in astronauts that could contribute to increased fracture risk during spaceflight mission operations. Unlike muscle weakness or reduced aerobic capacity, which could be discerned by the astronaut during mission operations, a reduction in bone strength would not be felt until a fracture occurs. Likewise, if non-pathological changes to bone mass and structure, such as those detected by QCT, were to persist after return to Earth, astronauts could be predisposed to fracture or to premature skeletal fragility/osteoporosis.
+Hence, QCT data from astronauts have been used to assess the impact of spaceflight on whole bone strength with the generation and analysis of FE models to estimate bone strength for specific loading orientations (Keyak et. al., 2005; Hernandez et. al., 2006). The data from QCT scans conducted in LD crewmembers describe adaptive responses to space which are distinct between cortical and cancellous bone compartments (Lang 2006). Data from QCT scans have been used to estimate Hip Bone Strength, a parameter subsequently used to estimate a FOR for hip fracture on Mars, Moon, and after return to Earth (Lang 2006) and could be applied to PRA tools (Nelson et. al., 2009) and currently (e.g., IMPACT) in development by NASA.
+2. Biochemical Markers of Bone Turnover Monitoring the changes in bone turnover markers is reported to be predictive for changes in bone mass and fracture in terrestrial aging populations (Garnero et. al., 1999; Bonnick and Shulman, 2006); however, bone turnover is not considered predictive of fractures as a test independent of bone densitometry. Likewise, biological specimens (urine and blood) of astronauts collected before, during, and after flight--and assayed for biomarkers of bone turnover (after in-flight samples returned to Earth)--provide insight to the activities of bone cells as the healthy remodeling of bone is perturbed as an adaptive response during the typical ISS mission of 6-months (Smith et. al., 2015). Specifically, there is a consistent pattern of uncoupled bone remodeling during spaceflight substantiated by the increased excretion of biomarkers of bone resorption (e.g., N-telopeptide [NTX], a cross-linked fragment from the amino terminal end; pyridinoline and deoxypyridinoline cross-links; helical peptide) relative to preflight. Concurrent with this elevation in resorption, biomarkers for bone formation (e.g., osteoblast-specific proteins: osteocalcin, bone-specific alkaline phosphatase (BAP)) are stable or depressed relative
+21 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+to preflight (Smith et. al., 2005, 2015). This perturbed bone remodeling in space could account for a net loss in bone mass for certain skeletal sites (Orwoll et. al., 2013), albeit biomarkers are averaged over the entire skeleton.
+An opportunity to understand bone turnover throughout a longer duration of spaceflight was provided by the NASA Twin Study which lasted approximately 1 year. In this study of a single subject (with the twin as a ground-based control), levels of biomarkers NTX and BAP were elevated during the first half of the spaceflight mission (6 months), inconsistent with previously reported data suggesting an uncoupling of bone formation from bone resorption (Smith et. al., 2005, 2015), i.e., independent effects of spaceflight on forming and resorbing bone cells. Notably, biomarkers of bone turnover are representative of mass changes averaged across the entire skeleton and cannot discriminate between bone remodeling and bone modeling (occurring on different bone surfaces).11 In spite of these limitations, the biochemical markers suggest that elevation in bone turnover (both resorption and formation) is reduced in the latter half of spaceflight with a surge just before landing (Garrett-Bakelman et. al., 2019). Albeit only one subject, the data may have predicted a plateau in bone loss after 6-months in space and warranted continued testing for planned 1-year missions. Additionally, a more recent flight study detected declines in bone mass and microstructural parameters in astronauts during spaceflight that were negatively associated with biomarkers of bone turnover (both bone formation and bone resorption) whereby elevated bone turnover before launch was predictive of bone loss during spaceflight (Gabel et. al., 2021).
+3. Endocrine Regulators of Mineral Metabolism The human skeleton serves as a mineral reservoir for maintaining calcium balance, which could be a greater issue than just fractures, for exploration missions exceeding a year. Studies on calcium-regulating hormones demonstrated how the endocrine regulation of calcium homeostasis can be influenced by the bone atrophy and demineralization that occurs in space (Smith et. al., 1999, 2005; Sibonga 2017 Evidence Report; Smith et. al., 2015). Under flight conditions where biomarkers of bone resorption are not suppressed by tested countermeasures (Sibonga et. al., 2019; Smith et. al., 2015), an increase in serum calcium (from resorbing bones) would be detected by the parathyroid glands that, in turn, down regulates the production of 1,25 di-hydroxyvitamin D in the kidney, a key protein for the conservation and maintenance of calcium balance (Norman 1974).
+4. Risk Factors for Reductions in Bone Strength Regarding reductions in Bone Strength, multiple conditions that contribute to an FOR for fractures score to be greater than 1 have been identified. · Reduced aBMD at weight-bearing sites, a net increase in bone resorption for the entire skeleton, geometrical changes in the proximal femur, and a rapid rate of bone mineral
+11 Bone modeling is more likely to modify the macrostructure (at the level of whole bone) and microstructure (subregional bone changes) in contrast to bone remodeling; however, the collective underfilling or overfilling of a bone remodeling unit could lead to net changes in bone mass and affect skeletal fragility.
+22 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+loss collectively suggest that bones of the skeleton may have declined in strength (LeBlanc et. al., 2000a; Lang et. al., 2004; Smith et. al., 2005, 2015). · Reduced cortical thickness and compartment-specific reductions in vBMD in the cortical and cancellous bone of hip are associated with reductions in compressive and bending strength (Lang et. al., 2004) and are independent predictors of hip fracture in aged males and females (Black et. al., 2008; Bousson et. al., 2011). · Estimations of load capacity were assessed by analysis of models generated from QCT hip scans performed before and after spaceflight. Significant reductions were noted in bone load capacities (minimum force to cause fracture) for applied loading with a one-legged stance and posterolateral falls (Keyak et. al., 2009). · Preferential losses in trabecular bone observed in crewmembers could disrupt trabecular connectivity or other parameters of trabecular microarchitecture, possibly affecting the biomechanical competence of bone (van der Linden et. al., 2001; Hernandez et. al., 2006); changes have been detected in peripheral skeletal sites of astronauts with the use of high resolution peripheral QCT (Vico et. al., 2017; Gabel et. al., 2021). · Persistent deficits in trabecular vBMD of the hip and of lumbar spine (L1, L2) in 8 ISS crewmembers who received a fourth scan between 2­4 years after return (Carpenter et. al., 2010) may combine with age-related declines, inducing premature fragility. · QCT hip scans performed two years after return in 10 astronauts in a pilot study similarly detected delayed or lack of recovery in the hip trabecular bone concurrent with detected recovery of aBMD by DXA in 4 astronauts, suggesting a risk for irreversible deficits in trabecular microarchitecture may be increased if astronauts are not further evaluated by an osteoporosis specialist for treatment (Sibonga et. al., 2020; Orwoll et. al., 2013). · Deficiencies in vitamin D observed in LD crewmembers after approximately 6-month spaceflights may induce similar impairments in neuromuscular coordination and increase the risk for falling as observed in the elderly (Bischoff et. al., 2003; Bischoff-Ferrari et. al., 2004). · While a high dietary acid load has a purported link to bone resorption, a flight study on astronauts did not detect an effect size of high and low acids on biomarkers of bone turnover; however, results did suggest that net endogenous acid production (NEAP) could also contribute to loss in BMD (Zwart et. al., 2018). · As a known risk factor associated with BMD loss in terrestrial medicine (Ravn et. al., 1999), the loss of body weight (lower body mass index, BMI) in astronauts over prolonged, exploration class missions may be a contributing risk factor for bone loss and fracture where association has been documented to loss in trabecular bone loss in the hip trochanter (Sukumar et. al., 2011). · As highlighted in reviews, increases in serum ferritin, detected in blood samples withdrawn early in-flight, have been correlated with decreases in bone mineral density of the hip and with bone resorption, collectively suggesting a correlation between oxidative damage and bone loss (Shelhamer et. al., 2020; Smith et. al., 2019).
+23 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+D. Novel Cut-points for Hip Bone Strength Given the challenges of capturing the full effects of spaceflight with the sole use of DXA
+technology and/or the measurement of aBMD, a test was conducted that explored the utility of using bone strength, estimated by the analysis FE models from hip QCT data, as an index of Bone Quality assessing bone health in astronauts and as a tool to inform a FOR for fracture. Unlike DXA-measured aBMD (i.e., a single attribute), FE models of bone integrate multiple attributes of bone affected by spaceflight. As mentioned, the additional attributes are derived from QCT data, such as bone geometry, distribution of bone mass between cortical and trabecular compartments, and 3D vBMD. The analysis of FE models enables mechanical loading to be applied virtually to estimate the magnitude of loading that would most likely cause the bone structure to fail or fracture. Notably, the force-to-failure estimated from FE modeling is limited to a specific load vector (magnitude and direction). This virtual loading performed on QCT hips scans of ISS astronauts reports a Force-to-Failure (Kn) for two loading scenarios: axial loading with a single-legged stance and a posterolateral loading from a sideways, backward fall to the hip (Keyak et. al., 2005). A commercial method of this analysis is available for the terrestrial aging population (O.N. Diagnostics, Berkeley, CA) and can generate FE estimates of hip bone strength for a different load orientation (e.g., direct sideways fall to hip). Although this commercial method has not yet been fully demonstrated in the bioastronautics arena, although the service has been sub-contracted for a currently funded flight investigation (a CIPHER study).
+After the initial application in astronauts, FE hip strength was proposed as a novel index to assess astronaut skeletal health. In essence, FE hip strength would be used as cut-points to set operating bands of astronaut bone health to supplement the current astronaut bone health standards. Current standards are based upon the WHO BMD T-scores which define ranges of aBMD to represent normal, osteopenia (low bone mass), and osteoporotic (levels of skeletal fragility). A working group composed of scientists, who create and analyze bone strength by FE modeling, and of clinical researchers, who use FE estimates of bone strength (FE Strength) in clinical studies, was tasked to propose cut-points of FE Strength for astronaut health derived from population studies with fracture outcomes and with subject ages spanning the age range of astronauts (Michalski et. al., 2019).
+The working group proposed that the estimate of FE strength representing the 75th percentile of fractured males become the minimum allowed FE hip strength following spaceflight. The higher 75th percentile in males was also suggested as the minimum allowable for female astronauts because of additional, female-specific risk factors contributing to bone loss and increasing fracture risk (such as menopause and smaller bones). A pilot demonstration of these proposed FE standards was applied to data from 8 consenting ISS astronauts (Michalski et. al., 2019) who had passed NASA DXA-based standards for bone health--including a non-permissible outcome (spine and hip T-scores of > -2.0). As seen in Figure 5, the results suggest that at least 1 ISS astronaut did not meet the non-permissible outcome standard based upon FE strength.
+24 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+Figure 5. Change in Estimates of Astronaut Hip Bone Strength Relative to Aging Terrestrial Cohorts. Left: Nonlinear stance subject data with age and FE bone strength, where the horizontal red line represents the 75th percentile FE load capacity cutpoint at 9537. Right: Nonlinear fall population data with age and FE bone strength, where the horizontal red line represents the 75th percentile FE bone strength cut point at 3664N. The 75th percentile is defined from the AGES male fracture cohort as a proposed non-permissible outcome (minimal limit).
+E. Computer-based Models and Simulation 1. T-score Projections for Astronauts Mathematical modeling of densitometry data from astronauts has been investigated to
+predict a T-score for an astronaut on reference missions to Mars (Axpe et. al., 2020). A nonlinear model for aBMD loss was developed from aBMD changes at the femoral neck measured in astronauts following various spaceflight durations (approximately < 180 days) and was informed further by analog data from individuals with spinal cord injury. The predictions derived from this aBMD model suggest that 62% of the astronauts would return from a Mars mission with diagnostic T-scores for osteoporosis in the femoral neck. Notably, the diagnostic criterion in terrestrial medicine associated with primary osteoporosis is due to age-related bone loss and, as previously mentioned, does not necessarily indicate an increased risk for fractures due to osteoporosis in non-elderly aged persons (Kanis et. al., 2000). While T-scores < -2.5 in youngeraged astronauts may not indicate a need for treatment (terrestrial evidence indicates a low probability of fracture with younger age),12 it does communicate a level of fragility that may warrant attention.
+2. Probabilistic Risk Assessments for Fracture The path-to-risk reduction for future manned spaceflight is aggressive. In this context, models for PRAs may be required in lieu of data that directly quantifies fracture outcomes. One NASA PRA tool employs a biomechanical approach to assessing fracture risk by estimating the probability of overloading an astronaut's skeletal bones during a specific mission. This PRA may be individualized for a specific body weight and height and for certain physical activities typical
+12 It is important to recognize that multiple factors contributing to fall risk in the elderly are not present in the younger-aged humans, such as poor neuromuscular coordination, sarcopenia, vision Impairments.
+25 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+for the given astronaut on a specific mission. For example, the probability of an astronaut encountering a mechanical load exceeding the strength of a bone (i.e., its load capacity) can be influenced by the mission location (planetary surface vs. in orbit), the volume space of the vehicle, the duration of transit, the frequency of EVAs, the exposures to ionizing radiation, and the physical activities to be performed. To this aim, biomedical engineers at NASA Glenn Research Center provide a service using biomechanical algorithms to estimate the mechanical loads to the astronaut during mission activities. This modeling is being updated (e.g., IMPACT) as a method to predict the ability of deconditioned bones to resist loads incurred during performance of exploration mission objectives or after return to Earth's gravity environment. An increased fracture risk does not require a diagnosis of osteoporosis; rather, an astronaut may be predisposed to fracture postflight due to the asymptomatic nature of bone loss and the inability to assess a reduction in the strength of a bone, or multiple bones, that might require a modification in physical activities in order to reduce the risk of overloading skeletal sites.
+As frequently discussed, the FOR for fracture is the ratio of Applied Loads to Failure Loads, where fracture is likely to occur when the ratio is > 1. The probability of fracture, on the other hand, is dependent upon multiple factors or variables. Two approaches have been used to calculate the FOR for Bone Fracture in crewmembers during and after long-duration missions. One calculation of FOR applies FE analysis to FE models developed from QCT scans of the hip (Keyak et. al., 2005). This approach has been used to determine the Failure Load of bone (or Bone Strength) after LD spaceflight; for example, estimates for hip strength were determined for two loading orientations and determined for 11 crewmembers scanned at the hip by QCT (Keyak et. al., 2005; Lang 2006).
+In recent years, merging data from terrestrial cohorts of aging populations indicate that estimates of hip strength by the analysis of FE models may be related to fracture risk (Orwoll et. al., 2009; Keaveny et. al., 2010; Keyak et. al., 2011), especially in combination with aBMD. FE estimates of hip failure load quantify the ability of the hip to resist fracture (i.e., hip bone strength) for a specific load vector. This index may be the single best existing composite assessment of bone strength because of its ability to integrate bone geometry, the 3-D distribution of bone mass (e.g., whole bone structure), and parameters of material properties (e.g., elastic modulus and yield strength) (Keyak et. al., 2005). While model estimation of strength only modestly predicts fragility fracture over aBMD, the FE model does integrate multiple determinants of bone strength (Keyak et. al., 2005), some of which change in response to spaceflight (Lang et. al., 2004). This FE strength index, in conjunction with DXA aBMD, may enhance the assessment of fracture probability in each astronaut for individualized clinical decisions. This individualized approach is discussed further in the Evidence Report for Early Onset Osteoporosis (Sibonga 2017 Evidence Report; Orwoll et. al., 2013).
+3. Probabilistic Risk Assessments for Fracture during Spaceflight As addressed in the 2017 Evidence Reports for Fracture and Early Onset Osteoporosis, a probabilistic approach for fracture likelihood was developed as part of the Integrated Medical Model (IMM), a Monte Carlo simulation approach to spaceflight missions that explores the event space for medical concerns during a given reference mission. The IMM was designed to be a
+26 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+probabilistic model system and database of supporting medical conditions used to provide the relative risk, including likelihood and severity of outcomes, for the list of medical conditions. The associated Bone Fracture Risk Module (BFxRM) was developed at the NASA Glenn Research Center (Nelson et. al., 2009); the module was designed to estimate bone fracture probability by integrating the frequency of events, where applied loads exceed bone strength, with physical activities of high or low energy. Specifically, the module can provide a distribution of loads to the hip based upon a fall while engaging in a range of most probable performance activities over the duration of a space mission or in the post-mission time period.13 To predict the probability of fracture, the BFxRM considers the following parameters:
+· Specific crewmember data (for example, age, height, body mass, initial bone mass, joint and hip fat pad stiffness, and damping characteristics)
+· Duration of low-gravity exposure at any given time during the mission · Attenuation characteristics of the EVA suit to absorb the energy of impact (Sulkowski et.
+al., 2011) · Deflective strategies of the astronaut (for example, outreached arms) to protect
+themselves by dissipating the energy of the fall and limiting subsequent injury from a fall · Specific mission parameters, including duration and transit time, and mission tasks that
+would lead to high levels of skeletal loading · Number of potential fracture-risk events (such as a fall during EVA, impact with
+equipment) during a mission and the details of such an event, including height or translation velocity · Change in bone strength as a function of aBMD change (LeBlanc et. al., 2000a)
+To date, BFxRM estimates a distribution of applied loading, e.g., specific to the hip, per DRMs; however, this model could be modified to assess overloading probabilities for other skeletal sites. Two primary variables are calculated in this risk analysis: the FOR for fracture and the probability that the FOR exceeds 1 (in other words, a fracture occurs) during a wide range of physical activities. To assess the probability of fracture, the frequency of overloading events and the FOR (> 1) are combined and converted to a probability that is termed the "Fracture Risk Index." The frequency and types of loading events were generated by observing Apollo EVA films that documented a range of physical activities as well as cross-referencing astronaut reports. The conversion of Fracture Risk Index to a probability of fracture has been previously described (Nelson et. al., 2009).
+In the BFxRM, the probabilistic modeling approach provides a group mean estimate of fracture probability to the wrist, hip, and lumbar spine. Each of these sites was previously identified by the module to be at higher risk for overloading (Nelson et. al., 2009). Equally important, the BFxRM provides boundaries of the uncertainty in this PRA by using data and prevailing assumptions reported in the literature. The module's metric, the probability of fracture occurrence, can be used in decision-making and planning for exploration-class missions and for comparison across all the other risks in the mission context.
+13 The duration of the post-mission surveillance is not known and may necessitate further skeletal characterization of spaceflight effects.
+27 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+The projected fracture probabilities for astronauts during a specific EVA mission scenario on Mars and lunar missions are displayed in Figure 6. For this report (Nelson et. al., 2009), the FOR used aBMD data as the surrogate for bone strength14. Considering the current available, the FOR levels at the femoral neck are averaged and provided for several different activities during specific DRMs. While no FOR for fracture exceeds 1 for any single event, the probability of fracture will increase as the frequency of an event increases.
+Since 2009, ARED exercise countermeasure on the ISS have provided new spaceflight aBMD data. The ARED provides weight-bearing exercises with up to 600 pound-force resistance which more closely simulates the lifting of free weights on Earth. This capability provides the 2x­3x body weight resistance typically required to maintain bone mass (Kohrt et. al., 2004). Before ARED, only 300 pound-force was provided by the Interim Resistive Exercise Device (IRED), insufficient to maintain ISS astronauts at their preflight skeletal aBMD measurements (Lang et. al., 2004). With the increase in resistive force (and an improved concentric/eccentric loading), resistance exercise with ARED by ISS astronauts attenuated the group mean deficits in aBMD following spaceflight. Calculated rates of BMD loss (n = 11 astronauts as of summer 2012) are displayed in Figure 6. Anticipated updates to the bone fracture prediction with data describing recent countermeasure testing will be captured in the development of IMPACT; the work in progress is not included in this 2022 update.
+Figure 6. Fracture probabilities for representative mission scenarios for male and female astronauts on EVAs (adapted from
+Nelson et. al., 2009).
+4. Estimating Likelihood and Consequence of Fractures per DRMs Estimating the FOR for fracture is only as accurate as the estimations of bone strength and of applied loads. As previously stated, the assessment of fracture probability is dependent upon the number of factors influencing the probability of an overloading event occurring (e.g., mission duration; planetary on vs. during transit), the total number and frequency of EVAs, and the types of mechanically loaded activities the astronaut may perform. Furthermore, the response to the act of falling will determine energy of the applied loads to bone, i.e., falls associated with velocity (such as a fall while cycling) or from increased height will impact bone
+14 The limitations of DXA technology for measuring aBMD suggest that the FOR estimations can be further refined.
+28 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+with high energy while fall impacts with low energy could result from a trip or fall from standing height, especially if good neuromuscular coordination (e.g., putting out one's arms) deflects the impact.
+Estimations of applied load to bone(s) are clearly not standardized. For instance, some reported algorithms calculate loads incurred by the hip on Earth are based upon body weight, height, and the velocity and orientation of falls, taking into consideration the dampening of force by fat padding (Robinovitch et. al., 1991; Carpenter et. al., 2005; Riggs et. al., 2006). Both QCT and DXA data can strengthen the estimations by including additional measurements of soft tissue thickness over the hip (Riggs et. al., 2006; Ellman et. al., 2010). Moreover, the FOR for fractures during exploration missions on a planetary surface necessitates integrating the influence of partial gravity on applied loads in fractional gravity environment. These approximations may be underestimated due to the difficulty in quantifying the multi-system deconditioning of the astronauts, including factors such as vision impairment, muscle atrophy, reduced physical fitness, and poor neuromuscular coordination. Factors such as repetitive falling due to a cumbersome EVA suit or "loping" during ambulation in an EVA suit are putative hazards for stress fractures. Estimations of fracture probability on planetary surfaces can be further challenged by 1) animal models of partial weightbearing observing declines in bone mass in proportion to the fractional gravity (Ellman et. al., 2013; Swift et. al., 2013) and 2) the not-yet-defined influence of fractional gravity on the energy of bone loading from a fall or from moving masses (e.g., rockslide).
+Risk is perceived to be elevated with physical activity under unfamiliar, atypical scenarios, such as exploration activities on planetary surfaces with partial gravity. On the other hand, postflight, risk could also be elevated during typical pre-flight physical activities before restoration to pre-flight bone strength. To manage the risk of overloading bones, computer modeling is used to assess the probability of crewmembers encountering mechanical loads during the length of an exploration mission while performing mission tasks (Nelson et. al., 2009); such modeling may also be useful for assessing risk in astronauts after return to Earth. It must be noted, however, that the clinical applications of FE modeling have estimated hip bone strength for a limited number of load vectors (e.g., direct sideways fall, posterolateral fall, axial loading) while falls can be initiated from multiple directions with multiple orientations of loading that could be difficult, if not impossible, to predict. Irrespective of those uncertainties, FE modeling provides an index that integrates more attributes of bone that change under spaceflight (sub-regional bone densities, cross-sectional areas and thicknesses, whole bone geometry and size) to characterize changes in skeletal fragility than can be acquired through DXA or QCT measurements alone.
+Preliminary data, including estimations of bone strength from the analysis of FE models (Keyak et. al., 2009), have proposed using declines in hip bone strength as a risk factor for fractures in astronauts (Michalski et. al., 2019). As previously stated, astronauts are at high risk for experiencing injurious events during and after LD spaceflight because of concurrent crossphysiological deconditioning (e.g., vision acuity, neuromuscular coordination, muscle force and endurance, and mobility); reduced cognition or impaired judgment could possibly play a contributing role to the risk for injurious events (increasing fracture probability).
+29 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+F. Expert Opinion When HRP was created in 2006, there was the overarching concern that the aBMD-based
+T-score guidelines were not applicable to the astronauts. Those guidelines were developed to identify postmenopausal females requiring treatment with osteoporosis therapies. However, recent positions indicate that the DXA-based guidelines should be applied to perimenopausal and postmenopausal females and to males older than 50 years (ISCD 2015), as there was no aBMDbased cut-off-point with which to identify osteoporosis in either female astronauts who were premenopausal or in male astronauts who were younger than 50 years. Subsequently in 2010, NASA created a panel of experts--critical to define the risk of osteoporosis--to review the accumulated clinical and research data from astronauts who had flown on LD missions (n = 35). The panel consisted of experts in osteoporosis, endocrinology, rheumatology, gerontology, physical medicine, and rehabilitation, with subspecialties in bone densitometry, bone epidemiology, male osteoporosis, and nutrition. Panel members were practicing clinicians with knowledge of bone loss in terrestrial populations and acted as either principal investigators or as consultants on research studies, while some panel members served as policymakers and position developers in the osteoporosis field.
+Panel members were asked to define the condition that would drive clinical intervention to mitigate the onset of premature osteoporosis in astronauts. The experts also evaluated NASA's current methods for monitoring the risk of premature fractures in astronauts after space flight and fractures that may occur years later in life. They provided their respective opinions as to which skeletal measures they consider necessary to monitor the risk for premature osteoporosis and to evaluate the efficacy of in-flight countermeasures. Because specific bone parameters such as percent cortical bone volume, trabecular vBMD, and minimal cross-sectional area, are clinically validated predictors of hip (femoral neck) fractures, independent of predictions from DXA measurements (Black, 2008), the panel found clinical merit in evaluating spaceflight-induced changes to bone that were specifically detectable by QCT.
+The panel informed NASA that (1) the limitations of the DXA instrument itself prevented the test from fully capturing the effects of space flight, (2) research technology revealed distinct effects of space flight on bone sub-regions of the hip that DXA could not, (3) there is both delayed recovery and further loss of bone mass after space flight that are not detected by DXA, and (4) FE modeling of astronaut QCT data might inform individualized risk assessments for clinical decisions and should be further studied.
+The clinical experts that convened in 2010 for a Bone Summit (see Technical Memorandum in Appendix A) suggested that clinical opinions, regarding fracture risk associated with spaceflight and mitigation by ARED +/- alendronate supplement, could be better informed with QCT-derived data obtained from astronauts, especially in those who use ARED without alendronate intake (Orwoll, 2013). In 2016, an expanded panel of clinical experts ("Bone RCAP") evaluated the DXA, QCT, and FE hip strength data from the fully completed Bisphosphonate Flight Study. The Bone RCAP considered the anti-resorptive effect of the oral alendronate tested in this study to be compelling for in-flight use of a bisphosphonate to mitigate bone loss during spaceflight. In the opinions of the Bone RCAP experts, the bisphosphonate Zoledronic Acid may
+30 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+be warranted because its preflight infusion and prolonged period of efficacy renders it operationally more implementable for crewmembers in future missions of a year or greater (see Appendix A for Executive Summary 2016).
+As mentioned, the opinions and interpretation of astronaut data for clinical relevance, or lack thereof, and for bone health management have been published (Orwoll et. al., 2013). The 2010 panel reconvened in 2013 and in 2016, with their role evolving into that of a Research and Clinical Advisory Panel (RCAP). The current Evidence Report is updated to include results from the Hip QCT pilot study that documented that restoration of bone lost during spaceflight cannot be fully monitored by DXA surveillance alone and that the implementation of QCT hip scans can provide additional assessments, including hip trabecular vBMD (Sibonga et. al., 2020), which is an independent predictor of hip fracture in the elderly human on Earth (Black et. al., 2008; Bousson et. al., 2011). As previously discussed, if deficits induced by spaceflight (albeit nonpathological) were not monitored for restoration and were allowed to persist, astronauts could be at risk for premature fragility when in conjunction with the skeletal changes associated with aging.
+Consequently, the utility of QCT is recommended to Human Health Countermeasures for further characterization and to inform possible clinical decision making in the future. As data is continuously acquired from astronauts participating in LD missions, experts and additional consultants on bone loss and osteoporosis will meet in order to review QCT data and other bone relevant data (as accomplished with Bone Summit 2013, Bone RCAP 2016, and the Technical Interchange Meeting 2017). The aim of these reviews is to ensure that QCT is providing useful knowledge and to refine previously suggested protocols if required. The summarized opinions of these clinical experts are included in Appendix A.
+G. Evidence from Other Organisms Animal studies most relevant to this HRP Evidence Report generate data, assess
+comparative effects, and provide fundamental knowledge that cannot be acquired easily in astronauts due to issues related to ethics, time involvement, invasive testing, and statistical power. While some of the acquired knowledge may not be considered "essential" or directly translatable to the clinical mitigation of human risks, the insight gained could enhance the interpretation of evidence acquired by more clinically useful, but indirect and subjective human testing.
+In the 1950s, rodents (rats and mice) and non-human primates (NHP), as well as other species, were first flown in space as part of a vigorous space biology research effort that included numerous international collaborations (https://history.nasa.gov/animals.html). Currently, three platforms are available for rodent experiments in space: NASA's Rodent Habitat on ISS, JAXA's mouse habitat unit (MHU), and the Russian Bion-M series satellites. The animals experience a range of environments during a mission including increased accelerations and vibrations during launch, weightlessness, increased ambient radiation exposure during the microgravity phase, and--for missions with live animal return--entry, descent, and landing with associated readaptation to the 1-g environment. Parameters vary widely across the different habitats
+31 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+including group vs. single housing, the capability for artificial gravity, and capacity for in-flight videorecording. Recently, key reviews (Alwood, et. al., 2016; Juhl et. al., 2021) and meta-analyses across missions (Fu et. al., 2021; Goldsmith et. al., 2022) of space-flown animals have been published, aiming to synthesize the knowledge base from animal studies. The following are examples of key knowledge gained from space-flown animal models.
+· Spaceflight-induced bone loss varies by age and anatomic location in mice (Coulombe et. al., 2021; Fu et. al., 2021; Goldsmith et. al., 2022).
+· Cell and molecular mechanism assessment in mice: Spaceflight and live animal return show a role for p21-induced cell-cycle-arrest in osteocytes and osteoblasts and Osteoblasts and evidence for osteocytic osteolysis (Blaber et. al., 2013).
+· Mechanism assessment: The evaluation of structure and SOST gene expression of sclerostin in mouse calvariae extracted from mice flown for 30 days on the Bion 31biosatellite (Macaulay et. al., 2017).
+· Differentiation processes are affected by spaceflight and live animal return in mice: Multiple lineages of bone marrow stem cells are affected by spaceflight, including, though not limited to, mesenchymal and hematopoietic lineages (Ortega et. al., 2009; Blaber et. al., 2014).
+· Countermeasures for bone loss have been assessed with mice during spaceflight, including, NELL-1, anti-sclerostin antibody, and osteoprotegerin (Lloyd et. al., 2015).
+· As a countermeasure, artificial gravity at 1G during an ISS mission protects bone structure of mice (Shiba et. al., 2017; Spengler et. al., 1983).
+· Fracture healing has been assessed during spaceflight in mice, describing phenotypic and molecular responses (Chakraborty et. al., 2021; Dadwal et. al., 2019) and efficacy of a thrombopoietic countermeasure (Zamarioli et. al., 2021).
+· The concentration of carbon dioxide in the ISS atmosphere appears to be an important environmental factor (Beheshti et. al., 2018) and may contribute to bone changes.
+· Spaceflight and live animal return may cause mitochondrial dysfunction across tissues in the body (da Silveira et. al., 2020) and may contribute to bone changes.
+On the ground, there are multiple unloading models using rodents that reduce the mechanical body load and proprioceptive stimuli to simulate aspects of the microgravity environment. The rodent hindlimb unloading model is an internationally-recognized ground analog of microgravity and musculoskeletal disuse and mimics many of the physiological changes associated with spaceflight and prolonged bed rest (Carpenter et. al., 2010; E. Morey-Holton et. al., 2005; E. R. Morey-Holton and Globus, 2002), garnering over 2700 published articles spanning many tissue systems. More recently, a partial weight-bearing model has been derived to better mimic Lunar or Martian gravity levels (Wagner et. al., 2010). Additional animal models include large animal models and exposing animals to ionizing radiation at space-like doses using the NASA Space Radiation Lab or other sources (Norbury et. al., 2016). Key knowledge gained from groundbased animal models includes the following:
+· Refinement of the hindlimb unloading model to enable paired housing of mice (Tahimic et. al., 2019)
+32 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+· Refinement of the rodent model for partial weight-bearing to facilitate investigations in the rat to characterize musculoskeletal health (e.g., temporal responses, muscle atrophy) and to evaluate countermeasures (Mortreux et. al., 2018, 2019a, 2019b, 2020a, 2020b; Semple et. al., 2020; Ko et. al., 2020)
+· Skeletal assessments following hindlimb unloading via histology and histomorphometry suggest time-varying cell mechanisms (Shirazi-Fard et. al., 2015; Shahnazari et. al., 2012; Boudignon et. al., 2007)
+· Mechanistic investigations, for example, establishing a role for cell-to-cell signaling channels (Connexin-43) in the skeletal response to unloading (Lloyd et. al., PMID 2014) and evaluation of genetic and epigenetic factors that modulate bone loss with disuse and recovery with re-ambulation (Judex et. al., 2004, 2009, 2013)
+· Early testing and verification of signaling mechanisms of potential countermeasures, for example, vibration (Judex et. al., 2010), bisphosphonates (Willey et. al., 2010), and dietary dried plum (Steczina et. al., 2020)
+· Assessment of fracture healing during disuse (e.g., Kirchen et. al., 1995; Midura et. al., 2006; Androjna et. al., 2012; Childress et. al., 2018)
+· Experimental simulation of mission operations such as multiple exposures to skeletal unloading, the combined effects of radiation- and unloading-induced bone loss, and the influence of partial gravity (Shirazi-Fard et. al., 2013a, b; Gupta et. al., 2013; Macias et. al., 2016; Bokhari et. al., 2019; Kondo et. al., 2010; Steczina et. al., 2020)
+· Effect of ionizing radiation on bone, muscles, vasodilation, and osteogenic potential after exposure (Bandstra et. al., 2009; Shirazi-Fard et. al., 2015; Prisby et. al., 2016)
+· A review focusing on the combined effects of spaceflight and space radiation to the functions of the musculoskeletal and vascular systems for translation to the human (Tahimic et. al., 2017)
+· Characterization of phenotypic differences in trabecular and cortical bones between two different strains of mice (C57BL/6N and C57BL/6J mice) commonly used in biomedical research of skeletal unloading (Sankaran et. al., 2017)
+· Utility of the sheep model to characterize the skeletal influence of partial weight-bearing and/or terrestrial therapies in a viable large-animal model, as demonstrated with shock wave therapy and low-intensity pulsed ultrasound (Gadomski et. al., 2018)
+· The effects of intermittent disuse or non-weightbearing on mitochondrial quality as novel biomarker of muscle quality in the rat model (Rosa-Caldwell et. al., 2020)
+As described in the previous 2017 HRP Evidence Reports for skeletal risk, the HRP funded the development of an animal model to study fracture healing and to test a rehabilitative loading protocol that promotes healing in the hypogravity environment. A series of published reports described 1) an ovine (sheep) model for fracture healing to evaluate the effects of simulated microgravity on the tissue of the metatarsal (Gadomski et. al., 2014a) and 2) delayed healing under simulated microgravity following an osteotomy in the sheep metatarsal (Gadomski et. al., 2014b). Investigators, further, used FE models to assess the influence of localized mechanical loading at 0.25G and 1G on the fracture healing process (Gadomski et. al., 2016). The investigations were able to describe statistically significant tissue decrements associated with
+33 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+adaptation to microgravity, including a loss of bone mineral density of 29.0%, a reduction in bending modulus of 25%, and a decline in failure load of 28%. There were also impacts to parameters of bone histomorphometry (bone volume, trabecular thickness, trabecular number, formation rates, and osteoblast number all declined while osteoclast number increased). Collectively, these data substantiate the overall fidelity of the large animal sheep model to mimic the skeletal tissue effects of humans in space as well as demonstrate the utility of an external fixation device to simulate skeletal unloading on the metatarsal (Gadomski et. al., 2014a). The same model was used to acquire data that suggests that mechanical loading applied to bones can be locally reduced by varying hydrostatic pressure and strain. As a result, intramembranous bone formation (as opposed to endochondral ossification) was preferentially promoted which could account for the delayed healing and reduced integrity of healed fractures under conditions of disuse or reduced load bearing (Gadomski et. al., 2016).
+There are no ground-based spaceflight analogs that have evaluated FOR for bone fracture in human subjects. There are numerous animal models (rodents, dogs, non-human primates) that immobilize or skeletally unload limbs or whole bodies as a method to induce "disuse osteoporosis." A rodent model has also been developed further to simulate a partial weightbearing environment (Wagner et. al., 2010) as would be expected on the Moon (1/6 G) and Mars (1/3 G). In general, animal models are valuable resources with which to characterize the cellular and tissue effects of mechanical unloading under well-controlled experimental conditions (Turner 2000). These models can be further applied to evaluate the efficacy of pharmacological and mechanical countermeasures using mechanical strength testing (fracturing bones under defined loads) to quantify bone strength directly as an outcome. However, as previously discussed, there are multiple physiological and biological measures that can influence whole bone strength in humans; as a result, the skeletal effects of disuse in humans might not be completely modeled by any single species model.
+As of 2020, NASA's Human Systems Risk Board uses Bradford-Hill criteria and states Considerations for Animal/Cellular Models to assess risk to the astronaut from spaceflight hazards (altered gravity, radiation, isolation and confinement, hostile closed environment, and distance from Earth) based on the preponderance of evidence spanning cellular, animal, and human studies (Antonsen 2020). In Appendix F of the HSRB Management Plan, the following six Bradford-Hill causal guidelines are identified for use in the level of evidence assessment (in ascending order of weight): temporality, analogy, mechanism, reproducibility, specificity, and coherence. In general, coherence requires epidemiological study inclusion (we interpret this to mean bench to bedside translation). Generally, animal and cellular/molecular-based studies can include mechanistic approaches, and, by default, are scored as a weak level of evidence.
+In sum, cell biology is likely the most represented research topic in the bone and mineral field15, and animal models enable researchers to conduct investigations at the cellular and tissue level. Given NASA's aggressive schedule for exploration class spaceflight missions, preclinical research and animal models provide critical knowledge to the human risk for fracture.
+15 Demographics personal communication from American Society for Bone & Mineral Research ­ ASBMR.
+34 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+Collectively, preclinical studies enable 1) histomorphometric descriptions of cellular-driven bone loss and gain, 2) measures of bone mass and structure to be resolved by instruments with high ionizing radiation, and 3) quantification of bone's biomechanical competence by mechanical strength testing. These are characterizations that cannot be ethically acquired from astronauts by non-invasive clinical tests.
+VI. Risk in Context of Exploration Mission Operations
+With the emergence of DXA testing for the clinical diagnosis of age-related osteoporosis (i.e., Primary Osteoporosis), it was initially perceived that monitoring for the condition of osteoporosis in astronauts may be sufficient to assess increased fracture risk and reduced bone strength as a result of spaceflight. However, data from both terrestrial medicine (Schuit et. al., 2004; NIH Consensus 2001) and the HRP studies (2017 Evidence Reports) suggest that further characterization of spaceflight consequences, beyond DXA testing, is needed to define the risk for fractures, especially for the type of fractures that are more likely to occur during explorationclass missions where the probability of mechanically overloading of bones is greater with physical activities on unexplored planetary surfaces.
+This 2022 Evidence Report highlights new data from recent studies in bone, which have broadened the definition of fracture risk in astronauts by analyzing fracture data accumulated through the Lifetime Surveillance of Astronaut Health (LSAH) and by expanding the characterization of spaceflight-induced changes to bone and postflight monitoring recovery with both QCT and DXA and by evaluating the efficacy of countermeasures to mitigate or restore these spaceflight-induced skeletal changes.
+A. Analysis of Surveyed Astronaut Fractures The probability of a risk helps to determine the requirement for a countermeasure. In
+terrestrial medicine, the gold standard index for assessing fracture probability is fracture (e.g., the incident rate) where age is a major contributing factor for osteoporosis (Looker et. al., 1998). Hence, validating the ability of test measures to predict fractures or interventions to mitigate fractures is heavily based upon fracture outcomes. This index is challenging for clinical trials in osteoporosis (e.g., due to expense, study duration, vulnerable elderly populations, etc.) which drives the use of DXA-measured aBMD as a surrogate for fractures. The assessment of fractures in astronauts is also challenging. Because of the younger age-range of LD astronauts, it may take years before fractures occur, especially those in the central skeleton, and may still be considered premature (see Figure 2). Moreover, there have been no in-mission bone fractures in the 40+ years of manned spaceflight. It must be stated, however, that the lack of in-mission fractures in this cohort16 does not negate the risk of fracture for future spaceflights17.
+16 n = 92 LD astronauts, at the time of this writing. 17 "Absence of evidence is not evidence of absence." (1995) Altman DG, Bland JM. Statistics Notes. BMJ 311:485.
+35 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+An analysis of fracture incidence rates indicate an increased risk for hip and spine fractures in astronauts after exposure to at least one spaceflight > 90 days duration18, relative to astronauts on shorter missions. These results suggest that the incidence rates of hip and spine fractures in astronauts years after return to Earth are associated with the duration of spaceflight exposure and assume that astronaut groups have similar physical activity levels (data not shown; see Figure 2). Skeletal fragility with LD spaceflights may increase the risk for hip and spine fractures during LTH or possibly during future DRMs. A retrospective analysis to evaluate the influence of ARED exercise on hip and spine fractures in LD astronauts is a planned action. The measure(s) to best characterize the influence of mission duration on skeletal fragility are not fully defined although spaceflight investigations for multiple year-long missions on the ISS are in the definition phase.
+B. Spaceflight Data from Flight Investigations of Countermeasures 1. Bisphosphonate Flight Study As reported in the previous Evidence Report for Fracture (2017), the ARED became
+available for use on the ISS in 2009. In contrast to resistive exercise devices flown before 2009, the ARED exercise hardware provides a resistance up to 600-pound force (lbf) for weight-bearing exercise that more closely induces the physiological impact of resistive exercise performed with free weights (concentric to eccentric loading at 90%). As reported displayed in Figure 7 (LeBlanc et. al., 2013), previously reported declines in skeletal aBMD (mean group values) were reduced by ARED use in combination with a bisphosphonates supplement (alendronate).
+The comparison of group mean data (percentage change from preflight aBMD) from crewmembers with access to the ARED (n = 11) to crewmembers further supplemented with an oral bisphosphonate (alendronate) indicated that loss of bone density was still evident, particularly in the femoral neck, in spite of the improved exercise device. Despite these postflight deficits, the aBMD data are encouraging because the skeletal benefit of having higher bone mass over lower bone mass is incontrovertible. However, DXA technology is limited by its inability to delineate the separate skeletal effects of the two interventions (i.e., resistive exercise and a pharmaceutical agent); the experimental design did not include astronauts treated with bisphosphonates alone. Each of these interventions might have a distinct influence the subregions of the hip bone (cortical vs. trabecular bone) and, as a result, differentially contribute to the strength of the whole hip bone (Keaveny et. Al., 2008). For example, the PATH study (Keaveny et. al., 2008) demonstrated that the combined effect of the bisphosphonate alendronate (an antiresorptive) with intermittent parathyroid hormone (PTH) (an anabolic) in postmenopausal females vs. untreated control was not significant by DXA aBMD. However, QCT was able to reveal that the beneficial effect of intermittent PTH was in its stimulation of bone formation in the trabecular vBMD. Because DXA measurement of aBMD (g/cm2) integrates the bone mass measurements of cortical and trabecular sub-regions into one combined 2-dimensional
+18 This minimum spaceflight duration is based upon the accelerated rates of bone loss observed in ISS astronauts, the minimum duration of a bone remodeling unit in a healthy non-flying human (~ 120 days), and the least significant change in aBMD detected by densitometry as performed at Johnson Space Center.
+36 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+measurement the contribution of the highly dense cortical bone masks any density changes occurring in trabecular bone19.
+Figure 7. Effect of Bisphosphonate alendronate + ARED Exercise on aBMD. Leblanc et al (2013) reports the on total change in aBMD, as a percentage of preflight measurement over entire mission served on Mir (Pre-ARED only) and ISS. Significant changes in group mean aBMD, from preflight, are detected in both Mir and ISS crewmembers although the change in crewmembers with access to ARED was significantly different from crewmembers before ARED was available (Pre-ARED). Likewise, the combination of ARED exercise and bisphosphonates was significantly different from crewmembers who exercised on ARED with no bisphosphonate intake (LeBlanc et. al., 2013). However, the relative contribute of exercise from bisphosphonates cannot be discerned with aBMD measurements only. 1: p < 0.05 (pre- vs. postflight); 2: p < 0.05 (bisphosphonate vs. Pre-ARED); 3: p < 0.05 (bisphosphonate vs. ARED).
+2. Bisphosphonate Extension Study The results of the bisphosphonate flight study had indicated that resistive exercise performed on the ARED (Advanced Resistive Exercise Device) in combination with an oral bisphosphonate drug (alendronate), attenuates postflight deficits in bone mass (per DXA and QCT densitometry). Importantly, these results indicate that the cellular mechanism of the oral bisphosphonate is intact during ~6-month spaceflight conditions n low Earth orbit (LEO) (LeBlanc et. al., 2013). Resistive exercise (on ARED) alone however could only partially protect against bone loss, failing to mitigate losses in the total hip, hip trochanter, and the lumbar spine (Figure 7). Biochemical data suggest that the addition of alendronate (an orally administered bisphosphonate) suppresses the elevation of a biomarker for bone resorption (i.e., NTelopeptide) which is not evident with ARED alone. Study results affirm that the preservation of
+19 Calculations performed on astronaut data quantity cortical bone to be ~4x the density of trabecular bone (personal communication).
+37 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone astronauts at the preflight skeletal measures status cannot be achieved with ARED resistive exercise alone presumably due to ARED's inability to suppress bone breakdown by osteoclastic resorption (Sibonga et. al., 2019).
+Figure 8. Changes in DXA aBMD after spaceflight in the Bisphosphonate Extension Study. Significant delta changes from preflight are denoted for within-group comparisons (1: p < 0.05 preflight vs. postflight) and for between group comparisons (2: p < 0.05 Pre-ARED vs. ARED and ARED vs. Bis + ARED). The measurement error (the % least significant change) for DXA measurements at JSC are denoted by shaded areas (Sibonga et. al., 2019).
+Figure 9. Temporal changes in urinary N-telopeptide (NTX) as a biomarker for bone resorption. 1: Denotes significant (p < 0.05) within-group delta change from preflight. 2: Denotes significant between group comparison (Bis+ARED group vs. ARED group) of delta change from the preflight assay of urine specimens collected at specific inflight or postflight time-points.
+38 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+Figure 10. Temporal changes in serum Bone-specific Alkaline Phosphatase (BSAP). 1: Denotes significant (p < 0.05) within-group delta change in assay results between preflight and the inflight or postflight time-point of specimen collection. 2: Denotes significant (p < 0.05) between-group comparison (Bis+ARED group vs. ARED group) of delta change from the preflight assay of urine specimens collected at specific inflight or postflight time-points.
+3. Hip QCT Due to the increased exposures to ionizing radiation, astronauts who were participants of concurrent flight studies implementing QCT for measured skeletal outcomes were also consented for a postflight study using QCT to monitor recovery. Hip QCT scans detected changes in hip trabecular bone that were not detectable by DXA testing. Biochemical analysis of bone turnover suggests that during spaceflight cellular-driven bone resorption is stimulated while bone-forming cells are non-responsive or suppressed which could account for a net loss in bone mass. Trabecular bone is a site sensitive to bone resorption. The rapid declines in hip trabecular bone mass (greater than 10% preflight measurement) and the delayed/absence of recovery in LD astronauts 2 years after return together highlight a risk for disruptions in trabecular bone microarchitecture. This study demonstrated supplemental use of QCT to detect changes in trabecular bone compartment in response to spaceflight and with re-ambulation on Earth (Sibonga et. al., 2020).
+Figure 11. Postflight surveillance of bone loss and recovery by two densitometry methods. Loss of aBMD (by DXA) and trabecular volumetric BMD (by QCT) expressed as % of preflight measurement as a function of time point for postflight scan.
+39 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+VII. Directed Acyclic Graph Review and Integration
+The Bone Fracture DAG centers around the Bone Fracture node that has two types of inputs: 1) factors that affect the applied loads that the bone experiences and 2) factors that negatively influence the biomechanical competence of bone, i.e., level of skeletal fragility.
+Figure 12. Directed Acyclic Graph for Fracture.
+A. DAG Nodes Affecting Applied Loads to Bone · Musculoskeletal Loading is influenced in part by Altered Gravity, the Resistive Exercise
+designed into the Crew Health and Protection (CHP) System, and the effects of muscle attachments on the bone (Muscle Risk). · Vehicle Design and Suit Design are considered in terms of how i) the design of the spacecraft (e.g., habitable volume) may increase physical contact between the astronaut and the vehicle itself and ii) how EVA suit design may add mass and loading to the human body with physical motion or ambulation or with injury hazards due to body contacts with unexpected impacts (e.g., slips/trips/falls). · Dynamic Loads (Risk) govern the loads experienced in landing scenarios for planetary surfaces which is heavily influenced by Vehicle Design and Suit Design. · Other Risks (Sensorimotor, Aerobic, SANS) can influence the likelihood of experiencing high loads from falling or operational errors. · Muscle (Risk) includes the muscular loads on the bone and muscular support that change with muscular atrophy. This is dependent on the Resistive Exercise designed into the CHP System.
+40 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+B. DAG Nodes Affecting Skeletal Fragility DAG Node for Skeletal Fragility suggests that, if persistent or untreated, it could contribute
+premature osteoporosis and to Long Term Health Conditions. Similarly, chronic joint pain such as arthritis could contribute to Long Term Health Outcomes.
+· Bone Density refers to both mass and its areal or volumetric distribution. · Bone Structure Changes refers to changes in bone structure at the macroscopic (e.g.,
+whole bone size, geometry) and microscopic (e.g., cortical and trabecular sub-regions, trabecular microarchitecture) levels. · Perturbations to Bone Remodeling are changes to both density and structure likely due to bone remodeling becoming unbalanced, here shown in the DAG as two sub-nodes:
+o Bone Resorption executed by osteoclast cells with activity levels influenced by adaptive changes in Musculoskeletal Loading, Endocrine Factors such as estrogen levels, Individual Factors predisposed by genetics, response and use of medications represented by Pharm (Risk), and a sub-optimal Nutritional Status represented by Food and Nutrition (Risk).
+o Bone Formation implemented by osteoblast cells, with similar nodes as above, and with the assertion that sufficient Food and Nutrition are required to preserve the optimal health and physiology of osteoblast cells (e.g., calcium and vitamin D) and to prevent the resorption of bone to maintain calcium balance. A dietary supplement to stimulate the anabolic activity of osteoblasts in the adult human has not been currently identified.
+C. DAG Nodes for Monitoring Modalities · Descriptions of countermeasure effects that can be performed before and after flights,
+such as DXA, QCT, and MRI, enable us to Detect Bone Density changes and Detect Trabecular Changes. Detecting these can lead to Long Term Health Clinical Decisions such as orthopedic interventions or prophylactic medication use that can decrease the likelihood or severity of Long-Term Health Outcomes. Currently there is no arrow connecting Detect Trabecular Changes to Flight Recertification because we do not have a clinical trigger that is identified. However, research into both technology and clinical validation is in progress. · Ultrasound may provide an option to Detect Trabecular Changes occurring in flight if the capability is designed into the CHP System.
+VIII. Knowledge Base
+A. Gaps in Knowledge Based on the opinions expressed by osteoporosis experts who participated in the 2010
+Bone Summit, a Bone Research Program--tasked to address critical issues for discerning whether astronauts are at risk for early onset osteoporosis and fracture--was formulated by the JSC Bone Discipline with the following gaps and associated HRP deliverable categories (Risk of Bone Fracture).
+41 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+Bone-101: Characterize skeletal changes on bone mass (Bone Density) and bone structure (Bone Quality) of astronauts. Bone-102: Characterize bone turnover and other biomolecular markers of skeletal health. Bone-201: Identify/develop/apply tools (e.g., computational modeling or alternative) to inform the estimation of bone strength and the probability of overloading bones and fracture assessment. Bone-301: Identify, develop, and implement monitoring tools for bone health during spaceflight. Bone-401: Identify and test preventative and mitigating countermeasures for changes induced by spaceflight. Bone-402: Validate countermeasures for maintaining preflight bone standard.
+B. State of Knowledge & Future Work There has been a long-standing concern that exposure to weightlessness of LD spaceflight
+causes changes in skeletal bones which, if not restored or mitigated, could predispose astronauts to fracture or premature skeletal fragility/osteoporosis. Hence, the DXA test--used clinically to diagnose osteoporosis--is performed on female astronauts who are premenopausal and male astronauts who are younger than 50 years to monitor for an early onset of osteoporosis. To-date, the clinical testing of active LD astronauts is consistent with terrestrial data indicating that younger-aged humans are at low risk for primary osteoporosis (i.e., advanced age is a major contributing factor to skeletal fragility).
+However, fracture risk in the young-aged active astronaut is not contingent upon skeletal fragility/osteoporosis. Consistently, the DXA test has described averaged loss rates in preflight aBMD between 1­1.5% per month in normally weight-bearing cohorts on Earth (e.g., hip, lumbar spine, lower limbs of body), although recent reports suggest that the loss rate and postflight aBMD deficit can be attenuated by resistive exercise with and without an anti-resorptive drug (alendronate). However, based upon data from terrestrial medicine and the limitations of DXA technology to provide true and accurate measurements of bone tissue, there is a consensus in the osteoporosis and bone densitometry fields that DXA aBMD needs to be supplemented with measures of Bone Quality (i.e., the underdefined category of bone measurements that does not include bone density, NIH Consensus 2001).
+Uncertainty remains as to how the expanded skeletal characterization would integrate into the evaluation of fracture risk in LD astronauts due to spaceflight-induced changes: 1. Which specific or collective measurement(s) of bone quality would fully capture the effect
+of spaceflight? 2. How do spaceflight-induced changes to bone quality affect the strength of bone since
+fracture risk is not contingent upon severe skeletal fragility/osteoporosis? 3. Can bone strength be fully recovered after return to Earth? 4. Can the novel indices of Bone Quality be validated as fracture predictors in a meaningful
+time frame given the younger ages of astronauts (mean age 47 + 5 years, n = 92)?
+Beyond those considerations, the HRP Bone Discipline solicits investigations for operationally-relevant measures of Bone Quality (e.g., QCT) to supplement DXA measurements
+42 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+of aBMD and to expand the characterization of spaceflight effects on bone; the Bone Discipline also advocates for an individualized, biomechanical approach (e.g., estimating of bone strength by FE modeling) for assessing fracture probability (in lieu of assessing the osteoporosis risk) for the active astronauts flying on LD spaceflight missions. In addition to these expanded descriptions of spaceflight effects, there is also the need to translate those newly characterized changes in bone(s) to an index of bone strength, to estimate the mechanical forces applied to bone with expected physical activities, and to integrate the contributions of overall physiological deconditioning of astronauts when estimating an increased risk for injury.
+IX. Conclusion
+With exploration class missions aiming for the Moon and beyond, the austere and remote environments, the "unknowns" of planet exploration, and the limited point-of-care capabilities may increase the severity of an even low probability medical event such as fracture. The occurrence of a fracture in a crewmember would not only jeopardize performance of mission objectives (e.g., reduced number of EVAs), it may also lead to more serious medical complications, potentially resulting in significant morbidity or even loss of life. The documented effect of the weightless environment on bone cell activities could impair the healing process, increase the risk for non-union fractures, and expose the crewmember to additional complications such as sepsis or thromboembolic clots. Therefore, it is of paramount importance to evaluate the propensity of a crewmember to fracture a bone under the conditions--including mission length and mission-critical task performance--and effects--including adaptive physiology--of a spaceflight to ensure availability of appropriate medical capabilities. On-board capabilities may include in-flight interventions to prevent long-term health fractures--such as premature fragility fractures associated with irreversible spaceflight-induced alterations-- through mitigation of deconditioning or through rehabilitation capabilities. NASA may be at risk of underestimating fracture risk in astronauts (both during exploration class DRMs and LTH) if the agency limits its characterization of spaceflight effects on bone, the potential impacts to bone strength, and the estimations and assessments of fracture risk. Given the rare and novel insults to the astronaut skeleton, (e.g., 6­30 months in altered gravitational fields, adaptation to mechanical unloading or disuse, muscle atrophy, exposures to ionizing radiation, dietary constraints), further characterization of bone changes is warranted.
+43 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+X. Appendix A: References
+Alwood JS, Mains RC (2015) Bone Physiology Introduction. In: Ronca AE, Souza KA, Mains RC (eds) Translational Cell and Animal Research in Space: Ames Research Center (1965-2011). vol NASA-SP-2015-625. NASA, SP-2015-625,
+Amin S, Achenbach SJ, Atkinson E et al (2010) Bone Density Following Long-Duration Spaceflight and Recovery. Abstract Poster Presentation. Annual Meeting of the American Soc for Bone & Mineral Research Oct. 15-19, 2010 Toronto, ON, Canada. Poster presentation at the 74th Annual scientific meeting of the American College of Rheumatology, Atlanta, GA, Nov. 2010.
+Amin S, Achenbach SJ, Atkinson E et al (2011) Bone Density Following Three Years of Recovery from Long-Duration Space Flight. Poster presentation at the 18th International Academy of Astronautics Humans in Space Symposium, Houston, TX, April 11-15, 2011.
+Amin S, Achenbach SJ, Atkinson E et al (2011) Does short-duration space flight have a negative effect on bone density? Poster presentation at the 81st Annual Scientific Meeting of the Aerospace Medical Association, Anchorage, AK, May 8-12, 2011.
+Antonsen EL (2020) Human System Risk Management Plan: JSC 66705, Rev A. NASA Technical Reports Server, https://ntrs.nasa.gov/citations/20205008887
+Axpe E, Chan D, Abegaz MF et al (2020) A human mission to Mars: Predicting the bone mineral density loss of astronauts. PLoS One. Jan 22;15(1):e0226434. doi: 10.1371/journal.pone.0226434. eCollection 020.PMID: 31967993
+Beck TJ (2007) Extending DXA beyond bone mineral density: understanding hip structure analysis. Curr Osteoporos Rep 5:49­55.
+Beheshti A, Cekanaviciute E, Smith DJ et al (2018) Global transcriptomic analysis suggests carbon dioxide as an environmental stressor in spaceflight: A systems biology GeneLab case study Sci Rep 8:4191 doi:10.1038/s41598-018-22613-1
+Bischoff HA, Stahelin HB, Dick W et al (2003) Effects of vitamin D and calcium supplementation on falls: a randomized controlled trial. J Bone Miner Res Off J Am Soc Bone Miner Res 18:343­ 351. doi: 10.1359/jbmr.2003.18.2.343
+Bischoff-Ferrari HA, Dawson-Hughes B, Willett WC et al (2004) Effect of Vitamin D on falls: a meta-analysis. JAMA 291:1999­2006. doi: 10.1001/jama.291.16.1999
+Blaber EA, Dvorochkin N, Lee C et al (2013) Microgravity induces pelvic bone loss through osteoclastic activity, osteocytic osteolysis, and osteoblastic cell cycle inhibition by CDKN1a/p21 PLoS One 8:e61372 doi:10.1371/journal.pone.0061372
+44 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+Blaber E, Sato K, Almeida EA (2014a) Stem cell health and tissue regeneration in microgravity Stem Cells Dev 23 Suppl 1:73-78 doi:10.1089/scd.2014.0408
+Blaber EA, Dvorochkin N, Torres ML et al (2014b) Mechanical unloading of bone in microgravity reduces mesenchymal and hematopoietic stem cell-mediated tissue regeneration Stem Cell Res 13:181-201 doi:10.1016/j.scr.2014.05.005
+Black DM, Bouxsein ML, Marshall LM et al (2008) Proximal Femoral Structure and the Prediction of Hip Fracture in Men: A Large Prospective Study Using QCT. J Bone Miner Res 23:1326­1333. doi: 10.1359/jbmr.080316
+Bloomberg JJ, Mulavara AP (2003) Changes in walking strategies after spaceflight. IEEE Eng Med Biol Mag Q Mag Eng Med Biol Soc 22:58­62.
+Bokhari RS, Metzger CE, Black JM et al (2019) Positive impact of low-dose, high-energy radiation on bone in partial- and/or full-weightbearing mice NPJ Microgravity 5:13 doi:10.1038/s41526019-0074-3
+Bonnick SL (2007) HSA: beyond BMD with DXA. Bone 41:S9-12. doi:10.1016/j.bone.2007.03.007
+Bonnick SL, Shulman L (2006) Monitoring osteoporosis therapy: bone mineral density, bone turnover markers, or both? Am J Med 119:S25-31. doi:10.1016/j.amjmed.2005.12.020
+Boudignon BM, Bikle DD, Kurimoto P et al (2007) Insulin-like growth factor I stimulates recovery of bone lost after a period of skeletal unloading J Appl Physiol (1985) 103:125-131 doi:10.1152/japplphysiol.00111.2007
+Boudreaux R, Sibonga JD (2015) Simple Geometric Measurements Predict Hip Fracture Beyond Bone Mineral Density. Tex Orthop J 1:109­122.
+Bousson VD, Adams J, Engelke K et al (2011) In vivo discrimination of hip fracture with quantitative computed tomography: results from the prospective European Femur Fracture Study (EFFECT). J Bone Miner Res 26(4):881-93.
+Burr DB (2001) Targeted and Nontargeted Remodeling. Bone 30(1):2-4.
+Carpenter RD, Beaupre GS, Lang TF et al (2005) New QCT analysis approach shows the importance of fall orientation on femoral neck strength. J Bone Miner Res Off J Am Soc Bone Miner Res 20:1533­1542. doi: 10.1359/JBMR.050510
+Carpenter RD, LeBlanc AD, Evans H et al (2010) Long-term changes in the density and structure of the human hip and spine after long-duration spaceflight. Acta Astronaut 67:71­81. doi: 10.1016/j.actaastro.2010.01.022
+Chakraborty N, Zamarioli A, Gautam A et al (2021) Gene-metabolite networks associated with impediment of bone fracture repair in spaceflight Comput Struct Biotechnol J 19:3507-3520 doi:10.1016/j.csbj.2021.05.050
+45 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+Chang G, Honig S, Liu Y et al (2015) 7 Tesla MRI of bone microarchitecture discriminates between women without and with fragility fractures who do not differ by bone mineral density. J Bone Miner Metab 33:285­293. doi:10.1007/s00774-014-0588-4
+Chesnut CH, Majumdar S, Newitt DC et al (2005) Effects of salmon calcitonin on trabecular microarchitecture as determined by magnetic resonance imaging: results from the QUEST study. J Bone Miner Res Off J Am Soc Bone Miner Res 20:1548­1561. doi: 10.1359/JBMR.050411
+Childress P, Brinker A, Gong CS et al (2018) Forces associated with launch into space do not impact bone fracture healing Life Sci Space Res (Amst) 16:52-62 doi:10.1016/j.lssr.2017.11.002
+Cody DD, Gross GJ, Hou FJ et al (1999) Femoral strength is better predicted by finite element models than QCT and DXA. J Biomech 32:1013­1020.
+Coulombe JC, Sarazin BA, Mullen Z et al (2021) Microgravity-induced alterations of mouse bones are compartment- and site-specific and vary with age Bone 151:116021 doi:10.1016/j.bone.2021.116021
+Courtine G, Pozzo T (2004) Recovery of the locomotor function after prolonged microgravity exposure. I. Head-trunk movement and locomotor equilibrium during various tasks. Exp Brain Res 158:86­99. doi: 10.1007/s00221-004-1877-2
+Cummings SR, Black DM, Thompson DE et al (1998) Effect of alendronate on risk of fracture in women with low bone density but without vertebral fractures: results from the Fracture Intervention Trial. JAMA 280:2077­2082.
+Cummings SR, Nevitt MC, Browner WS et al (1995) Risk factors for hip fracture in white women. Study of Osteoporotic Fractures Research Group. N Engl J Med 332:767­773. doi: 10.1056/NEJM199503233321202
+da Silveira WA, Fazelinia H, Rosenthal SB et al (2020) Comprehensive Multi-omics Analysis Reveals Mitochondrial Stress as a Central Biological Hub for Spaceflight Impact Cell 183:11851201 e1120 doi:10.1016/j.cell.2020.11.002
+Dadwal UC, Maupin KA, Zamarioli A et al (2019) The effects of spaceflight and fracture healing on distant skeletal sites Sci Rep 9:11419 doi:10.1038/s41598-019-47695-3
+De Laet C, Oden A, Johansson H et al (2005) The impact of the use of multiple risk indicators for fracture on case-finding strategies: a mathematical approach. Osteoporos Int 16:313­318. doi: 10.1007/s00198-004-1689-
+Ellman R, Sibonga J, Bouxsein M (2010) Male astronauts have greater bone loss and risk of hip fracture following long duration spaceflights than females. [Abstract 1142] Podium presentation at the American Society of Bone and Mineral Research Annual Meeting; Toronto, Ontario, Canada, October 2010.
+46 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+Ellman R, Spatz J, Cloutier A et al (2013) Partial reductions in mechanical loading yield proportional changes in bone density, bone architecture, and muscle mass. J Bone Miner Res Off J Am Soc Bone Miner Res 28:875­885. doi:10.1002/jbmr.1814
+Epstein S, Inzerillo AM, Caminis J et al (2003) Disorders associated with acute rapid and severe bone loss. J Bone Miner Res 18(12):2083-2094.
+Espallargues M, Sampietro-Colom L, Estrada MD et al (2001) Identifying bone mass- related risk factors for fracture to guide bone densitometry measurements: a systematic review of the literature. Osteoporos Int 12(10):811­822.doi: 10.1007/s001980170031.
+Fu J, Goldsmith M, Crooks SD et. al., (2021) Bone health in spacefaring rodents and primates: systematic review and meta-analysis NPJ Microgravity 7:19 doi:10.1038/s41526-021-00147-7
+Gabel L, Liphardt AM, Hulme PA et al (2021) Pre-flight exercise and bone metabolism predict unloading-induced bone loss due to spaceflight. Br J Sports Med . 2021 -103602. doi: 10.1136/bjsports-2020-103602.
+Gadomski BC, McGilvray KC, Easley JT et al (2014a) An in vivo ovine model of bone tissue alterations in simulated microgravity conditions. J Biomech Eng136:21020. doi: 10.1115/1.4025854
+Gadomski BC, McGilvray KC, Easley JT et al (2014b) Partial gravity unloading inhibits bone healing responses in a large animal model. J Biomech 47:2836­2842. doi: 10.1016/j.jbiomech.2014.07.031
+Gadomski BC, Lerner ZF, Browning RC et al (2016) Computational characterization of fracture healing under reduced gravity loading conditions. J Orthop Res Off Publ Orthop Res Soc 34:1206­1215. doi: 10.1002/jor.23143
+Garman R, Gaudette G, Donahue LR et al (2007) Low-level accelerations applied in the absence of weight bearing can enhance trabecular bone formation J Orthop Res 25:732-740 doi:10.1002/jor.20354
+Garnero P, Sornay-Rendu E, Duboeuf F et al (1999) Markers of bone turnover predict postmenopausal forearm bone loss over 4 years: the OFELY study. J Bone Miner Res Off J Am Soc Bone Miner Res 14:1614­1621. doi:10.1359/jbmr.1999.14.9.1614
+Garraway WM, Stauffer RN (1979) Limb fractures in a defined population. I. Frequency and distribution. Mayo Clin Proc 54:701­707.
+Garrett-Bakelman FE, Darshi M, et al (2019) The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight. Science 12:364(6436
+Goldsmith M, Crooks SD et al (2022) Bone strength and composition in spacefaring rodents: systematic review and meta-analysis NPJ Microgravity 8:10 doi:10.1038/s41526-022-00195-7
+47 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+Gupta S, Manske SL (2013) Increasing the Number of Unloading/Reambulation Cycles does not Adversely Impact Body Composition and Lumbar Bone Mineral Density but Reduces Tissue Sensitivity Acta Astronaut 92:89-96 doi:10.1016/j.actaastro.2012.04.003
+Gutteridge DH, Stewart GO, Prince RL et al (2002) A randomized trial of sodium fluoride (60 mg) +/- estrogen in postmenopausal osteoporotic vertebral fractures: increased vertebral fractures and peripheral bone loss with sodium fluoride; concurrent estrogen prevents peripheral loss, but not vertebral fractures. Osteoporos Int 13(2):158­170. doi:10.1007/s001980200008
+Hans D, Barthe N (2011) Correlations Between Trabecular Bone Score, Measured Using Anteroposterior Dual-Energy X-Ray Absorptiometry Acquisition, and 3-Dimensional Parameters of Bone Microarchitecture: An Experimental Study on Human Cadaver Vertebrae. J Clin Densitom 14:302­312. doi: 10.1016/j.jocd.2011.05.005
+Hernandez CJ, Gupta A (2006) A biomechanical analysis of the effects of resorption cavities on cancellous bone strength. J Bone Miner Res Off J Am Soc Bone Miner Res 21:1248­1255. doi: 10.1359/jbmr.060514
+International Society for Clinical Densitometry (ISCD) (2015) Official Positions of the ISCD for adults and pediatrics. ISCD website at www.ISCD.org
+Judex S, Garman R et al (2004) Genetically linked site-specificity of disuse osteoporosis J Bone Miner Res 19:607-613 doi:10.1359/JBMR.040110
+Judex S, Gupta S (2009) Regulation of mechanical signals in bone. Orthod Craniofac Res 12(2):94-104. doi: 10.1111/j.1601-6343.2009.01442.x
+Judex S, Rubin CT (2010) Is bone formation induced by high-frequency mechanical signals modulated by muscle activity? J Musculoskeletal Neuronal Interact 10(1):3-11
+Judex S, Zhang W (2013) Genetic loci that control the loss and regain of trabecular bone during unloading and reambulation J Bone Miner Res 28:1537-1549 doi:10.1002/jbmr.1883
+Juhl OJ, Buettmann EG (2021) Update on the effects of microgravity on the musculoskeletal system NPJ Microgravity 7:28 doi:10.1038/s41526-021-00158-4
+Kanis JA, Melton LJ (1994) The diagnosis of osteoporosis. J Bone Miner Res Off J Am Soc Bone Miner Res 9:1137­1141. doi:10.1002/jbmr.5650090802
+Kanis, JA, Johnell O et al (2000) Risk of hip fracture according to the World Health Organization criteria for osteopenia and osteoporosis . Bone 27:585-590
+Kanis JA, Oden A, Johnell O et al (2007) The use of clinical risk factors enhances the performance of BMD in the prediction of hip and osteoporotic fractures in men and women. Osteoporos Int J 18(8):1033-1046
+48 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+Keaveny TM, Hoffmann PF (2008) Femoral bone strength and its relation to cortical and trabecular changes after treatment with PTH, alendronate, and their combination as assessed by finite element analysis of quantitative CT scans. J Bone Miner Res 23(12):1974-82
+Keaveny TM, Kopperdahl DL, Melton LJ, et al (2010) Age-dependence of femoral strength in white women and men. J Bone Miner Res Off J Am Soc Bone Miner Res 25:994­1001. doi: 10.1359/jbmr.091033
+Keyak JH, Kaneko TS (2005) Predicting proximal femoral strength using structural engineering models. Clin Orthop 219­228
+Keyak JH, Koyama AK et al (2009) Reduction in proximal femoral strength due to long-duration spaceflight. Bone 44:449­453. doi:10.1016/j.bone.2008.11.014
+Keyak JH, Sigurdsson S, Karlsdottir G et al (2011) Male-female differences in the association between incident hip fracture and proximal femoral strength: a finite element analysis study. Bone 48:1239­1245. doi:10.1016/j.bone.2011.03.682
+Keyak JH, Kaneko TS (2020) Hip load capacity and yield load in men and women of all ages. Bone. 2020 Aug;137:115321. doi: 10.1016/j.bone.2020.115321. Epub 2020 Mar 14. PMID: 32184195; PMCID: PMC7354222
+Kleerekoper M, Villanueva AR (1985) The role of three-dimensional trabecular microstructure in the pathogenesis of vertebral compression fractures. Calcif Tissue Int 37:594-597
+Ko FC, Mortreux M (2020) Dose-dependent skeletal deficits due to varied reductions in mechanical loading in rats NPJ Microgravity 6:15 doi:10.1038/s41526-020-0105-0
+Kohrt WM, Bloomfield SA (2004) American College of Sports Medicine Position Stand: physical activity and bone health. Med Sci Sports Exerc 36:1985­1996
+Lang T, LeBlanc A (2004) Cortical and Trabecular Bone Mineral Loss from the Spine and Hip in Long-Duration Spaceflight. J Bone Miner Res19:1006­1012. doi: 10.1359/JBMR.040307
+Lang TF (2006) What do we know about fracture risk in long-duration spaceflight? J Musculoskelet Neuronal Interact 6:319­321.
+LeBlanc A, Lin C, Shackelford L et al (2000a) Muscle volume, MRI relaxation times(T2), and body composition after spaceflight. J Appl Physiol Bethesda Md 1985 89:2158­2164.
+LeBlanc A, Schneider V et al (2000b) Bone mineral and lean tissue loss after long duration space flight. J Musculoskelet Neuronal Interact 1:157­60.
+LeBlanc AD, Spector ER (2007) Skeletal responses to space flight and the bed rest analog: a review. J Musculoskelet Neuronal Interact7:33­47.
+49 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+LeBlanc A, Matsumoto T, Jones J et al (2013) Bisphosphonates as a supplement to exercise to protect bone during long-duration spaceflight. Osteoporos Int. 24:2105-2114. Doi:10.1007/s00198-012-2243-z.
+Lloyd SA, Loiselle AE (2014) Evidence for the role of connexin 43-mediated intercellular communication in the process of intracortical bone resorption via osteocytic osteolysis BMC Musculoskelet Disord 15:122 doi:10.1186/1471-2474-15-122
+Lloyd SA, Morony SE, Ferguson VL et al (2015) Osteoprotegerin is an effective countermeasure for spaceflight-induced bone loss in mice Bone 81:562-572 doi:10.1016/j.bone.2015.08.021
+Looker AE, Wahner HW, Dunn WL et al (1998) Updated data on proximal femur bone mineral levels of US adults . Osteoporos Int. 8(5):468-469. Doi:10.1007/s001/s001980050093
+Macaulay TR, Siamwala JH, Hargens AR et al (2017) Thirty days of spaceflight does not alter murine calvariae structure despite increased Sost expression Bone Rep 7:57-62 doi:10.1016/j.bonr.2017.08.004
+Macias BR, Lima F, Swift JM et al (2016) Simulating the Lunar Environment: Partial Weightbearing and High-LET Radiation-Induce Bone Loss and Increase Sclerostin-Positive Osteocytes Radiat Res 186:254-263 doi:10.1667/RR13579.1
+Mader TH, Gibson CR, Pass AF, et al (2011) Optic disc edema, globe flattening, choroidal folds, and hyperopic shifts observed in astronauts after long duration space flight. Ophthalmology 118:2058­2069. doi:10.1016/j.ophtha.2011.06.021
+Malkani S, Chin CR, Cekanaviciute E et al (2020) Circulating miRNA Spaceflight Signature Reveals Targets for Countermeasure Development Cell Rep 33:108448 doi:10.1016/j.celrep.2020.108448
+Medimaps Group (2015) Advanced DXA Using TBS iNsight.
+Michalski AS, Amin S, Cheung AM et al (2019) Hip load capacity cut-points for astronaut skeletal health: NASA finite element strength task group recommendations. NPJ Microgravity 5:6
+Morey ER, Sabel EE (1979) A new rat model simulating some aspects of space flight. Physiologist 22(6):S23-S24.
+Morey-Holton E, Globus RK (2005) The hindlimb unloading rat model: literature overview, technique update and comparison with space flight data Adv Space Biol Med 10:7-40
+Morey-Holton ER, Globus RK (2002) Hindlimb unloading rodent model: technical aspects J Appl Physiol 92:1367-1377 doi:10.1152/japplphysiol.00969.2001
+Mortreux M, Nagy JA (2018) A novel partial gravity ground-based analog for rats via quadrupedal unloading J Appl Physiol (1985) 125:175-182 doi:10.1152/japplphysiol.01083.2017
+50 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+Mortreux M, Ko FC (2019a) Longitudinal time course of muscle impairments during partial weight-bearing in rats NPJ Microgravity 5:20 doi:10.1038/s41526-019-0080-5
+Mortreux M, Riveros D (2019b) Mimicking a Space Mission to Mars Using Hindlimb Unloading and Partial Weight Bearing in Rats J Vis Exp doi:10.3791/59327
+Mortreux M, Riveros D (2019c) A Moderate Daily Dose of Resveratrol Mitigates Muscle Deconditioning in a Martian Gravity Analog Front Physiol 10:899 doi:10.3389/fphys.2019.00899
+Mortreux M, Rosa-Caldwell ME (2020a) Approaching gravity as a continuum using the rat partial weight-bearing model. Life. 2020 Oct 8;10(10):235. Review.
+Mortreux M, Riveros D (2020b) The partial weight-bearing model using a pelvic harness does not impact stress or hindlimb blood flow. Acta Astronautica 2020:249-255.
+Mosekilde L, Ebbesen EN (2000) Trabecular bone structure and strength ­ remodelling and repair. J Musculoskelet Neuronal Interact 1(1):25-30.
+Mulavara AP, Feiveson AH (2010) Locomotor function after long duration space flight: effects and motor learning during recovery. Exp Brain Res 202:649­659. doi: 10.1007/s00221-0102171-0
+NASA (2014) NASA Spaceflight Human System Standards - NASA Standard 3001.National Aeronautics and Space Administration, NASA Johnson Space Center
+NASA Human Research Program (2016) Human Research Program Roadmap.https://humanresearchroadmap.nasa.gov.
+Nelson ES, Lewandowski B (2009) Development and validation of a predictive bone fracture risk model for astronauts. Ann Biomed Eng 37:2337­2359. doi: 10.1007/s10439-009-9779-x
+Newman DJ, Jackson DK (1997) Altered astronaut lower limb and mass center kinematics in downward jumping following space flight. Exp Brain Res 117:30­42.
+Ng AC, Drake MT (2012) Trends in subtrochanteric, diaphyseal, and distal femur fractures, 1984-2007. Osteoporos Int J Establ Result Coop Eur Found Osteoporos Natl Osteoporos Found USA 23:1721­1726. doi:10.1007/s00198-011-1777-9
+Nguyen ND, Pongchaiyakul C (2005) Identification of high-risk individuals for hip fracture: A 14year prospective study. J Bone Miner Res 2005 20:1921-1928.
+NIH Consensus Development Panel on Osteoporosis Prevention, Diagnosis, and Therapy (2001) Osteoporosis prevention, diagnosis, and therapy. JAMA 285:785­795.
+Norbury JW, Schimmerling W, Slaba TC et al (2016) Galactic cosmic ray simulation at the NASA Space Radiation Laboratory Life Sci Space Res (Amst) 8:38-51 doi:10.1016/j.lssr.2016.02.001
+51 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+Norman AW- (1974) 1,25-dihydroxyvitamin D3: a kidney-produced steroid hormone essential to calcium homeostasis. Am J Med. 57(1):21-27. Doi:10>1016/0002-9343(74)90763-3.
+Ortega MT, Pecaut MJ (2009) Shifts in bone marrow cell phenotypes caused by spaceflight J Appl Physiol (1985) 106:548-555 doi:10.1152/japplphysiol.91138.2008
+Orwoll ES, Adler RA, Amin S et al (2013) Skeletal health in long-duration astronauts: nature, assessment, and management recommendations from the NASA Bone Summit. J Bone Miner Res Off J Am Soc Bone Miner Res 28:1243­1255. doi: 10.1002/jbmr.1948
+Orwoll ES, Marshall LM, Nielson CM et al (2009) Finite element analysis of the proximal femur and hip fracture risk in older men. J Bone Miner Res Off J Am Soc Bone Miner Res 24:475­483. doi: 10.1359/jbmr.081201
+Ozcivici E, Zhang W (2014) Quantitative trait loci that modulate trabecular bone's risk of failure during unloading and reloading Bone 64:25-32 doi:10.1016/j.bone.2014.03.042
+Parfitt AM, Drezner MK (1987) Bone histomorphometry: standardization of nomenclature, symbols, and units. Report of the ASBMR Histomorphometry Nomenclature Committee. J Bone Miner Res Off J Am Soc Bone Miner Res 2:595­610. doi: 10.1002/jbmr.5650020617
+Peters B, Bloomberg J (1996) Eye, head, and trunk phase relationships during treadmill locomotion while viewing visual targets at different distances. Soc. Neurosci. Abstr. 1996 22(3): 1848. Soc Neurosci Abstr 22:1848.
+Prevrhal S, Meta M (2004) Two new regions of interest to evaluate separately cortical and trabecular BMD in the proximal femur using DXA. Osteoporos Int J Establ Result Coop Eur Found Osteoporos Natl Osteoporos Found USA 15:12­19. doi: 10.1007/s00198-003-1500-6
+Ravn P, Cizza G, Bjarnason NH, et al (1999) Low body mass index is an important risk factor for low bone mass and increased bone loss in early postmenopausal women. Early Postmenopausal Intervention Cohort (EPIC) study group. J Bone Miner Res. 14:1622-1627.
+Riggs BL, Hodgson SF (1990) Effect of fluoride treatment on the fracture rate in postmenopausal women with osteoporosis. N Engl J Med 322:802­809. doi: 10.1056/NEJM199003223221203
+Riggs BL, Melton LJ, Robb RA et al (2006) Population-based analysis of the relationship of whole bone strength indices and fall-related loads to age- and sex-specific patterns of hip and wrist fractures. J Bone Miner Res Off J Am Soc Bone Miner Res 21:315­323. doi: 10.1359/JBMR.051022
+Robinovitch SN, Hayes WC (1991) Prediction of femoral impact forces in falls on the hip. J Biomech Eng 113:366­374.
+52 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+Rosa-Caldwell ME, Brown JL, Perry RA, Jr. et al (2020) Regulation of mitochondrial quality following repeated bouts of hindlimb unloading Appl Physiol Nutr Metab 45:264-274 doi:10.1139/apnm-2019-0218
+Sambrook P, Cooper C Osteoporosis. Lancet. 2006 Jun 17;367(9527):2010-8. doi: 10.1016/S0140-6736(06)68891-0. Erratum in: Lancet. 2006 Jul 1;368(9529):28. PMID: 16782492
+Sankaran JS, Varshney M (2017) Differences in bone structure and unloading-induced bone loss between C57BL/6N and C57BL/6J mice Mamm Genome 28:476-486 doi:10.1007/s00335-0179717-4
+Schuit SCE, van der Klift M, Weel AE et al (2004) Fracture incidence and association with bone mineral density in elderly men and women: the Rotterdam Study. Bone 34:195­202. doi: 10.1016/j.bone.2003.10.001
+Schreurs AS, Shirazi-Fard Y, Shahnazari M et al (2016) Dried plum diet protects from bone loss caused by ionizing radiation Sci Rep 6:21343 doi:10.1038/srep21343
+Seeman E (2002) Pathogenesis of bone fragility in women and men. Lancet. 59(9320):18411850
+Semple C, Riveros D (2020) Partial Weight-Bearing in Female Rats: Proof of Concept in a Martian-Gravity Analog Front Physiol 11:302 doi:10.3389/fphys.2020.00302
+Shahnazari M, Kurimoto P (2012) Simulated spaceflight produces a rapid and sustained loss of osteoprogenitors and an acute but transitory rise of osteoclast precursors in two genetic strains of mice Am J Physiol Endocrinol Metab 303:E1354-1362 doi:10.1152/ajpendo.00330.2012
+Shelhamer M, Bloomberg J (2020) Selected discoveries from human research in space that are relevant to human health on Earth. NPJ Microgravity. 12(6):5 doi: 10.1038/s41526-020-0095-y.
+Shiba D, Mizuno H, Yumoto A et. al., (2017) Development of new experimental platform 'MARS'-Multiple Artificial-gravity Research System-to elucidate the impacts of micro/partial gravity on mice Sci Rep 7:10837 doi:10.1038/s41598-017-10998-4
+Shirazi-Fard Y, Alwood JS (2015) Mechanical loading causes site-specific anabolic effects on bone following exposure to ionizing radiation Bone 81:260-269 doi:10.1016/j.bone.2015.07.019
+Shirazi-Fard Y, Anthony RA (2013a) Previous exposure to simulated microgravity does not exacerbate bone loss during subsequent exposure in the proximal tibia of adult rats Bone 56:461-473 doi:10.1016/j.bone.2013.07.004
+Shirazi-Fard Y, Kupke JS (2013b) Discordant recovery of bone mass and mechanical properties during prolonged recovery from disuse Bone 52:433-443 doi:10.1016/j.bone.2012.09.021
+53 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+Sibonga J (2017) Risk of Accelerated Osteoporosis. National Aeronautics and Space Administration, NASA Johnson Space Center. Human Research Program Evidence Report May 9, 2017, available at: https://humanresearchroadmap.nasa.gov/Evidence/
+Sibonga JD, Evans HJ (2007) Recovery of spaceflight-induced bone loss: bone mineral density after long-duration missions as fitted with an exponential function. Bone 41:973­978. doi: 10.1016/j.bone.2007.08.022
+Sibonga J.D., Cavanagh PR (2008) Adaptation of the Skeletal System during Long-Duration Spaceflight. Clinical Rev Bone Miner Metab. 2008 5:249-261.
+Sibonga JD, Spector ER (2015) Evaluating bone loss in ISS astronauts. Aerosp Med Hum Perform. Dec;86(12 Suppl):A38-44.
+Sibonga J, Matsumoto T, Jones J et al (2019) Resistive Exercise in Astronauts on Prolonged Spaceflights Provides Partial Protection against Spaceflight-induced Bone Loss. Bone. Nov;128:112037. doi: 10.1016/j.bone.2019.07.013. Epub 2019 Aug 7.
+Sibonga JD, Spector ER (2020) Use of quantitative computed tomography to assess for clinicallyrelevant skeletal effects of prolonged spaceflight on astronaut hips. J Clin Densitometry: Assessment & Management of Musculoskeletal Health 23(2):155-165.
+Smith SM, Heer M (2015) Bone metabolism and renal stone risk during International Space Station missions. Bone 81:712­720. doi: 10.1016/j.bone.2015.10.002
+Smith SM, Heer MA (2012) Benefits for bone from resistance exercise and nutrition in longduration spaceflight: Evidence from biochemistry and densitometry. J Bone Miner Res Off J Am Soc Bone Miner Res 27:1896­1906. doi: 10.1002/jbmr.1647
+Smith SM, Wastney ME, Morukov BV et al (1999) Calcium metabolism before, during, and after a 3-mo spaceflight: kinetic and biochemical changes. Am J Physiol 277:R1-10
+Smith SM, Wastney ME (2005) Bone markers, calcium metabolism, and calcium kinetics during extended-duration space flight on the mir space station. J Bone Miner Res Off J Am Soc Bone Miner Res 20:208­218. doi:10.1359/JBMR.041105
+Smith SM, Lane HW (2019) Spaceflight metabolism and nutritional support. In: Barratt MR, Baker ES, Pool SL (eds) Principles of clinical medicine for space flight, 2nd Edn, Springer Science+Business Media, United Kingdom, pp 413-439
+Sornay-Rendu E, Munoz F (2005) Identification of Osteopenic Women at High Risk of Fracture: The OFELY Study. J Bone Miner Res 20:1813­1819. doi: 10.1359/JBMR.050609
+Spector ER, Yardley G et al (2021) Validation of a modified DXA software to identify astronauts at risk for persistent spaceflight-induced bone loss. Oral Presentation Annual Meeting International Society for Clinical Densitometry. March 04, 2021.
+54 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+Spengler DM, Morey ER, Carter DR (1983) Effects of spaceflight on structural and material strength of growing bone Proc Soc Exp Biol Med 174:224-228 doi:10.3181/00379727-17441729
+Squire M, Donahue LR, Rubin C (2004) Genetic variations that regulate bone morphology in the male mouse skeleton do not define its susceptibility to mechanical unloading Bone 35:13531360 doi:10.1016/j.bone.2004.08.010
+Steczina S, Tahimic CGT (2020) Dietary countermeasure mitigates simulated spaceflightinduced osteopenia in mice Sci Rep 10:6484 doi:10.1038/s41598-020-63404-x
+Sukumar D, Ambia-Sobhan H (2011) Areal and volumetric bone mineral density and geometry at two levels of protein intake during caloric restriction: a randomized controlled trial. J Bone Miner Res. 26:1339-1348.
+Sulkowski CM, Gilkey KM (2011) An extravehicular suit impact load attenuation study to improve astronaut bone fracture prediction. Aviat Space Environ Med 82:455­462.
+Swift JM, Lima F (2013) Partial weight bearing does not prevent musculoskeletal losses associated with disuse. Med Sci Sports Exerc45:2052­2060. doi: 10.1249/MSS.0b013e318299c614
+Tahimic CGT, Globus RK (2017) Redox Signaling and Its Impact on Skeletal and Vascular Responses to Spaceflight Int J Mol Sci 18 doi:10.3390/ijms18102153
+Tahimic CGT, Paul AM (2019) Influence of Social Isolation During Prolonged Simulated Weightlessness by Hindlimb Unloading. Front Physiol 10:1147 doi:10.3389/fphys.2019.01147
+Turner RT (2000) Invited review: what do we know about the effects of spaceflight on bone? J Appl Physiol Bethesda Md 1985 89:840­847.
+van der Linden JC, Homminga J (2001) Mechanical consequences of bone loss in cancellous bone. J Bone Miner Res Off J Am Soc Bone Miner Res 16:457­465. doi: 10.1359/jbmr.2001.16.3.457
+Vico L, van Rietbergen B, Vilayphiou N et al (2017) Cortical and trabecular bone microstructure did not recovery at weight-bearing skeletal sites and progressively deteriorated at non-weightbearing sites during the year following International Space Station Missions. J Bone Miner Res.32(10):2010-2021. doi: 10.1002/jbmr.3188.
+Vico L, Collet P (2000) Effects of long-term microgravity exposure on cancellous and cortical weight-bearing bones of cosmonauts. Lancet Lond Engl 355:1607­1611.
+Vico L, Collet P (2010) Partial weight suspension: a novel murine model for investigating adaptation to reduce musculoskeletal loading. J Appl Physiol 109(2):350-357.
+55 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+Wainwright SA, Marshall LM (2005) Hip Fracture in Women without Osteoporosis. J Clin Endocrinol Metab 90:2787­2793. doi:10.1210/jc.2004-1568 Willey JS, Livingston EW (2010) Risedronate prevents early radiation-induced osteoporosis in mice at multiple skeletal locations. Bone 46(1):101-11. doi: 10.1016/j.bone.2009.09.002. Winters-Stone KM, Snow CM (2006) Site-specific response of bone to exercise in premenopausal women. Bone 39(6):1203-1209. World Health Organization (2004) WHO Scientific Group on the Assessment of Osteoporosis at Primary Health Care Level. Summary Meeting Report. Brussels, Belgium, May 5-7, 2004. World Health Organization, Brussels, Belgium World Health Organization (1994) Assessment of fracture risk and its application to screening for postmenopausal osteoporosis. Report of a WHO Study Group. World Health Organ Tech Rep Ser 843:1­129. Zamarioli A, Adam G, Maupin KA et al (2022) Systemic effects of BMP2 treatment of fractures on non-injured skeletal sites during spaceflight Front Endocrinol (Lausanne) 13:910901 doi:10.3389/fendo.2022.910901 Zamarioli A, Campbell ZR, Maupin KA et al (2021) Analysis of the effects of spaceflight and local administration of thrombopoietin to a femoral defect injury on distal skeletal sites NPJ Microgravity 7:12 doi:10.1038/s41526-021-00140-0 Zhong N, Garman RA (2005) Gene expression patterns in bone after 4 days of hind-limb unloading in two inbred strains of mice Aviat Space Environ Med 76:530-535 Zwart SR, Rice BR (2018) Dietary acid load and bone turnover during long-duration spaceflight and bed rest. Am J Clin Nutr 107(5):834-84
+56 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+
+XI. Appendix B: Team
+
+NASA Johnson Space Center Jean D. Sibonga, PhD Elisabeth R. Spector, BS Greg Yardley, MSRS, RT(R), CBDT Joshua S. Alwood, PhD
+
+NASA Johnson Space Center, Houston, TX KBRwyle, Houston, TX KBRwyle, Houston, TX NASA Ames Research Center, Moffett Field, CA
+
+CLINICAL CONSULTANTS (BONE & DENSITOMETRY)
+
+Eric Orwoll, MD
+
+Oregon Health & Sciences University, Portland, OR
+
+Robert A. Adler, MD
+
+McGuire Veterans Affairs Medical Center, Richmond VA
+
+Shreyasee Amin, MD
+
+Mayo Clinic, Rochester, MN
+
+Neil Binkley, MD
+
+University of Wisconsin, Madison, WI
+
+Bart Clarke, MD
+
+Mayo Clinic, Rochester, MN
+
+Suzanne Jan de Beur, MD
+
+Johns Hopkins Bayview Medical Ctr, Baltimore, MD
+
+E. Michael Lewiecki, MD
+
+University of New Mexico Health Sciences Ctr,
+
+Albuquerque, NM
+
+Mary Oates, MD
+
+Marion Regional Medical Center, Santa Maria, CA
+
+Steven Petak, MD
+
+Methodist Hospital, Houston, TX
+
+Sue Shapses, Ph.D
+
+Rutgers University, New Brunswick, NJ
+
+Mehrsheed Sinaki, MD
+
+Mayo Clinic, Rochester, MN
+
+Nelson B. Watts, MD
+
+Mercy Health Osteoporosis & Bone Health Services,
+
+Cincinnati, OH
+
+Connie Weaver, PhD
+
+Purdue University, West Lafayette, IN
+
+57 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+
+XII. Appendix C: List of Acronyms & Abbreviations
+
+aBMD BFxRM BMD DAG DRM DXA EVA F HRP IMM iRED IVA LTH M MEDB m MRI OPS PRA RCAP QCT vBMD
+
+areal bone mineral density bone fracture risk model bone mineral density directed acyclic graph design reference mission dual-energy x-ray absorptiometry extravehicular activity female Human Research Program integrated medical model interim resistance exercise device intravehicular activity long-term health male Medical Evaluations Document Volume B meter magnetic resonance imaging medical/mission operations (referencing years as active astronaut) probabilistic risk assessment Research Clinical Advisory Panel quantitative computed tomography volumetric bone mineral density
+
+58 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+XIII. Appendix D: Summaries of Expert Opinions
+Bone Summit 2010 (Technical Memorandum), 2013 & 2016 Executive Summaries and 2017 Technical Interchange Meeting
+
+2010 Bone Summit
+
+Orwoll Bone
+
+TM-2016-219284 (002).pdSfummit (2).pdf
+
+2013 Bone Summit FINAL Executive II Executive Summary ISu(0m0m3)a.rpydBfone RCAP III 2016.pdf
+
+v3 Signed Executive Summary for TIM June 2018.docx.pdf
+
+59 HRP-F07-ERFT.R2
+
+Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+XIV. Appendix E: Physiology of Primary Osteoporosis (Types I and II)
+To enhance the understanding of skeletal fragility induced by age-related bone loss (i.e., Primary Osteoporosis), the HRP Evidence Report for Early Onset Osteoporosis is attached in this appendix. Enclosed in this Evidence report, reviewed by the National Academy of Sciences and published in 2017, is a description of the bone cell physiology underlying Primary Osteoporosis. Unlike age-related bone loss and Primary Osteoporosis, the underlying bone cell biology for spaceflight-induced bone loss is not as well characterized due to infrequent and more recent exposures. Hence, the discussion of bone physiology within the 2017 Osteoporosis Evidence Report can provide a resource for understanding the differences and similarities between cohorts and how meaningful the knowledge-gained from aging is to the astronauts and to the spaceflight scenario.
+Osteo ER 2017.pdf
+61 HRP-F07-ERFT.R2
+
+
