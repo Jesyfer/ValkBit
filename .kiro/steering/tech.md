@@ -10,7 +10,9 @@
 - Web Bluetooth API (opcional, fallback/extra) — si consiguen conectar un wearable con acelerómetro compatible BLE. No es requisito para el MVP.
 
 ## Despliegue
-- Vercel o Netlify — deploy estático, gratis, configuración en minutos. AWS Amplify/S3+CloudFront si quieren alinearse a la recomendación de las bases del hackathon.
+- **AWS Amplify** — obligatorio en la práctica: el criterio de evaluación "Uso de Servicios de AWS y Kiro" vale 10% de la nota y exige al menos un servicio de AWS. Amplify hace deploy estático casi idéntico en facilidad a Vercel/Netlify, así que no perdemos velocidad por el cambio.
+- Alternativa dentro de AWS si prefieren: S3 + CloudFront.
+- **No usar Vercel/Netlify como deploy final** — aunque sea más conocido, no cuenta para ese 10%.
 
 ## Convenciones de código
 - Nombres de archivos: kebab-case (`risk-engine.js`, `motion-tracker.js`).
