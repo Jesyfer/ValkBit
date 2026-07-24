@@ -1,5 +1,39 @@
 {
-  "_comment": "Valores reales extraídos de los NASA HRP Evidence Reports en docs/. Ver docs/fuentes.md para citas completas. Simplificados para el MVP del hackathon a partir de datos no lineales reales — documentado como tal en el pitch.",
+  "_comment": "Valores reales extraídos de los NASA HRP Evidence Reports, el RCT de Kramer et al. 2017, y el libro de deconditioning de la NASA (2001). Ver docs/metricas-extraidas.md y docs/fuentes.md para el detalle completo por documento.",
+
+  "muscleStrength": {
+    "dailyLossRate_noCountermeasure": -0.3,
+    "dailyLossRate_unit": "percent_per_day",
+    "day60_noCountermeasure": -40,
+    "day60_withCountermeasure": 0,
+    "day60_unit": "percent_change_at_60_days_bed_rest",
+    "note": "El -0.3%/día es una tasa lineal simplificada; la pérdida real de fuerza no es perfectamente lineal (más rápida al inicio). El dato a 60 días del RCT de Kramer es el ancla más confiable: -40% en el grupo control (torque máximo de extensión de rodilla) vs. sin cambio significativo en el grupo con entrenamiento de salto.",
+    "source_daily": "Narici et al. 1989, citado en 'Deconditioning and Reconditioning Humans in Stressful Environments' (NASA, 2001)",
+    "source_60day": "Kramer et al. 2017, Scientific Reports — RCT con 23 participantes, 60 días de bed-rest, entrenamiento de salto vs. control"
+  },
+
+  "muscleMass": {
+    "dailyLossRate_CSA_noCountermeasure": -0.1,
+    "dailyLossRate_unit": "percent_per_day",
+    "day60_legLeanMass_noCountermeasure": -5,
+    "day60_legLeanMass_withCountermeasure": 0,
+    "day60_unit": "percent_change_at_60_days_bed_rest",
+    "note": "Ojo: la pérdida de *masa* muscular (-5% a 60 días) es mucho menor que la pérdida de *fuerza/función* (-40% a 60 días) — la fuerza cae desproporcionadamente más rápido que el volumen. El motor de riesgo debería tratarlas como señales separadas, no intercambiables.",
+    "source_daily": "Narici et al. 1989, citado en 'Deconditioning and Reconditioning Humans in Stressful Environments' (NASA, 2001)",
+    "source_60day": "Kramer et al. 2017, Scientific Reports"
+  },
+
+  "aerobicCapacity": {
+    "vo2peak_17days_spaceflight_noCountermeasure": -10.4,
+    "vo2peak_17days_bedRest_noCountermeasure": -6.6,
+    "vo2peak_60days_noCountermeasure": -29,
+    "vo2peak_60days_withCountermeasure": 0,
+    "vo2peak_longDurationMission_range_percent": [10, 20],
+    "unit": "percent_change",
+    "note": "vo2peak_17days_* son cambios a los 17 días (no una tasa diaria constante). vo2peak_60days_* son del RCT de Kramer (el ancla más limpia: control vs. contramedida en un solo experimento). vo2peak_longDurationMission_range es tras misiones de ~6 meses.",
+    "source": "NASA HRP Evidence Report: Aerobic and Muscle (2024); Kramer et al. 2017 para los valores de 60 días"
+  },
+
   "boneLossRate": {
     "totalHip_noCountermeasure": -0.94,
     "totalHip_withARED": -0.64,
@@ -7,24 +41,24 @@
     "femoralNeck_withARED": -0.32,
     "lumbarSpine_noCountermeasure": -0.68,
     "lumbarSpine_withARED": -0.47,
-    "unit": "percent_per_month",
-    "source": "NASA HRP Evidence Report: Risk of Bone Fracture due to Spaceflight-induced Changes to Bone (HRP-F07-ERFT.R2, 2024), Table 2 (Sibonga 2019; Lang 2004)"
+    "unit_monthly": "percent_per_month",
+    "tibialBMD_60days_noCountermeasure": -2.6,
+    "tibialBMD_60days_withCountermeasure": 0,
+    "unit_60day": "percent_change_at_60_days_bed_rest",
+    "source_monthly": "NASA HRP Evidence Report: Risk of Bone Fracture due to Spaceflight-induced Changes to Bone (HRP-F07-ERFT.R2, 2024), Table 2 (Sibonga 2019; Lang 2004)",
+    "source_60day": "Kramer et al. 2017, Scientific Reports (tibia, pQCT)"
   },
-  "muscleAerobicLossRate": {
-    "vo2peak_17days_spaceflight_noCountermeasure": -10.4,
-    "vo2peak_17days_bedRest_noCountermeasure": -6.6,
-    "vo2peak_longDurationMission_range": [10, 20],
-    "muscleProteinSynthesis_vastusLateralis_noCountermeasure": -49,
-    "muscleProteinSynthesis_soleus_noCountermeasure": -22,
-    "unit": "percent_change",
-    "note": "vo2peak_17days_* son % de cambio a los 17 días (no una tasa mensual/diaria constante — la pérdida real es más rápida al inicio y luego se desacelera). vo2peak_longDurationMission_range es tras misiones de larga duración (~6 meses).",
-    "source": "NASA HRP Evidence Report: Risk of Impaired Performance due to Reduced Muscle Mass, Strength & Endurance / Risk of Reduced Physical Performance Capabilities due to Reduced Aerobic Capacity (2024)"
+
+  "genderConsideration": {
+    "note": "Evidencia preliminar sugiere que las mujeres podrían perder masa muscular más rápido que los hombres en reposo prolongado (ej. ~21-24% a 60 días en mujeres vs. ~18% a 90 días en hombres, estudios LTBR/WISE). No se implementa como variable separada en el MVP del hackathon — se documenta aquí como limitación conocida del modelo, y como posible mejora futura.",
+    "source": "Jost 2008, Hippokratia — revisión de estudios de bed-rest de la ESA"
   },
+
   "countermeasureReference": {
     "issProtocol_hoursPerDay": 2.5,
     "issProtocol_effectiveMinutesPerDay": 75,
     "issProtocol_daysPerWeek": 6,
     "note": "Protocolo real de ejercicio en la ISS (aeróbico + resistivo) — es la referencia de 'contramedida completa' de un astronauta, no una meta esperada para un usuario sedentario común. Úsenlo como ancla conceptual en el pitch, no como umbral literal copiado en la UI.",
-    "source": "Mismo Evidence Report de músculo/aeróbico, sección de hardware y prescripción de ejercicio en ISS"
+    "source": "NASA HRP Evidence Report: Aerobic and Muscle (2024), sección de hardware y prescripción de ejercicio en ISS"
   }
 }
