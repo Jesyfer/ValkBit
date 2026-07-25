@@ -19,7 +19,18 @@ import {
   hasCompletedOnboarding,
 } from '../modules/onboarding.js';
 
-import { seedOnboardingRecord } from '../modules/activity-manager.js';
+import { calculateCurrentRisk } from '../modules/risk-engine.js';
+
+import { seedOnboardingRecord, updateDayActiveMinutes } from '../modules/activity-manager.js';
+
+import { mountActivityPanel } from './activity-panel.js';
+
+import {
+  getRecommendations,
+  markCompleted,
+  unmarkCompleted,
+  getCompletedBonusMinutes,
+} from '../modules/recommendations.js';
 
 import {
   beginSession,
@@ -217,6 +228,9 @@ function renderResult(result) {
   const msgEl = document.getElementById('result-message');
   if (msgEl) msgEl.innerHTML = buildContextMessage(result);
 
+  // Recomendaciones según nivel de riesgo
+  _renderRecommendations(level);
+
   // Botón de reinicio
   document.getElementById('btn-redo')?.addEventListener('click', () => {
     showView('onboarding');
@@ -255,22 +269,21 @@ function _showSessionState(state) {
 }
 
 /**
- * Recalcula el score con los minutos activos reales del día y
- * actualiza el gauge + badge sin reanimar desde 0.
- * @param {number} realActiveMinutes
+ * Recalcula el score usando el promedio móvil de 3-7 días (Historia 3).
+ * Primero persiste los minutos de hoy en el historial, luego usa
+ * calculateCurrentRisk que aplica el promedio móvil con fallback a onboarding.
+ * @param {number} realActiveMinutes - Minutos activos acumulados hoy
  */
 function _refreshScoreFromActivity(realActiveMinutes) {
   const saved = loadOnboarding();
   if (!saved?.answers) return;
 
-  // Recalcular con los minutos reales acumulados hoy
-  const updatedAnswers = {
-    ...saved.answers,
-    // Sustituir la estimación por los minutos reales del día
-    exerciseDays:    7,
-    exerciseMinutes: realActiveMinutes,
-  };
-  const newResult = calculateProvisionalScore(updatedAnswers);
+  // Persistir los minutos reales de hoy para que el promedio móvil los incluya
+  updateDayActiveMinutes(realActiveMinutes);
+
+  // Calcular score con promedio móvil (o fallback a onboarding si <3 días reales)
+  const hoursSeated = saved.answers.hoursSeated;
+  const { result: newResult, source } = calculateCurrentRisk({ hoursSeated });
 
   // Actualizar gauge (sin animación de entrada, solo el offset)
   const R             = 80;
@@ -297,14 +310,24 @@ function _refreshScoreFromActivity(realActiveMinutes) {
     badge.className   = `risk-badge risk-badge--${newResult.level}`;
   }
 
-  // Actualizar tarjeta de minutos activos
-  _setText('detail-active-min', `${realActiveMinutes} min`);
+  // Actualizar tarjetas de detalle
+  _setText('detail-active-min', `${newResult.activeMinutesPerDay} min`);
+  _setText('detail-deficit', newResult.deficitMinutes > 0 ? `−${newResult.deficitMinutes} min` : '✓ Cubierto');
+  _setText('detail-strength-loss', `−${newResult.projectedStrengthLoss30d}%`);
+  _setText('detail-vo2-loss', `−${newResult.projectedVO2Loss30d}%`);
 
-  // Actualizar nota provisional: ya tiene datos reales
+  // Actualizar nota según la fuente de datos
   const note = document.querySelector('.provisional-note span:last-child');
   if (note) {
-    note.innerHTML = `Score actualizado con <strong>${realActiveMinutes} min activos</strong> registrados hoy.`;
+    if (source === 'realData') {
+      note.innerHTML = `Score basado en el <strong>promedio de tus últimos días</strong> de actividad registrada.`;
+    } else {
+      note.innerHTML = `Score actualizado con <strong>${realActiveMinutes} min activos</strong> registrados hoy (aún sin suficientes días para promedio).`;
+    }
   }
+
+  // Actualizar recomendaciones según el nuevo nivel
+  _renderRecommendations(newResult.level);
 }
 
 /**
@@ -465,7 +488,7 @@ function initSessionSection() {
   // Botón: Guardar
   document.getElementById('btn-session-save')?.addEventListener('click', () => {
     saveSession();
-    const totalMin = getTodayActiveMinutes();
+    const totalMin = getTodayActiveMinutes() + getCompletedBonusMinutes();
     _refreshScoreFromActivity(totalMin);
     resetToIdle(); // onStatusChange → estado 'idle'
   });
@@ -482,6 +505,91 @@ function initSessionSection() {
   _startStepsTicker();
 }
 
+// ─── Sección de recomendaciones ───────────────────────────────────────────────
+
+/** Nivel de riesgo actual (para re-renderizar recomendaciones tras marcar) */
+let _currentRiskLevel = 'low';
+
+/**
+ * Renderiza la lista de recomendaciones según el nivel de riesgo.
+ * @param {'low'|'medium'|'high'} level
+ */
+function _renderRecommendations(level) {
+  _currentRiskLevel = level;
+  const listEl = document.getElementById('recommendations-list');
+  if (!listEl) return;
+
+  const recs = getRecommendations(level);
+
+  if (level === 'low' || recs.length === 0) {
+    listEl.innerHTML = `
+      <p class="recommendations-list__empty">
+        Tu nivel de actividad es adecuado. Sigue así para mantener tu score bajo.
+      </p>`;
+    return;
+  }
+
+  listEl.innerHTML = recs.map(rec => `
+    <div class="recommendation-item ${rec.completed ? 'recommendation-item--done' : ''}"
+         role="listitem" data-rec-id="${rec.id}">
+      <button class="recommendation-item__check"
+              type="button"
+              aria-label="${rec.completed ? 'Desmarcar' : 'Marcar como completada'}: ${rec.text}"
+              aria-pressed="${rec.completed}">
+        ${rec.completed ? '✓' : '○'}
+      </button>
+      <div class="recommendation-item__body">
+        <span class="recommendation-item__text">${rec.text}</span>
+        <span class="recommendation-item__meta">+${rec.minutes} min · ${rec.source}</span>
+      </div>
+    </div>
+  `).join('');
+
+  // Bind click handlers
+  listEl.querySelectorAll('.recommendation-item__check').forEach(btn => {
+    btn.addEventListener('click', _onRecommendationToggle);
+  });
+}
+
+/**
+ * Handler: al hacer click en el botón de check de una recomendación.
+ * @param {Event} e
+ */
+function _onRecommendationToggle(e) {
+  const item = e.currentTarget.closest('.recommendation-item');
+  const id = item?.dataset.recId;
+  if (!id) return;
+
+  const isCompleted = item.classList.contains('recommendation-item--done');
+
+  if (isCompleted) {
+    unmarkCompleted(id);
+  } else {
+    markCompleted(id);
+  }
+
+  // Re-renderizar la lista
+  _renderRecommendations(_currentRiskLevel);
+
+  // Recalcular score sumando los bonus de recomendaciones completadas
+  _refreshScoreWithBonus();
+}
+
+/**
+ * Recalcula el score incluyendo los minutos bonus de recomendaciones completadas.
+ */
+function _refreshScoreWithBonus() {
+  const saved = loadOnboarding();
+  if (!saved?.answers) return;
+
+  const todayMin = getTodayActiveMinutes();
+  const bonusMin = getCompletedBonusMinutes();
+  const totalMin = todayMin + bonusMin;
+
+  // Persistir el total (sensor + bonus) y recalcular con promedio móvil
+  _refreshScoreFromActivity(totalMin);
+}
+
 // ─── Inicialización ───────────────────────────────────────────────────────────
 
 export function initApp() {
@@ -489,14 +597,20 @@ export function initApp() {
   initOnboardingView();
   initSessionSection();
 
+  // Montar panel de captura (Bluetooth + entrada manual)
+  const panelContainer = document.getElementById('activity-panel-mount');
+  if (panelContainer) mountActivityPanel(panelContainer);
+
   // Si el usuario ya completó el onboarding en otra sesión, saltar directo al resultado
   if (hasCompletedOnboarding()) {
     const saved = loadOnboarding();
     if (saved?.scoreResult) {
       renderResult(saved.scoreResult);
-      // Si ya hay minutos activos reales hoy, refrescar el score
+      // Si ya hay minutos activos reales hoy, refrescar el score (incluyendo bonus)
       const todayMin = getTodayActiveMinutes();
-      if (todayMin > 0) _refreshScoreFromActivity(todayMin);
+      const bonusMin = getCompletedBonusMinutes();
+      const totalMin = todayMin + bonusMin;
+      if (totalMin > 0) _refreshScoreFromActivity(totalMin);
       showView('result');
       return;
     }
