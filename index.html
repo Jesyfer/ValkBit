@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ValkBit — Predictor de riesgo por sedentarismo basado en ciencia NASA" />
+  <title>ValkBit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="src/ui/styles.css" />
+</head>
+<body>
+<div id="app">
+
+  <!-- ══════════════════════════════════════════
+       VISTA 1 — HERO
+  ══════════════════════════════════════════ -->
+  <section id="view-hero" class="view" role="main" aria-label="Pantalla de inicio">
+    <div class="container">
+      <div class="hero">
+
+        <div class="hero__logo" aria-hidden="true">🛰️</div>
+
+        <div>
+          <p class="day-badge">
+            <span aria-hidden="true">◉</span> Día 1 — sin datos históricos
+          </p>
+        </div>
+
+        <h1 class="hero__title">¿Cuánto te está<br>costando no moverte?</h1>
+
+        <p class="hero__subtitle">
+          Los estudios de la NASA muestran que el sedentarismo deteriora músculo
+          y capacidad aeróbica más rápido de lo que parece. En 2 minutos te
+          mostramos dónde estás.
+        </p>
+
+        <div class="hero__cta">
+          <button id="btn-start" class="btn btn--primary" type="button">
+            Calcular mi riesgo
+          </button>
+          <p class="hero__note">Sin cuenta · Sin datos personales · 100% en tu dispositivo</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       VISTA 2 — CUESTIONARIO
+  ══════════════════════════════════════════ -->
+  <section id="view-onboarding" class="view" role="main" aria-label="Cuestionario de actividad">
+    <div class="container">
+
+      <div class="form-card">
+        <div class="form-header">
+          <span class="form-header__step">Cuestionario rápido</span>
+          <h2 class="form-header__title">Tu rutina habitual</h2>
+          <p class="form-header__desc">
+            3 preguntas sobre un día típico tuyo. Con eso estimamos tu punto de partida.
+          </p>
+        </div>
+
+        <div class="questions">
+
+          <!-- Pregunta 1 -->
+          <div class="question">
+            <label class="question__label" for="q-seated">
+              ¿Cuántas horas al día estás sentado?
+            </label>
+            <p class="question__hint">Incluye trabajo, trayectos y tiempo libre</p>
+            <div class="slider-row">
+              <input
+                id="q-seated"
+                class="slider"
+                type="range"
+                min="0" max="16" step="0.5"
+                value="8"
+                aria-valuemin="0" aria-valuemax="16"
+                aria-label="Horas sentado por día"
+              />
+              <span class="slider__value" id="val-seated" aria-live="polite">8 h</span>
+            </div>
+          </div>
+
+          <!-- Pregunta 2 -->
+          <div class="question">
+            <label class="question__label" for="q-days">
+              ¿Cuántos días por semana haces ejercicio?
+            </label>
+            <p class="question__hint">Cualquier actividad que eleve el ritmo cardíaco</p>
+            <div class="slider-row">
+              <input
+                id="q-days"
+                class="slider"
+                type="range"
+                min="0" max="7" step="1"
+                value="2"
+                aria-valuemin="0" aria-valuemax="7"
+                aria-label="Días de ejercicio por semana"
+              />
+              <span class="slider__value" id="val-days" aria-live="polite">2 días</span>
+            </div>
+          </div>
+
+          <!-- Pregunta 3 -->
+          <div class="question">
+            <label class="question__label" for="q-minutes">
+              ¿Cuántos minutos dura cada sesión?
+            </label>
+            <p class="question__hint">Promedio aproximado, no importa si varía</p>
+            <div class="slider-row">
+              <input
+                id="q-minutes"
+                class="slider"
+                type="range"
+                min="0" max="120" step="5"
+                value="30"
+                aria-valuemin="0" aria-valuemax="120"
+                aria-label="Minutos por sesión de ejercicio"
+              />
+              <span class="slider__value" id="val-minutes" aria-live="polite">30 min</span>
+            </div>
+          </div>
+
+        </div><!-- /questions -->
+
+        <p id="form-error" class="form-error" role="alert" aria-live="assertive"></p>
+
+        <div style="display:flex; flex-direction:column; gap:0.75rem;">
+          <button id="btn-calculate" class="btn btn--primary" type="button">
+            Ver mi estimación de riesgo →
+          </button>
+          <button id="btn-back-hero" class="btn btn--ghost" type="button">
+            ← Volver
+          </button>
+        </div>
+
+      </div><!-- /form-card -->
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       VISTA 3 — RESULTADO
+  ══════════════════════════════════════════ -->
+  <section id="view-result" class="view" role="main" aria-label="Resultado de riesgo estimado">
+    <div class="container">
+
+      <!-- Gauge -->
+      <div class="gauge-wrap">
+        <div class="gauge" role="img" aria-label="Indicador de riesgo">
+          <svg class="gauge__svg" viewBox="0 0 180 180" aria-hidden="true">
+            <!-- Arco de fondo -->
+            <circle
+              class="gauge__bg"
+              cx="90" cy="90" r="80"
+              stroke-dasharray="376.99 502.65"
+              stroke-dashoffset="-62.83"
+            />
+            <!-- Arco de progreso -->
+            <circle
+              id="gauge-fill"
+              class="gauge__fill"
+              cx="90" cy="90" r="80"
+              stroke-dasharray="0 502.65"
+              stroke-dashoffset="0"
+            />
+          </svg>
+          <div class="gauge__center">
+            <span class="gauge__score" id="gauge-score">0</span>
+            <span class="gauge__label">/ 100</span>
+          </div>
+        </div>
+
+        <span class="risk-badge" id="risk-badge">—</span>
+      </div>
+
+      <!-- Nota provisional -->
+      <div class="provisional-note" role="note">
+        <span class="provisional-note__icon">ℹ</span>
+        <span>
+          Esta es una <strong>estimación inicial</strong> basada en tus respuestas.
+          Se actualizará automáticamente con datos reales de tus sensores.
+        </span>
+      </div>
+
+      <!-- Tarjetas de detalle -->
+      <div class="detail-cards" aria-label="Detalle del análisis">
+
+        <div class="detail-card">
+          <span class="detail-card__icon" aria-hidden="true">🏃</span>
+          <span class="detail-card__value" id="detail-active-min">—</span>
+          <span class="detail-card__label">Min activos estimados por día</span>
+        </div>
+
+        <div class="detail-card">
+          <span class="detail-card__icon" aria-hidden="true">⚡</span>
+          <span class="detail-card__value" id="detail-deficit">—</span>
+          <span class="detail-card__label">Déficit vs. mínimo diario (30 min)</span>
+        </div>
+
+        <div class="detail-card">
+          <span class="detail-card__icon" aria-hidden="true">💪</span>
+          <span class="detail-card__value" id="detail-strength-loss">—</span>
+          <span class="detail-card__label">Pérdida estimada de fuerza en 30 días</span>
+        </div>
+
+        <div class="detail-card">
+          <span class="detail-card__icon" aria-hidden="true">🫁</span>
+          <span class="detail-card__value" id="detail-vo2-loss">—</span>
+          <span class="detail-card__label">Caída de VO₂peak estimada en 30 días</span>
+        </div>
+
+      </div>
+
+      <!-- Mensaje contextual -->
+      <p class="result-message" id="result-message" aria-live="polite"></p>
+
+      <!-- ══════════════════════════════════════════
+           SECCIÓN DE ACTIVIDAD DEL DÍA
+      ══════════════════════════════════════════ -->
+      <div class="activity-section">
+
+        <div class="activity-section__header">
+          <h3 class="activity-section__title">Actividad de hoy</h3>
+          <!-- Pasos del día completo (contador de fondo) -->
+          <span class="steps-today">
+            <span id="steps-today-count">0</span>
+            <span class="steps-today__label">pasos hoy</span>
+          </span>
+        </div>
+
+        <!-- ESTADO: idle — sin sesión activa -->
+        <div id="session-idle" class="session-state session-state--idle">
+          <p class="session-state__hint">
+            Inicia una sesión para que el acelerómetro cuente tus pasos en tiempo real.
+          </p>
+          <!-- Panel de diagnóstico del sensor -->
+          <div id="sensor-diag" class="sensor-diag" hidden>
+            <p class="sensor-diag__title">Estado del sensor</p>
+            <ul id="sensor-diag-list" class="sensor-diag__list"></ul>
+          </div>
+          <button id="btn-session-start" class="btn btn--primary" type="button">
+            ▶ Iniciar actividad
+          </button>
+          <!-- Historial del día si ya hay sesiones guardadas -->
+          <div id="session-history" class="session-history" hidden></div>
+        </div>
+
+        <!-- ESTADO: active — sesión en curso -->
+        <div id="session-active" class="session-state session-state--active" hidden>
+          <div class="session-live">
+            <div class="session-live__pulse" aria-hidden="true"></div>
+            <div class="session-live__data">
+              <div class="session-live__row">
+                <span class="session-live__num" id="live-steps">0</span>
+                <span class="session-live__unit">pasos</span>
+              </div>
+              <div class="session-live__row">
+                <span class="session-live__num session-live__num--min" id="live-minutes">0</span>
+                <span class="session-live__unit">min activos</span>
+              </div>
+            </div>
+          </div>
+          <button id="btn-session-stop" class="btn btn--danger" type="button">
+            ■ Finalizar sesión
+          </button>
+        </div>
+
+        <!-- ESTADO: saved — resumen antes de confirmar -->
+        <div id="session-saved" class="session-state session-state--saved" hidden>
+          <div class="session-summary">
+            <div class="session-summary__row">
+              <span class="session-summary__icon" aria-hidden="true">👟</span>
+              <div>
+                <span class="session-summary__value" id="summary-steps">0</span>
+                <span class="session-summary__label">pasos</span>
+              </div>
+            </div>
+            <div class="session-summary__divider" aria-hidden="true"></div>
+            <div class="session-summary__row">
+              <span class="session-summary__icon" aria-hidden="true">⏱</span>
+              <div>
+                <span class="session-summary__value" id="summary-minutes">0</span>
+                <span class="session-summary__label">min activos</span>
+              </div>
+            </div>
+            <div class="session-summary__divider" aria-hidden="true"></div>
+            <div class="session-summary__row">
+              <span class="session-summary__icon" aria-hidden="true">🕐</span>
+              <div>
+                <span class="session-summary__value" id="summary-duration">0:00</span>
+                <span class="session-summary__label">duración</span>
+              </div>
+            </div>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:0.6rem;">
+            <button id="btn-session-save" class="btn btn--primary" type="button">
+              ✓ Guardar sesión
+            </button>
+            <button id="btn-session-discard" class="btn btn--ghost" type="button">
+              Descartar
+            </button>
+          </div>
+        </div>
+
+      </div><!-- /activity-section -->
+
+      <!-- Acciones -->
+      <div style="display:flex; flex-direction:column; gap:0.75rem;">
+        <button id="btn-redo" class="btn btn--ghost" type="button">
+          ↺ Recalcular con otros valores
+        </button>
+      </div>
+
+      <!-- Disclaimer científico -->
+      <p class="disclaimer">
+        Modelo educativo/ilustrativo — no es un dispositivo médico.<br>
+        Datos de referencia: NASA HRP Evidence Reports (2024), Kramer et al. 2017, Narici et al. 1989.
+      </p>
+
+    </div>
+  </section>
+
+</div><!-- /#app -->
+
+<script type="module">
+  import { initApp } from './src/ui/app.js';
+  initApp();
+</script>
+</body>
+</html>

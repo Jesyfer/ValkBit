@@ -1,4 +1,4 @@
-# Requerimientos: Contramedida (Predictor de riesgo por sedentarismo)
+
 
 ## Historia 1: Onboarding (cold-start, día 1 sin datos)
 Como usuario nuevo, quiero dar una estimación rápida de mi sedentarismo la primera vez que abro la app, para tener un punto de partida antes de que existan datos reales.
@@ -6,7 +6,7 @@ Como usuario nuevo, quiero dar una estimación rápida de mi sedentarismo la pri
 - WHEN el usuario abre la app por primera vez (sin datos históricos propios guardados), THE SYSTEM SHALL presentar un breve cuestionario (ej. horas sentado al día, si hace ejercicio regularmente) para generar una estimación inicial de riesgo.
 - THE SYSTEM SHALL usar esta estimación inicial solo hasta que existan suficientes días de datos reales capturados (ver Historia 2), y entonces darle prioridad a los datos reales.
 
-## Historia 2: Captura de actividad (intento automático + respaldo manual)
+## Historia 2: Captura de actividad  
 Como usuario, quiero que la app mida mi actividad física real, priorizando sensores automáticos pero sin depender 100% de ellos, para tener un dato confiable incluso si el hardware no coopera.
 
 - WHEN el usuario acepta conectar un dispositivo, THE SYSTEM SHALL intentar una conexión por Web Bluetooth genérico (servicio estándar de ritmo cardíaco u otros servicios BLE estándar), compatible con cualquier wearable que lo exponga (no exclusivo de una marca).
