@@ -8,11 +8,19 @@
  *   - horas sentado por día (del cuestionario)
  *
  * El módulo NO duplica números — todos los valores de tasa salen del JSON.
+ *
+ * NOTA: el JSON se carga con fetch() + top-level await en vez de
+ * "import ... assert { type: 'json' }" porque esa sintaxis cambió de
+ * "assert" a "with" entre versiones de Chrome y falla en móviles con
+ * versiones distintas — fetch() es compatible con todos los navegadores.
  */
 
-import referenceCurves from '../../data/reference-curves.json' assert { type: 'json' };
 import { getRecentRecords } from './activity-manager.js';
 import { loadOnboarding } from './onboarding.js';
+
+const referenceCurves = await fetch(
+  new URL('../../data/reference-curves.json', import.meta.url)
+).then(r => r.json());
 
 // ─── Constantes derivadas del JSON ───────────────────────────────────────────
 
