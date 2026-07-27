@@ -1,0 +1,30 @@
+{
+  "name": "valkbit",
+  "version": "1.0.0",
+  "description": "> La misma ciencia que usa la NASA para proteger a sus astronautas de perder hueso y músculo en el espacio, aplicada a detectar ese riesgo en cualquier persona sedentaria — antes de que sea un problema real.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jesyfer/ValkBit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Jesyfer/ValkBit/issues"
+  },
+  "homepage": "https://github.com/Jesyfer/ValkBit#readme",
+  "devDependencies": {
+    "vite": "^8.1.5"
+  }
+}

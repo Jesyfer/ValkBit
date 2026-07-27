@@ -33,6 +33,11 @@ import { isMotionAvailable } from '../modules/motion-tracker.js';
  * @param {HTMLElement} container
  */
 export async function mountActivityPanel(container) {
+  if (!container) {
+    console.error('[ActivityPanel] Container not found');
+    return;
+  }
+
   container.innerHTML = _renderShell();
   _bindElements(container);
   _updateSourceBadges();
@@ -69,17 +74,27 @@ function _bindElements(container) {
 
   // Ocultar botón BLE si el navegador no lo soporta
   if (!isBluetoothAvailable()) {
-    _el.btButton.disabled = true;
-    _el.btButton.title = 'Web Bluetooth no disponible en este navegador';
-    _el.btBadge.classList.add('badge--unavailable');
-    _el.btBadge.textContent = '⬤ Bluetooth no disponible';
+    if (_el.btButton) {
+      _el.btButton.disabled = true;
+      _el.btButton.title = 'Web Bluetooth no disponible en este navegador';
+    }
+    if (_el.btBadge) {
+      _el.btBadge.classList.add('badge--unavailable');
+      _el.btBadge.textContent = '⬤ Bluetooth no disponible';
+    }
   }
 
-  _el.btButton.addEventListener('click', _onConnectBluetooth);
-  _el.manualSubmit.addEventListener('click', _onManualSubmit);
-  _el.manualInput.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') _onManualSubmit();
-  });
+  if (_el.btButton) {
+    _el.btButton.addEventListener('click', _onConnectBluetooth);
+  }
+  if (_el.manualSubmit) {
+    _el.manualSubmit.addEventListener('click', _onManualSubmit);
+  }
+  if (_el.manualInput) {
+    _el.manualInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') _onManualSubmit();
+    });
+  }
 }
 
 // ─── Handlers de eventos ──────────────────────────────────────────────────────
@@ -158,9 +173,17 @@ function _onRecordUpdate(record) {
 function _updateMotionBadge(started) {
   if (!_el.motionBadge) return;
   if (started) {
-    _el.motionBadge.textContent = '⬤ Sensores del celular activos';
-    _el.motionBadge.classList.remove('badge--inactive');
-    _el.motionBadge.classList.add('badge--active');
+    // En desktop no tiene sentido decir "activos" si no hay hardware real
+    const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    if (isMobile) {
+      _el.motionBadge.textContent = '⬤ Sensores del celular activos';
+      _el.motionBadge.classList.remove('badge--inactive');
+      _el.motionBadge.classList.add('badge--active');
+    } else {
+      _el.motionBadge.textContent = '⬤ Sensores no disponibles (PC)';
+      _el.motionBadge.classList.remove('badge--inactive');
+      _el.motionBadge.classList.add('badge--unavailable');
+    }
   } else {
     _el.motionBadge.textContent = '⬤ Sensores del celular no disponibles';
     _el.motionBadge.classList.add('badge--unavailable');

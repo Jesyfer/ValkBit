@@ -1,0 +1,27 @@
+# Dependencias
+node_modules/
+
+# Build de producción (se regenera con npm run build)
+dist/
+
+# Archivos de entorno
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Kiro metadata interno (specs se quedan, meta no)
+.kiro/specs/**/.meta.json

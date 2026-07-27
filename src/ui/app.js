@@ -225,8 +225,20 @@ function renderResult(result) {
   }
 
   // Mensaje contextual
-  const msgEl = document.getElementById('result-message');
-  if (msgEl) msgEl.innerHTML = buildContextMessage(result);
+  let msgEl = document.getElementById('result-message');
+  if (!msgEl) {
+    msgEl = document.createElement('p');
+    msgEl.id = 'result-message';
+    msgEl.className = 'result-message';
+    msgEl.setAttribute('aria-live', 'polite');
+    const activitySection = document.querySelector('.activity-section');
+    if (activitySection) {
+      activitySection.parentNode.insertBefore(msgEl, activitySection);
+    } else {
+      document.querySelector('.container')?.appendChild(msgEl);
+    }
+  }
+  msgEl.innerHTML = buildContextMessage(result);
 
   // Recomendaciones según nivel de riesgo
   _renderRecommendations(level);
@@ -510,6 +522,19 @@ function initSessionSection() {
 /** Nivel de riesgo actual (para re-renderizar recomendaciones tras marcar) */
 let _currentRiskLevel = 'low';
 
+/** Mapea IDs de recomendación a emojis para darle vida visual */
+function _getRecEmoji(id) {
+  const map = {
+    'walk-30':        '🚶',
+    'squat-set':      '🏋️',
+    'jump-training':  '🦘',
+    'stairs-10':      '🪜',
+    'deadlift-set':   '💪',
+    'stretch-break':  '🧘',
+  };
+  return map[id] ?? '🏃';
+}
+
 /**
  * Renderiza la lista de recomendaciones según el nivel de riesgo.
  * @param {'low'|'medium'|'high'} level
@@ -522,6 +547,8 @@ function _renderRecommendations(level) {
   const recs = getRecommendations(level);
 
   if (level === 'low' || recs.length === 0) {
+    listEl.hidden = false;
+    listEl.style.display = '';
     listEl.innerHTML = `
       <p class="recommendations-list__empty">
         Tu nivel de actividad es adecuado. Sigue así para mantener tu score bajo.
@@ -536,10 +563,10 @@ function _renderRecommendations(level) {
               type="button"
               aria-label="${rec.completed ? 'Desmarcar' : 'Marcar como completada'}: ${rec.text}"
               aria-pressed="${rec.completed}">
-        ${rec.completed ? '✓' : '○'}
+        ${rec.completed ? '✅' : '○'}
       </button>
       <div class="recommendation-item__body">
-        <span class="recommendation-item__text">${rec.text}</span>
+        <span class="recommendation-item__text">${_getRecEmoji(rec.id)} ${rec.text}</span>
         <span class="recommendation-item__meta">+${rec.minutes} min · ${rec.source}</span>
       </div>
     </div>
@@ -599,7 +626,13 @@ export function initApp() {
 
   // Montar panel de captura (Bluetooth + entrada manual)
   const panelContainer = document.getElementById('activity-panel-mount');
-  if (panelContainer) mountActivityPanel(panelContainer);
+  if (panelContainer) {
+    try {
+      mountActivityPanel(panelContainer);
+    } catch (error) {
+      console.error('[ActivityPanel] Mount failed:', error);
+    }
+  }
 
   // Si el usuario ya completó el onboarding en otra sesión, saltar directo al resultado
   if (hasCompletedOnboarding()) {
