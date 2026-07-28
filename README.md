@@ -11,7 +11,7 @@ Reto 2 — Aplicaciones web (Hackathon).
 FIRMUS mide tu actividad física real usando el sensor de movimiento de tu celular y calcula tu riesgo de pérdida ósea/muscular por sedentarismo, usando las curvas de deterioro publicadas en estudios de reposo en cama (bed-rest) e investigación de microgravedad de la NASA.
 
 ## Demo
-🔗 [Link al demo en línea] — pendiente
+🔗 https://main.d1y16vy03imjyi.amplifyapp.com/
 
 ## Fundamento científico
 Ver [docs/fuentes.md](docs/fuentes.md) para la bibliografía completa y [docs/investigacion-previa.md](docs/investigacion-previa.md) para la metodología de investigación.
