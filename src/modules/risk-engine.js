@@ -123,6 +123,22 @@ export function calculateCurrentRisk({ hoursSeated }) {
     };
   }
 
+  // Si hay al menos 1 día real (ej. hoy con datos de sensor o recomendaciones),
+  // usarlo directamente — no ignorar datos reales solo porque no hay 3 días aún.
+  if (realRecords.length > 0) {
+    const avgMinutes = realRecords.reduce((sum, r) => sum + r.activeMinutes, 0) / realRecords.length;
+    // Combinar con la estimación del onboarding para suavizar
+    const onboarding = loadOnboarding();
+    const onboardingMin = onboarding?.scoreResult?.activeMinutesPerDay ?? 0;
+    // Peso: datos reales pesan más que el onboarding, proporcional a cuántos días hay
+    const realWeight = realRecords.length / MIN_DAYS_FOR_REAL_DATA;
+    const blendedMinutes = avgMinutes * realWeight + onboardingMin * (1 - realWeight);
+    return {
+      result: calculateRiskScore({ activeMinutesPerDay: blendedMinutes, hoursSeated }),
+      source: 'realData',
+    };
+  }
+
   // Fallback: usar estimación del onboarding si existe
   const onboarding = loadOnboarding();
   if (onboarding?.scoreResult) {
