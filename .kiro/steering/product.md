@@ -1,9 +1,9 @@
-# Producto: Contramedida
+# Producto: FIRMUS
 
 ## Qué es
-Contramedida es una aplicación web que mide tu actividad física real (con el sensor de movimiento de tu celular) y calcula tu riesgo de pérdida ósea y muscular por sedentarismo, usando las mismas curvas de deterioro que la NASA investigó en astronautas y en estudios de reposo en cama (bed-rest).
+FIRMUS es una aplicación web que mide tu actividad física real (con el sensor de movimiento de tu celular) y calcula tu riesgo de pérdida ósea y muscular por sedentarismo, usando las mismas curvas de deterioro que la NASA investigó en astronautas y en estudios de reposo en cama (bed-rest).
 
-*(Nombre provisional — cámbienlo si el equipo prefiere otro)*
+**Equipo:** ValkBit — #122
 
 ## Reto del hackathon
 **Reto 2 — Aplicaciones web.** Resolvemos un problema cotidiano (nadie sabe cuánto le está costando a su cuerpo estar sentado todo el día) usando APIs del navegador (sensores de movimiento) de forma creativa.

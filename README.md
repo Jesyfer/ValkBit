@@ -1,14 +1,14 @@
-# Contramedida
+# FIRMUS
 
 > La misma ciencia que usa la NASA para proteger a sus astronautas de perder hueso y músculo en el espacio, aplicada a detectar ese riesgo en cualquier persona sedentaria — antes de que sea un problema real.
 
-*(Nombre provisional — cámbienlo aquí y en `.kiro/steering/product.md` si el equipo prefiere otro)*
+**Equipo ValkBit — #122**
 
 ## Reto
 Reto 2 — Aplicaciones web (Hackathon).
 
 ## Descripción
-Contramedida mide tu actividad física real usando el sensor de movimiento de tu celular y calcula tu riesgo de pérdida ósea/muscular por sedentarismo, usando las curvas de deterioro publicadas en estudios de reposo en cama (bed-rest) e investigación de microgravedad de la NASA.
+FIRMUS mide tu actividad física real usando el sensor de movimiento de tu celular y calcula tu riesgo de pérdida ósea/muscular por sedentarismo, usando las curvas de deterioro publicadas en estudios de reposo en cama (bed-rest) e investigación de microgravedad de la NASA.
 
 ## Demo
 🔗 [Link al demo en línea] — pendiente
@@ -21,14 +21,15 @@ Ver [docs/fuentes.md](docs/fuentes.md) para la bibliografía completa y [docs/in
 ## Equipo y roles
 | Rol | Nombre | Responsabilidad |
 |---|---|---|
-| Datos (sensores) | | Captura de actividad vía sensor de movimiento |
-| Ciencia / Motor de riesgo | | Investigación previa + lógica de score de riesgo |
-| Visualización | | Dashboard visual |
-| UI / Integración / Deploy | | Flujo de pantallas, integración, despliegue |
+| Datos (sensores) | Ulises Terrón | Captura de actividad vía sensor de movimiento |
+| Ciencia / Motor de riesgo | Jessica Garduño | Investigación previa + lógica de score de riesgo |
+| Visualización | Donovan López | Dashboard visual |
+| UI / Integración / Deploy | Juan Gamboa | Flujo de pantallas, integración, despliegue |
 
 ## Cómo correr el proyecto localmente
 ```bash
-# pendiente de definir según stack elegido (ver .kiro/steering/tech.md)
+npm install
+npm run dev
 ```
 
 ## Stack técnico
